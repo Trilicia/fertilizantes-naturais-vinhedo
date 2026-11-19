@@ -19,9 +19,9 @@ d = pd.read_sql("""SELECT t.sal, t.nivel, t.rotulo, t.dose_g_l, m.safra, m.etapa
 d = d[d.flag_qualidade.fillna("") == ""]
 NIVEIS = ["controle", "baixa", "media", "alta"]
 
-# --- estilo (paleta de referência validada: Si = slot 1 azul, Ca = slot 2 laranja) ---
-SURF, INK, INK2, GRID, NEUTRO = "#fcfcfb", "#0b0b0b", "#52514e", "#e6e5e0", "#a3a29c"
-COR = {"Si": "#2a78d6", "Ca": "#eb6834"}
+# --- estilo: azul-petróleo (silício) e ocre (cálcio); par validado para daltonismo e contraste ---
+SURF, INK, INK2, GRID, NEUTRO = "#ffffff", "#1d2b30", "#5b6669", "#eceae5", "#c9c5bc"
+COR = {"Si": "#046b96", "Ca": "#b7752b"}
 plt.rcParams.update({"font.family": "Inter", "font.size": 10, "axes.edgecolor": GRID, "axes.labelcolor": INK2,
                      "xtick.color": INK2, "ytick.color": INK2, "axes.titlecolor": INK, "figure.facecolor": SURF,
                      "axes.facecolor": SURF, "axes.spines.top": False, "axes.spines.right": False, "savefig.dpi": 200})
@@ -92,27 +92,27 @@ for i, safra in enumerate([2017, 2018]):
         ax = axes[i, j]; g = prod[(prod.safra == safra) & (prod.sal == sal)].set_index("nivel").reindex(NIVEIS)
         topo = (prod[prod.safra == safra].media + prod[prod.safra == safra].dp).max()
         cores = [NEUTRO] + [COR[sal]] * 3
-        bars = ax.bar(range(4), g.media, color=cores, width=0.62, zorder=2)
-        ax.errorbar(range(4), g.media, yerr=g.dp, fmt="none", ecolor=INK2, elinewidth=1, capsize=3, zorder=3)
+        bars = ax.bar(range(4), g.media, color=cores, width=0.56, zorder=2)
+        ax.errorbar(range(4), g.media, yerr=g.dp, fmt="none", ecolor="#7d878a", elinewidth=1, capsize=2.5, zorder=3)
         for x, (m, s, l) in enumerate(zip(g.media, g.dp, g.letra_tukey)):
-            ax.text(x, m + s + topo * 0.03, f"{m:.2f}".replace(".", ",") + f" {l}", ha="center", va="bottom", fontsize=9, color=INK)
+            ax.text(x, m + s + topo * 0.03, f"{m:.2f}".replace(".", ",") + f" {l}", ha="center", va="bottom", fontsize=9, color=INK2)
         ax.set_xticks(range(4), [f"{sal} controle"] + [f"{sal} {v:g} g/L" for v in g.dose_g_l[1:]], fontsize=9)
         ax.set_title(f"{'Silício' if sal=='Si' else 'Cálcio'}, safra {safra-1}/{safra}", fontsize=11, loc="left")
         ax.yaxis.grid(True, color=GRID, lw=0.8, zorder=0); ax.set_axisbelow(True)
         ax.set_ylim(0, topo * 1.25)
         if j == 0: ax.set_ylabel("Produtividade estimada (t/ha)")
-fig.suptitle("Produtividade do vinhedo por tratamento", x=0.06, y=0.985, ha="left", fontsize=13, color=INK, fontweight="semibold")
-fig.text(0.06, 0.885, "Média ± desvio padrão (n = 3 blocos). Letras diferentes indicam diferença pelo teste de Tukey (p ≤ 0,05) dentro do mesmo sal e safra.\n"
+fig.suptitle("Produtividade do vinhedo por tratamento", x=0.06, y=0.975, ha="left", fontsize=13, color=INK, fontweight="semibold")
+fig.text(0.06, 0.895, "Média ± desvio padrão (n = 3 blocos). Letras diferentes indicam diferença pelo teste de Tukey (p ≤ 0,05) dentro do mesmo sal e safra.\n"
          "Atenção: as escalas das safras são diferentes; em 2017/2018 uma geada tardia reduziu o rendimento de todo o vinhedo.", fontsize=8.5, color=INK2)
-fig.tight_layout(rect=(0, 0, 1, 0.86)); fig.savefig(FIG / "01_produtividade.png"); plt.close(fig)
+fig.tight_layout(rect=(0, 0, 1, 0.88)); fig.savefig(FIG / "01_produtividade.png"); plt.close(fig)
 
 # --- Figura 2: trade-off produtividade x teor alcoólico ---
 fig, ax = plt.subplots(figsize=(8.6, 5.6))
-ax.axhline(0, color=INK2, lw=1, zorder=1); ax.axvline(0, color=INK2, lw=1, zorder=1)
+ax.axhline(0, color="#9aa3a6", lw=0.9, zorder=1); ax.axvline(0, color="#9aa3a6", lw=0.9, zorder=1)
 for sal in ["Si", "Ca"]:
     for safra, mk in [(2017, "o"), (2018, "s")]:
         g = placar[(placar.rotulo.str.startswith(sal)) & (placar.safra == safra)]
-        ax.scatter(g.produtividade_pct, g.alcool_vinho_pct, s=70, marker=mk, color=COR[sal], edgecolor=SURF, linewidth=2, zorder=3,
+        ax.scatter(g.produtividade_pct, g.alcool_vinho_pct, s=85, marker=mk, color=COR[sal], edgecolor=SURF, linewidth=2, zorder=3,
                    label=f"{'Silício' if sal=='Si' else 'Cálcio'}, safra {safra-1}/{safra}")
         for _, r in g.iterrows():
             off = (6, -12) if (r.rotulo == "Ca 5 g/L" and safra == 2018) else (6, 4)
@@ -122,7 +122,7 @@ ax.set_xlabel("Variação da produtividade vs. controle (%)"); ax.set_ylabel("Va
 ax.yaxis.grid(True, color=GRID, lw=0.8); ax.set_axisbelow(True)
 ax.legend(frameon=False, fontsize=9, loc="lower right")
 fig.suptitle("Produzir mais custa açúcar: o trade-off entre volume e teor alcoólico", x=0.02, y=0.98, ha="left", fontsize=12, fontweight="semibold")
-fig.text(0.02, 0.925, "Quase todos os tratamentos aumentam a produtividade e reduzem o álcool do vinho. As exceções são Ca 10 e Ca 15 em 2017/2018.",
+fig.text(0.02, 0.915, "Quase todos os tratamentos aumentam a produtividade e reduzem o álcool do vinho. As exceções são Ca 10 e Ca 15 em 2017/2018.",
         fontsize=8.5, color=INK2, va="bottom")
 fig.tight_layout(rect=(0, 0, 1, 0.91)); fig.savefig(FIG / "02_tradeoff_produtividade_alcool.png"); plt.close(fig)
 
@@ -132,7 +132,7 @@ itens = [("produtividade_t_ha", "vinhedo", "Produtividade"), ("SST", "mosto", "A
          ("FC", "vinho", "Polifenóis totais do vinho"), ("ABTS", "vinho", "Capacidade antioxidante do vinho"),
          ("trans-resveratrol", "vinho", "Resveratrol do vinho"), ("trans-caftárico", "vinho", "Ácido trans-caftárico do vinho")]
 ordem = [f"Si {x} g/L" for x in (4, 8, 12)] + [f"Ca {x} g/L" for x in (5, 10, 15)]
-cmap = LinearSegmentedColormap.from_list("div", ["#c8372f", "#e98b85", "#f0efec", "#7fb0e8", "#1f63b8"])
+cmap = LinearSegmentedColormap.from_list("div", ["#a8462f", "#d9967f", "#f2f0eb", "#7fb0cb", "#046b96"])
 fig, axes = plt.subplots(1, 2, figsize=(12, 4.8), sharey=True)
 for ax, safra in zip(axes, [2017, 2018]):
     M = np.array([[vs[(vs.codigo == c) & (vs.etapa == e) & (vs.safra == safra) & (vs.rotulo == r)].var_pct.squeeze() for r in ordem] for c, e, _ in itens], dtype=float)
@@ -140,7 +140,7 @@ for ax, safra in zip(axes, [2017, 2018]):
     im = ax.imshow(np.clip(M, -60, 60), cmap=cmap, norm=TwoSlopeNorm(0, -60, 60), aspect="auto")
     for i, j in itertools.product(range(M.shape[0]), range(M.shape[1])):
         v = M[i, j]; txt = f"{v:+.0f}%" + ("" if S[i, j] else "*")
-        ax.text(j, i, txt, ha="center", va="center", fontsize=8.5, color=SURF if abs(v) > 45 else INK)
+        ax.text(j, i, txt, ha="center", va="center", fontsize=8.5, color="#ffffff" if abs(v) > 40 else INK)
     ax.set_xticks(range(len(ordem)), ordem, rotation=0, fontsize=8.5); ax.set_yticks(range(len(itens)), [x[2] for x in itens])
     ax.set_title(f"Safra {safra-1}/{safra}", loc="left", fontsize=11)
     ax.set_xticks(np.arange(-.5, len(ordem)), minor=True); ax.set_yticks(np.arange(-.5, len(itens)), minor=True)
@@ -148,7 +148,7 @@ for ax, safra in zip(axes, [2017, 2018]):
     for s in ax.spines.values(): s.set_visible(False)
 cax = fig.add_axes([0.885, 0.15, 0.012, 0.6]); cb = fig.colorbar(im, cax=cax); cb.set_label("Variação vs. controle (%)\n(escala limitada a ±60%)", color=INK2, fontsize=8.5); cb.outline.set_visible(False)
 fig.suptitle("Efeito de cada tratamento em relação ao controle", x=0.02, ha="left", fontsize=13, fontweight="semibold")
-fig.text(0.02, 0.9, "Azul = acima do controle; vermelho = abaixo. * = sem diferença estatística em relação ao controle (Tukey, p ≤ 0,05).", fontsize=8.5, color=INK2)
+fig.text(0.02, 0.9, "Azul-petróleo = acima do controle; terracota = abaixo. * = sem diferença estatística em relação ao controle (Tukey, p ≤ 0,05).", fontsize=8.5, color=INK2)
 fig.subplots_adjust(left=0.2, right=0.86, top=0.82, bottom=0.08, wspace=0.08); fig.savefig(FIG / "03_mapa_variacao.png"); plt.close(fig)
 
 # --- Figura 4: PCA ---

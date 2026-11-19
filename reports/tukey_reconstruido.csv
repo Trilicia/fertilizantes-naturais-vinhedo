@@ -1,0 +1,1189 @@
+sal,safra,etapa,codigo,par,p_tukey,reproducao_difere,tese_difere
+Ca,2017,mosto,(+)-Catequina,controle x baixa,0.011559761429342341,True,True
+Ca,2017,mosto,(+)-Catequina,controle x media,0.09564523886462506,False,True
+Ca,2017,mosto,(+)-Catequina,controle x alta,0.00018957922496587454,True,True
+Ca,2017,mosto,(+)-Catequina,baixa x media,0.46332321701327894,False,True
+Ca,2017,mosto,(+)-Catequina,baixa x alta,0.022077361250387728,True,True
+Ca,2017,mosto,(+)-Catequina,media x alta,0.003135487295806816,True,True
+Ca,2017,mosto,(-)-Epicatequina,controle x baixa,0.9809813713363303,False,False
+Ca,2017,mosto,(-)-Epicatequina,controle x media,0.8193042252794874,False,True
+Ca,2017,mosto,(-)-Epicatequina,controle x alta,0.22661722279218044,False,True
+Ca,2017,mosto,(-)-Epicatequina,baixa x media,0.9572722468558985,False,True
+Ca,2017,mosto,(-)-Epicatequina,baixa x alta,0.36386412352743713,False,True
+Ca,2017,mosto,(-)-Epicatequina,media x alta,0.618336316272597,False,False
+Ca,2017,mosto,ABTS,controle x baixa,4.04726758296281e-06,True,True
+Ca,2017,mosto,ABTS,controle x media,0.002173895590696695,True,True
+Ca,2017,mosto,ABTS,controle x alta,1.2393749146966115e-06,True,True
+Ca,2017,mosto,ABTS,baixa x media,0.00022425547468940543,True,True
+Ca,2017,mosto,ABTS,baixa x alta,0.19207868987301957,False,True
+Ca,2017,mosto,ABTS,media x alta,3.622728013130683e-05,True,True
+Ca,2017,mosto,Acidez total,controle x baixa,0.007000363866568549,True,True
+Ca,2017,mosto,Acidez total,controle x media,1.0,False,False
+Ca,2017,mosto,Acidez total,controle x alta,3.8329961427052694e-10,True,True
+Ca,2017,mosto,Acidez total,baixa x media,0.007000363866568549,True,True
+Ca,2017,mosto,Acidez total,baixa x alta,1.7122558926274678e-10,True,True
+Ca,2017,mosto,Acidez total,media x alta,3.8329961427052694e-10,True,True
+Ca,2017,mosto,Campferol,controle x baixa,0.8152838115634755,False,False
+Ca,2017,mosto,Campferol,controle x media,0.20286084254836767,False,True
+Ca,2017,mosto,Campferol,controle x alta,0.0004946077707634888,True,True
+Ca,2017,mosto,Campferol,baixa x media,0.059443768657386986,False,True
+Ca,2017,mosto,Campferol,baixa x alta,0.00021635275832276868,True,True
+Ca,2017,mosto,Campferol,media x alta,0.005634087512637942,True,True
+Ca,2017,mosto,FC,controle x baixa,0.9597472759887833,False,False
+Ca,2017,mosto,FC,controle x media,0.9971343903923884,False,False
+Ca,2017,mosto,FC,controle x alta,0.0021627759310428596,True,True
+Ca,2017,mosto,FC,baixa x media,0.9007835832937165,False,False
+Ca,2017,mosto,FC,baixa x alta,0.0012593494667956229,True,True
+Ca,2017,mosto,FC,media x alta,0.0027080795795044743,True,True
+Ca,2017,mosto,FT,controle x baixa,0.027604452448342198,True,True
+Ca,2017,mosto,FT,controle x media,4.020970613782815e-05,True,True
+Ca,2017,mosto,FT,controle x alta,3.5958822799608825e-05,True,True
+Ca,2017,mosto,FT,baixa x media,3.852128712233949e-06,True,True
+Ca,2017,mosto,FT,baixa x alta,3.53862599411503e-06,True,True
+Ca,2017,mosto,FT,media x alta,0.9986623322387489,False,False
+Ca,2017,mosto,Ferúlico,controle x baixa,0.49193593187946516,False,False
+Ca,2017,mosto,Ferúlico,controle x media,1.0,False,False
+Ca,2017,mosto,Ferúlico,controle x alta,0.8789702898475801,False,False
+Ca,2017,mosto,Ferúlico,baixa x media,0.49193593187946516,False,False
+Ca,2017,mosto,Ferúlico,baixa x alta,0.8789702898475801,False,False
+Ca,2017,mosto,Ferúlico,media x alta,0.8789702898475801,False,False
+Ca,2017,mosto,IE,controle x baixa,0.04866796746923474,True,True
+Ca,2017,mosto,IE,controle x media,0.08591170508974066,False,True
+Ca,2017,mosto,IE,controle x alta,0.25948698426762185,False,True
+Ca,2017,mosto,IE,baixa x media,0.001391416395100653,True,True
+Ca,2017,mosto,IE,baixa x alta,0.003484620601125754,True,True
+Ca,2017,mosto,IE,media x alta,0.8502291503818942,False,False
+Ca,2017,mosto,Málico,controle x baixa,7.81318566067668e-07,True,True
+Ca,2017,mosto,Málico,controle x media,3.279032357861311e-07,True,True
+Ca,2017,mosto,Málico,controle x alta,0.00018963081199785403,True,True
+Ca,2017,mosto,Málico,baixa x media,0.2753477635823425,False,True
+Ca,2017,mosto,Málico,baixa x alta,0.00011405369794603715,True,True
+Ca,2017,mosto,Málico,media x alta,2.518842147281042e-05,True,True
+Ca,2017,mosto,Quercetina,controle x baixa,0.3187391781623923,False,False
+Ca,2017,mosto,Quercetina,controle x media,1.0,False,False
+Ca,2017,mosto,Quercetina,controle x alta,0.3187391781623923,False,False
+Ca,2017,mosto,Quercetina,baixa x media,0.3187391781623923,False,False
+Ca,2017,mosto,Quercetina,baixa x alta,0.024906247016428407,True,False
+Ca,2017,mosto,Quercetina,media x alta,0.3187391781623923,False,False
+Ca,2017,mosto,SST,controle x baixa,5.5897125890158605e-06,True,True
+Ca,2017,mosto,SST,controle x media,9.832833371858918e-06,True,True
+Ca,2017,mosto,SST,controle x alta,5.5897125890158605e-06,True,True
+Ca,2017,mosto,SST,baixa x media,0.79243191478758,False,False
+Ca,2017,mosto,SST,baixa x alta,1.0,False,False
+Ca,2017,mosto,SST,media x alta,0.79243191478758,False,False
+Ca,2017,mosto,Siríngico,controle x baixa,0.5252406977699975,False,True
+Ca,2017,mosto,Siríngico,controle x media,0.5252406977699975,False,True
+Ca,2017,mosto,Siríngico,controle x alta,0.08475856616279887,False,True
+Ca,2017,mosto,Siríngico,baixa x media,1.0,False,False
+Ca,2017,mosto,Siríngico,baixa x alta,0.012068538632903025,True,True
+Ca,2017,mosto,Siríngico,media x alta,0.012068538632903025,True,True
+Ca,2017,mosto,Succínico,controle x baixa,0.00013183565349250692,True,True
+Ca,2017,mosto,Succínico,controle x media,0.012068538632902914,True,True
+Ca,2017,mosto,Succínico,controle x alta,2.862837669814766e-06,True,True
+Ca,2017,mosto,Succínico,baixa x media,0.012068538632903025,True,True
+Ca,2017,mosto,Succínico,baixa x alta,0.0021333199055444396,True,True
+Ca,2017,mosto,Succínico,media x alta,4.264442479806618e-05,True,True
+Ca,2017,mosto,Tartárico,controle x baixa,0.23936312005155846,False,True
+Ca,2017,mosto,Tartárico,controle x media,0.03044114662429831,True,True
+Ca,2017,mosto,Tartárico,controle x alta,0.5418123605348406,False,True
+Ca,2017,mosto,Tartárico,baixa x media,0.4891994819077905,False,True
+Ca,2017,mosto,Tartárico,baixa x alta,0.8974236111366208,False,True
+Ca,2017,mosto,Tartárico,media x alta,0.20994739796451822,False,True
+Ca,2017,mosto,o-D,controle x baixa,0.009898867188123606,True,True
+Ca,2017,mosto,o-D,controle x media,8.034133728251902e-05,True,True
+Ca,2017,mosto,o-D,controle x alta,0.00016751064722442255,True,True
+Ca,2017,mosto,o-D,baixa x media,0.006797551918846456,True,True
+Ca,2017,mosto,o-D,baixa x alta,0.021440185355582675,True,True
+Ca,2017,mosto,o-D,media x alta,0.8171476317328368,False,False
+Ca,2017,mosto,pH,controle x baixa,0.7019655604602686,False,True
+Ca,2017,mosto,pH,controle x media,0.2052776295190084,False,False
+Ca,2017,mosto,pH,controle x alta,9.744960807078762e-06,True,True
+Ca,2017,mosto,pH,baixa x media,0.04443489543630563,True,True
+Ca,2017,mosto,pH,baixa x alta,2.0023529852197797e-05,True,True
+Ca,2017,mosto,pH,media x alta,2.713557596623062e-06,True,True
+Ca,2017,mosto,trans-caftárico,controle x baixa,6.882587832990339e-10,True,True
+Ca,2017,mosto,trans-caftárico,controle x media,6.882587832990339e-10,True,True
+Ca,2017,mosto,trans-caftárico,controle x alta,2.2285506773300767e-12,True,True
+Ca,2017,mosto,trans-caftárico,baixa x media,1.0,False,False
+Ca,2017,mosto,trans-caftárico,baixa x alta,4.268880804403352e-10,True,True
+Ca,2017,mosto,trans-caftárico,media x alta,4.268880804403352e-10,True,True
+Ca,2017,mosto,trans-resveratrol,controle x baixa,1.4066275211277457e-07,True,True
+Ca,2017,mosto,trans-resveratrol,controle x media,8.971900677945399e-08,True,True
+Ca,2017,mosto,trans-resveratrol,controle x alta,6.6788848895882325e-09,True,True
+Ca,2017,mosto,trans-resveratrol,baixa x media,0.6297635799576505,False,False
+Ca,2017,mosto,trans-resveratrol,baixa x alta,4.602890948901539e-05,True,True
+Ca,2017,mosto,trans-resveratrol,media x alta,0.0001223673519900048,True,True
+Ca,2017,vinhedo,cachos_por_planta,controle x baixa,0.7590570587495886,False,False
+Ca,2017,vinhedo,cachos_por_planta,controle x media,0.42642717235173266,False,False
+Ca,2017,vinhedo,cachos_por_planta,controle x alta,0.05956523435807315,False,False
+Ca,2017,vinhedo,cachos_por_planta,baixa x media,0.9237718996675911,False,False
+Ca,2017,vinhedo,cachos_por_planta,baixa x alta,0.23540055749554134,False,False
+Ca,2017,vinhedo,cachos_por_planta,media x alta,0.49517178171497966,False,False
+Ca,2017,vinhedo,firmeza_N,controle x baixa,0.9483488668476577,False,False
+Ca,2017,vinhedo,firmeza_N,controle x media,0.9902368053362224,False,False
+Ca,2017,vinhedo,firmeza_N,controle x alta,0.8778394946557041,False,False
+Ca,2017,vinhedo,firmeza_N,baixa x media,0.8388789109490604,False,False
+Ca,2017,vinhedo,firmeza_N,baixa x alta,0.9965740435091112,False,False
+Ca,2017,vinhedo,firmeza_N,media x alta,0.733522553984023,False,True
+Ca,2017,vinhedo,peso_cacho_g,controle x baixa,0.6911760993333012,False,False
+Ca,2017,vinhedo,peso_cacho_g,controle x media,0.7002635094497005,False,False
+Ca,2017,vinhedo,peso_cacho_g,controle x alta,0.5949214680751289,False,False
+Ca,2017,vinhedo,peso_cacho_g,baixa x media,0.9999982739075257,False,False
+Ca,2017,vinhedo,peso_cacho_g,baixa x alta,0.9980317636368916,False,False
+Ca,2017,vinhedo,peso_cacho_g,media x alta,0.9974219689873514,False,False
+Ca,2017,vinhedo,producao_kg_planta,controle x baixa,0.1741857745459119,False,True
+Ca,2017,vinhedo,producao_kg_planta,controle x media,0.7876343096398879,False,False
+Ca,2017,vinhedo,producao_kg_planta,controle x alta,0.03509149057207184,True,True
+Ca,2017,vinhedo,producao_kg_planta,baixa x media,0.545416742303646,False,True
+Ca,2017,vinhedo,producao_kg_planta,baixa x alta,0.6754949631215277,False,True
+Ca,2017,vinhedo,producao_kg_planta,media x alta,0.130728414743163,False,True
+Ca,2017,vinhedo,produtividade_t_ha,controle x baixa,0.14988656201916228,False,True
+Ca,2017,vinhedo,produtividade_t_ha,controle x media,0.9247491562332955,False,False
+Ca,2017,vinhedo,produtividade_t_ha,controle x alta,0.036967240660601086,True,True
+Ca,2017,vinhedo,produtividade_t_ha,baixa x media,0.33662149222601156,False,True
+Ca,2017,vinhedo,produtividade_t_ha,baixa x alta,0.7557594605430562,False,True
+Ca,2017,vinhedo,produtividade_t_ha,media x alta,0.08775699221215505,False,True
+Ca,2017,vinho,(+)-Catequina,controle x baixa,0.023742999524030584,True,True
+Ca,2017,vinho,(+)-Catequina,controle x media,0.23639625273219333,False,True
+Ca,2017,vinho,(+)-Catequina,controle x alta,0.0031519622043295614,True,True
+Ca,2017,vinho,(+)-Catequina,baixa x media,0.4044503048358221,False,False
+Ca,2017,vinho,(+)-Catequina,baixa x alta,0.438950941848974,False,False
+Ca,2017,vinho,(+)-Catequina,media x alta,0.04775744930608827,True,True
+Ca,2017,vinho,(-)-Epicatequina,controle x baixa,0.011820889410697033,True,True
+Ca,2017,vinho,(-)-Epicatequina,controle x media,0.04894659009054381,True,True
+Ca,2017,vinho,(-)-Epicatequina,controle x alta,1.3477760086755275e-05,True,True
+Ca,2017,vinho,(-)-Epicatequina,baixa x media,0.731826818389502,False,True
+Ca,2017,vinho,(-)-Epicatequina,baixa x alta,1.2128958902790643e-06,True,True
+Ca,2017,vinho,(-)-Epicatequina,media x alta,2.0556544456651338e-06,True,True
+Ca,2017,vinho,ABTS,controle x baixa,5.551759230115749e-07,True,True
+Ca,2017,vinho,ABTS,controle x media,3.979263562547963e-06,True,True
+Ca,2017,vinho,ABTS,controle x alta,1.1571921305630894e-06,True,True
+Ca,2017,vinho,ABTS,baixa x media,0.01845088323794919,True,False
+Ca,2017,vinho,ABTS,baixa x alta,0.44290814162966374,False,False
+Ca,2017,vinho,ABTS,media x alta,0.16532500830426922,False,False
+Ca,2017,vinho,Acidez titulável,controle x baixa,0.001430623685005572,True,True
+Ca,2017,vinho,Acidez titulável,controle x media,0.18667594032525192,False,False
+Ca,2017,vinho,Acidez titulável,controle x alta,0.48396013570298446,False,False
+Ca,2017,vinho,Acidez titulável,baixa x media,0.023244915954546808,True,True
+Ca,2017,vinho,Acidez titulável,baixa x alta,0.008396297816539722,True,True
+Ca,2017,vinho,Acidez titulável,media x alta,0.8662795185904795,False,False
+Ca,2017,vinho,Acidez total,controle x baixa,1.808921669588237e-05,True,True
+Ca,2017,vinho,Acidez total,controle x media,1.631329975493312e-05,True,True
+Ca,2017,vinho,Acidez total,controle x alta,5.75880182762667e-07,True,True
+Ca,2017,vinho,Acidez total,baixa x media,0.998604199990239,False,False
+Ca,2017,vinho,Acidez total,baixa x alta,1.1810771805009779e-08,True,True
+Ca,2017,vinho,Acidez total,media x alta,1.1318895709599985e-08,True,True
+Ca,2017,vinho,Campferol,controle x baixa,0.01665354045010159,True,True
+Ca,2017,vinho,Campferol,controle x media,0.0665140905279924,False,True
+Ca,2017,vinho,Campferol,controle x alta,0.01665354045010159,True,True
+Ca,2017,vinho,Campferol,baixa x media,0.7538411328708683,False,False
+Ca,2017,vinho,Campferol,baixa x alta,1.0,False,False
+Ca,2017,vinho,Campferol,media x alta,0.7538411328708683,False,False
+Ca,2017,vinho,FC,controle x baixa,6.783738715210319e-08,True,True
+Ca,2017,vinho,FC,controle x media,2.9140654556059076e-08,True,False
+Ca,2017,vinho,FC,controle x alta,1.1232366148306028e-08,True,True
+Ca,2017,vinho,FC,baixa x media,0.12014435903453036,False,True
+Ca,2017,vinho,FC,baixa x alta,0.0017471309012341285,True,True
+Ca,2017,vinho,FC,media x alta,0.046518022451025653,True,True
+Ca,2017,vinho,FT,controle x baixa,0.04089738296742118,True,True
+Ca,2017,vinho,FT,controle x media,0.12177679500960503,False,True
+Ca,2017,vinho,FT,controle x alta,0.007479640352928807,True,True
+Ca,2017,vinho,FT,baixa x media,0.0015946578142479462,True,True
+Ca,2017,vinho,FT,baixa x alta,0.6056790314894989,False,False
+Ca,2017,vinho,FT,media x alta,0.0004293731237394738,True,True
+Ca,2017,vinho,Ferúlico,controle x baixa,0.14418379820766347,False,False
+Ca,2017,vinho,Ferúlico,controle x media,0.14418379820766347,False,False
+Ca,2017,vinho,Ferúlico,controle x alta,0.14418379820766347,False,False
+Ca,2017,vinho,Ferúlico,baixa x media,1.0,False,False
+Ca,2017,vinho,Ferúlico,baixa x alta,1.0,False,False
+Ca,2017,vinho,Ferúlico,media x alta,1.0,False,False
+Ca,2017,vinho,Gálico,controle x baixa,0.00020120690396085994,True,True
+Ca,2017,vinho,Gálico,controle x media,1.0056887314702223e-05,True,True
+Ca,2017,vinho,Gálico,controle x alta,1.8171678598521979e-06,True,True
+Ca,2017,vinho,Gálico,baixa x media,0.01665354045010159,True,True
+Ca,2017,vinho,Gálico,baixa x alta,0.0005139973484203919,True,True
+Ca,2017,vinho,Gálico,media x alta,0.06651409052799451,False,True
+Ca,2017,vinho,IE,controle x baixa,8.61190195944328e-06,True,True
+Ca,2017,vinho,IE,controle x media,0.0003667116507022339,True,False
+Ca,2017,vinho,IE,controle x alta,4.602890948901539e-05,True,True
+Ca,2017,vinho,IE,baixa x media,2.2640592411971028e-07,True,True
+Ca,2017,vinho,IE,baixa x alta,8.971900677945399e-08,True,True
+Ca,2017,vinho,IE,media x alta,0.14418379820766192,False,True
+Ca,2017,vinho,Lático,controle x baixa,1.7491852410955744e-10,True,True
+Ca,2017,vinho,Lático,controle x media,0.0001469041232731172,True,True
+Ca,2017,vinho,Lático,controle x alta,3.3206130067853223e-09,True,True
+Ca,2017,vinho,Lático,baixa x media,7.922874578625283e-10,True,True
+Ca,2017,vinho,Lático,baixa x alta,1.8569947594082592e-06,True,True
+Ca,2017,vinho,Lático,media x alta,3.246886348673428e-08,True,True
+Ca,2017,vinho,Málico,controle x baixa,5.8890277876422203e-08,True,True
+Ca,2017,vinho,Málico,controle x media,7.05021807601014e-09,True,True
+Ca,2017,vinho,Málico,controle x alta,0.00044148146178657477,True,True
+Ca,2017,vinho,Málico,baixa x media,0.00044148146178657477,True,True
+Ca,2017,vinho,Málico,baixa x alta,1.0500879217278936e-06,True,True
+Ca,2017,vinho,Málico,media x alta,5.8890277876422203e-08,True,True
+Ca,2017,vinho,Protocateico,controle x baixa,0.01006492757534816,True,True
+Ca,2017,vinho,Protocateico,controle x media,0.0007909769343000805,True,True
+Ca,2017,vinho,Protocateico,controle x alta,0.04443489543630452,True,True
+Ca,2017,vinho,Protocateico,baixa x media,2.0023529852197797e-05,True,False
+Ca,2017,vinho,Protocateico,baixa x alta,0.00027183979881395537,True,True
+Ca,2017,vinho,Protocateico,media x alta,0.04443489543630419,True,True
+Ca,2017,vinho,Quercetina,controle x baixa,2.5059755381917626e-09,True,True
+Ca,2017,vinho,Quercetina,controle x media,5.786669921015175e-09,True,True
+Ca,2017,vinho,Quercetina,controle x alta,5.786669921015175e-09,True,True
+Ca,2017,vinho,Quercetina,baixa x media,0.034660651625742056,True,True
+Ca,2017,vinho,Quercetina,baixa x alta,0.034660651625742056,True,True
+Ca,2017,vinho,Quercetina,media x alta,1.0,False,False
+Ca,2017,vinho,SO2 total,controle x baixa,1.7371375338193218e-08,True,True
+Ca,2017,vinho,SO2 total,controle x media,8.065978329696577e-07,True,True
+Ca,2017,vinho,SO2 total,controle x alta,1.2576037244915739e-06,True,True
+Ca,2017,vinho,SO2 total,baixa x media,2.780866592533293e-05,True,True
+Ca,2017,vinho,SO2 total,baixa x alta,1.473118342354418e-05,True,True
+Ca,2017,vinho,SO2 total,media x alta,0.7926988018881864,False,False
+Ca,2017,vinho,Siríngico,controle x baixa,1.0,False,False
+Ca,2017,vinho,Siríngico,controle x media,0.03466065162574239,True,True
+Ca,2017,vinho,Siríngico,controle x alta,1.0,False,False
+Ca,2017,vinho,Siríngico,baixa x media,0.03466065162574239,True,True
+Ca,2017,vinho,Siríngico,baixa x alta,1.0,False,False
+Ca,2017,vinho,Siríngico,media x alta,0.03466065162574239,True,True
+Ca,2017,vinho,Succínico,controle x baixa,0.018348607201364442,True,True
+Ca,2017,vinho,Succínico,controle x media,1.7646011312155707e-06,True,True
+Ca,2017,vinho,Succínico,controle x alta,7.654969158665814e-06,True,True
+Ca,2017,vinho,Succínico,baixa x media,1.7777297568466466e-05,True,True
+Ca,2017,vinho,Succínico,baixa x alta,0.00012903971433719796,True,True
+Ca,2017,vinho,Succínico,media x alta,0.11388732698854254,False,True
+Ca,2017,vinho,Tartárico,controle x baixa,8.295815145942242e-10,True,True
+Ca,2017,vinho,Tartárico,controle x media,3.674346382709359e-10,True,True
+Ca,2017,vinho,Tartárico,controle x alta,4.205539139157111e-09,True,True
+Ca,2017,vinho,Tartárico,baixa x media,0.011392840724152364,True,True
+Ca,2017,vinho,Tartárico,baixa x alta,0.0003667116507022339,True,True
+Ca,2017,vinho,Tartárico,media x alta,1.2709218657480648e-05,True,True
+Ca,2017,vinho,Teor alcoólico,controle x baixa,2.3074959393243333e-06,True,True
+Ca,2017,vinho,Teor alcoólico,controle x media,1.3214444023024186e-05,True,True
+Ca,2017,vinho,Teor alcoólico,controle x alta,0.0001669382588865842,True,True
+Ca,2017,vinho,Teor alcoólico,baixa x media,0.06958841193247156,False,False
+Ca,2017,vinho,Teor alcoólico,baixa x alta,0.0010173334418128732,True,True
+Ca,2017,vinho,Teor alcoólico,media x alta,0.03986849490286115,True,True
+Ca,2017,vinho,o-D,controle x baixa,0.2198750442447025,False,True
+Ca,2017,vinho,o-D,controle x media,0.9482656497935967,False,True
+Ca,2017,vinho,o-D,controle x alta,0.0016580466768085778,True,True
+Ca,2017,vinho,o-D,baixa x media,0.4272961378662776,False,True
+Ca,2017,vinho,o-D,baixa x alta,0.023631135567300676,True,True
+Ca,2017,vinho,o-D,media x alta,0.003052124507817222,True,True
+Ca,2017,vinho,p-cumárico,controle x baixa,1.0,False,False
+Ca,2017,vinho,p-cumárico,controle x media,0.14418379820766225,False,False
+Ca,2017,vinho,p-cumárico,controle x alta,0.14418379820766225,False,True
+Ca,2017,vinho,p-cumárico,baixa x media,0.14418379820766225,False,False
+Ca,2017,vinho,p-cumárico,baixa x alta,0.14418379820766225,False,True
+Ca,2017,vinho,p-cumárico,media x alta,1.0,False,False
+Ca,2017,vinho,trans-caftárico,controle x baixa,0.5980220186208562,False,True
+Ca,2017,vinho,trans-caftárico,controle x media,0.0029569911149791572,True,True
+Ca,2017,vinho,trans-caftárico,controle x alta,4.559019584737811e-06,True,True
+Ca,2017,vinho,trans-caftárico,baixa x media,0.01471670920942203,True,True
+Ca,2017,vinho,trans-caftárico,baixa x alta,9.870171141623807e-06,True,True
+Ca,2017,vinho,trans-caftárico,media x alta,0.0002128548070258196,True,True
+Ca,2017,vinho,trans-resveratrol,controle x baixa,5.2629382214508524e-06,True,True
+Ca,2017,vinho,trans-resveratrol,controle x media,5.2629382214508524e-06,True,True
+Ca,2017,vinho,trans-resveratrol,controle x alta,1.4003185765387727e-06,True,True
+Ca,2017,vinho,trans-resveratrol,baixa x media,1.0,False,False
+Ca,2017,vinho,trans-resveratrol,baixa x alta,0.14418379820766192,False,False
+Ca,2017,vinho,trans-resveratrol,media x alta,0.14418379820766192,False,False
+Ca,2018,mosto,(+)-Catequina,controle x baixa,0.001324285172726869,True,True
+Ca,2018,mosto,(+)-Catequina,controle x media,0.0365726465058831,True,True
+Ca,2018,mosto,(+)-Catequina,controle x alta,1.1071177064003734e-07,True,True
+Ca,2018,mosto,(+)-Catequina,baixa x media,0.1074197257310141,False,True
+Ca,2018,mosto,(+)-Catequina,baixa x alta,1.498363717433726e-06,True,True
+Ca,2018,mosto,(+)-Catequina,media x alta,4.328939078312999e-07,True,True
+Ca,2018,mosto,(-)-Epicatequina,controle x baixa,0.028551792252372366,True,True
+Ca,2018,mosto,(-)-Epicatequina,controle x media,0.19580303133161547,False,True
+Ca,2018,mosto,(-)-Epicatequina,controle x alta,0.00015892389730121081,True,True
+Ca,2018,mosto,(-)-Epicatequina,baixa x media,0.5448166143084721,False,True
+Ca,2018,mosto,(-)-Epicatequina,baixa x alta,0.007015426645774703,True,True
+Ca,2018,mosto,(-)-Epicatequina,media x alta,0.0013890138723029466,True,True
+Ca,2018,mosto,ABTS,controle x baixa,2.938672041807866e-05,True,True
+Ca,2018,mosto,ABTS,controle x media,0.0002288427300967122,True,True
+Ca,2018,mosto,ABTS,controle x alta,4.6151654586878976e-07,True,True
+Ca,2018,mosto,ABTS,baixa x media,0.1252186724804315,False,True
+Ca,2018,mosto,ABTS,baixa x alta,0.0003226064174930432,True,True
+Ca,2018,mosto,ABTS,media x alta,3.8555523999006525e-05,True,True
+Ca,2018,mosto,Acidez total,controle x baixa,0.00012523435189149001,True,True
+Ca,2018,mosto,Acidez total,controle x media,0.024454555620798346,True,True
+Ca,2018,mosto,Acidez total,controle x alta,0.0020951197657373966,True,True
+Ca,2018,mosto,Acidez total,baixa x media,0.005705635025265887,True,True
+Ca,2018,mosto,Acidez total,baixa x alta,2.7464035358137906e-06,True,True
+Ca,2018,mosto,Acidez total,media x alta,6.302485707743166e-05,True,True
+Ca,2018,mosto,Cafeico,controle x baixa,1.8252230837845218e-09,True,True
+Ca,2018,mosto,Cafeico,controle x media,6.957799170148604e-08,True,True
+Ca,2018,mosto,Cafeico,controle x alta,9.062750550015153e-13,True,True
+Ca,2018,mosto,Cafeico,baixa x media,4.6374712867613965e-06,True,True
+Ca,2018,mosto,Cafeico,baixa x alta,4.378308826602506e-11,True,True
+Ca,2018,mosto,Cafeico,media x alta,8.341882740126039e-12,True,True
+Ca,2018,mosto,Campferol,controle x baixa,0.0004082880244636877,True,True
+Ca,2018,mosto,Campferol,controle x media,0.02800008288003597,True,True
+Ca,2018,mosto,Campferol,controle x alta,0.8031323538775242,False,False
+Ca,2018,mosto,Campferol,baixa x media,2.1451920188320095e-05,True,True
+Ca,2018,mosto,Campferol,baixa x alta,0.0001776146233826159,True,True
+Ca,2018,mosto,Campferol,media x alta,0.09965643185340756,False,True
+Ca,2018,mosto,Cítrico,controle x baixa,0.0003667116507022339,True,True
+Ca,2018,mosto,Cítrico,controle x media,8.726391663227417e-05,True,True
+Ca,2018,mosto,Cítrico,controle x alta,1.0,False,False
+Ca,2018,mosto,Cítrico,baixa x media,0.41408618977864176,False,True
+Ca,2018,mosto,Cítrico,baixa x alta,0.0003667116507022339,True,True
+Ca,2018,mosto,Cítrico,media x alta,8.726391663227417e-05,True,True
+Ca,2018,mosto,FC,controle x baixa,0.056510938401899136,False,True
+Ca,2018,mosto,FC,controle x media,4.1462641886536034e-07,True,True
+Ca,2018,mosto,FC,controle x alta,9.334288575413296e-08,True,True
+Ca,2018,mosto,FC,baixa x media,1.7956320684797689e-06,True,True
+Ca,2018,mosto,FC,baixa x alta,3.108015574904144e-07,True,True
+Ca,2018,mosto,FC,media x alta,0.02193478005170968,True,True
+Ca,2018,mosto,FT,controle x baixa,0.005716982936077475,True,True
+Ca,2018,mosto,FT,controle x media,6.528368557967568e-07,True,True
+Ca,2018,mosto,FT,controle x alta,1.3584496860730155e-09,True,True
+Ca,2018,mosto,FT,baixa x media,8.407472641525082e-06,True,True
+Ca,2018,mosto,FT,baixa x alta,4.073720916153434e-09,True,True
+Ca,2018,mosto,FT,media x alta,1.7162947296700537e-07,True,True
+Ca,2018,mosto,Gálico,controle x baixa,0.023631073751973264,True,True
+Ca,2018,mosto,Gálico,controle x media,0.10557221967220265,False,True
+Ca,2018,mosto,Gálico,controle x alta,0.7165012365117434,False,False
+Ca,2018,mosto,Gálico,baixa x media,0.7165012365117434,False,False
+Ca,2018,mosto,Gálico,baixa x alta,0.10557221967220265,False,False
+Ca,2018,mosto,Gálico,media x alta,0.42820239868498733,False,False
+Ca,2018,mosto,IE,controle x baixa,0.4550206685253678,False,False
+Ca,2018,mosto,IE,controle x media,0.4550206685253678,False,False
+Ca,2018,mosto,IE,controle x alta,0.002795290825130081,True,True
+Ca,2018,mosto,IE,baixa x media,1.0,False,False
+Ca,2018,mosto,IE,baixa x alta,0.019762946031990025,True,True
+Ca,2018,mosto,IE,media x alta,0.019762946031990025,True,True
+Ca,2018,mosto,Miricetina,controle x baixa,0.42002671526776025,False,False
+Ca,2018,mosto,Miricetina,controle x media,0.0001154032643103653,True,True
+Ca,2018,mosto,Miricetina,controle x alta,7.419026665600459e-05,True,True
+Ca,2018,mosto,Miricetina,baixa x media,3.260831965390398e-05,True,True
+Ca,2018,mosto,Miricetina,baixa x alta,2.222098517001836e-05,True,True
+Ca,2018,mosto,Miricetina,media x alta,0.9466354301292756,False,False
+Ca,2018,mosto,Málico,controle x baixa,2.676708786841786e-07,True,True
+Ca,2018,mosto,Málico,controle x media,1.1330914839735584e-07,True,True
+Ca,2018,mosto,Málico,controle x alta,1.6328111520969024e-05,True,True
+Ca,2018,mosto,Málico,baixa x media,0.19755791179121718,False,True
+Ca,2018,mosto,Málico,baixa x alta,0.0002149152526752518,True,True
+Ca,2018,mosto,Málico,media x alta,3.553137985912169e-05,True,True
+Ca,2018,mosto,Quercetina,controle x baixa,0.004778901463364016,True,True
+Ca,2018,mosto,Quercetina,controle x media,0.10480179840500226,False,True
+Ca,2018,mosto,Quercetina,controle x alta,1.0,False,False
+Ca,2018,mosto,Quercetina,baixa x media,0.17824063820603753,False,True
+Ca,2018,mosto,Quercetina,baixa x alta,0.004778901463364016,True,True
+Ca,2018,mosto,Quercetina,media x alta,0.10480179840500226,False,True
+Ca,2018,mosto,SST,controle x baixa,0.00034704331906143526,True,True
+Ca,2018,mosto,SST,controle x media,3.2928915624230726e-06,True,True
+Ca,2018,mosto,SST,controle x alta,0.0023970434178710587,True,True
+Ca,2018,mosto,SST,baixa x media,0.0008700528580894984,True,True
+Ca,2018,mosto,SST,baixa x alta,0.3187391781623953,False,False
+Ca,2018,mosto,SST,media x alta,0.00015030105324476128,True,True
+Ca,2018,mosto,Siríngico,controle x baixa,1.0,False,False
+Ca,2018,mosto,Siríngico,controle x media,0.005233938391266957,True,True
+Ca,2018,mosto,Siríngico,controle x alta,8.61190195944328e-06,True,True
+Ca,2018,mosto,Siríngico,baixa x media,0.005233938391266957,True,True
+Ca,2018,mosto,Siríngico,baixa x alta,8.61190195944328e-06,True,True
+Ca,2018,mosto,Siríngico,media x alta,6.432043231363593e-07,True,True
+Ca,2018,mosto,Tartárico,controle x baixa,1.291411422243982e-12,True,True
+Ca,2018,mosto,Tartárico,controle x media,1.2934098236883074e-13,True,True
+Ca,2018,mosto,Tartárico,controle x alta,8.786305016883489e-12,True,True
+Ca,2018,mosto,Tartárico,baixa x media,1.4465988851242173e-08,True,True
+Ca,2018,mosto,Tartárico,baixa x alta,2.4082460448049403e-07,True,True
+Ca,2018,mosto,Tartárico,media x alta,2.1284940476817837e-10,True,True
+Ca,2018,mosto,o-D,controle x baixa,0.9256722750223458,False,False
+Ca,2018,mosto,o-D,controle x media,0.9457981089561066,False,False
+Ca,2018,mosto,o-D,controle x alta,0.008843021571064202,True,True
+Ca,2018,mosto,o-D,baixa x media,0.9998776231026453,False,False
+Ca,2018,mosto,o-D,baixa x alta,0.01981882597009177,True,True
+Ca,2018,mosto,o-D,media x alta,0.018081263275048776,True,True
+Ca,2018,mosto,p-cumárico,controle x baixa,0.0444348954363043,True,True
+Ca,2018,mosto,p-cumárico,controle x media,0.7019655604602557,False,True
+Ca,2018,mosto,p-cumárico,controle x alta,0.7019655604602557,False,False
+Ca,2018,mosto,p-cumárico,baixa x media,0.20527762951900885,False,False
+Ca,2018,mosto,p-cumárico,baixa x alta,0.20527762951900885,False,False
+Ca,2018,mosto,p-cumárico,media x alta,1.0,False,False
+Ca,2018,mosto,pH,controle x baixa,0.019762946031988915,True,True
+Ca,2018,mosto,pH,controle x media,0.00025308983928573614,True,True
+Ca,2018,mosto,pH,controle x alta,0.00025308983928573614,True,True
+Ca,2018,mosto,pH,baixa x media,0.019762946031990025,True,True
+Ca,2018,mosto,pH,baixa x alta,1.2843295757236639e-05,True,True
+Ca,2018,mosto,pH,media x alta,1.4154524461407192e-06,True,True
+Ca,2018,mosto,trans-caftárico,controle x baixa,6.413373165869984e-10,True,True
+Ca,2018,mosto,trans-caftárico,controle x media,0.00014440235107560095,True,True
+Ca,2018,mosto,trans-caftárico,controle x alta,1.247890679678676e-13,True,True
+Ca,2018,mosto,trans-caftárico,baixa x media,3.929558789472765e-09,True,True
+Ca,2018,mosto,trans-caftárico,baixa x alta,4.37661018537483e-12,True,True
+Ca,2018,mosto,trans-caftárico,media x alta,2.2382096176443156e-13,True,True
+Ca,2018,vinhedo,cachos_por_planta,controle x baixa,0.4510813600386546,False,True
+Ca,2018,vinhedo,cachos_por_planta,controle x media,0.11741452824455301,False,True
+Ca,2018,vinhedo,cachos_por_planta,controle x alta,0.0018368595739870486,True,True
+Ca,2018,vinhedo,cachos_por_planta,baixa x media,0.7324601613343409,False,True
+Ca,2018,vinhedo,cachos_por_planta,baixa x alta,0.012233758289399654,True,True
+Ca,2018,vinhedo,cachos_por_planta,media x alta,0.0506976283384708,False,True
+Ca,2018,vinhedo,peso_cacho_g,controle x baixa,0.9470705671366759,False,False
+Ca,2018,vinhedo,peso_cacho_g,controle x media,0.5009584138094438,False,True
+Ca,2018,vinhedo,peso_cacho_g,controle x alta,0.8820223645044637,False,False
+Ca,2018,vinhedo,peso_cacho_g,baixa x media,0.7947049521466034,False,True
+Ca,2018,vinhedo,peso_cacho_g,baixa x alta,0.9972587524517966,False,False
+Ca,2018,vinhedo,peso_cacho_g,media x alta,0.882921720078712,False,True
+Ca,2018,vinhedo,producao_kg_planta,controle x baixa,9.925423074652606e-06,True,True
+Ca,2018,vinhedo,producao_kg_planta,controle x media,1.9647707050207686e-06,True,True
+Ca,2018,vinhedo,producao_kg_planta,controle x alta,0.03138736803045761,True,True
+Ca,2018,vinhedo,producao_kg_planta,baixa x media,0.08475856616279831,False,True
+Ca,2018,vinhedo,producao_kg_planta,baixa x alta,0.00013183565349250692,True,True
+Ca,2018,vinhedo,producao_kg_planta,media x alta,1.5704472310251738e-05,True,True
+Ca,2018,vinhedo,produtividade_t_ha,controle x baixa,2.1451920188320095e-05,True,True
+Ca,2018,vinhedo,produtividade_t_ha,controle x media,3.9373208499116075e-06,True,True
+Ca,2018,vinhedo,produtividade_t_ha,controle x alta,0.06510912963667614,False,True
+Ca,2018,vinhedo,produtividade_t_ha,baixa x media,0.09965643185340711,False,True
+Ca,2018,vinhedo,produtividade_t_ha,baixa x alta,0.00023247741696508228,True,True
+Ca,2018,vinhedo,produtividade_t_ha,media x alta,2.6493494617141344e-05,True,True
+Ca,2018,vinho,(+)-Catequina,controle x baixa,0.40702772516532326,False,False
+Ca,2018,vinho,(+)-Catequina,controle x media,0.07837214679848936,False,True
+Ca,2018,vinho,(+)-Catequina,controle x alta,1.2276115876064253e-06,True,True
+Ca,2018,vinho,(+)-Catequina,baixa x media,0.6234833003623564,False,True
+Ca,2018,vinho,(+)-Catequina,baixa x alta,2.8801491338548146e-06,True,True
+Ca,2018,vinho,(+)-Catequina,media x alta,5.8134613047933215e-06,True,True
+Ca,2018,vinho,(-)-Epicatequina,controle x baixa,1.6963993984653314e-05,True,True
+Ca,2018,vinho,(-)-Epicatequina,controle x media,0.33581349849856834,False,True
+Ca,2018,vinho,(-)-Epicatequina,controle x alta,3.722496577651668e-08,True,True
+Ca,2018,vinho,(-)-Epicatequina,baixa x media,6.303640279414768e-05,True,True
+Ca,2018,vinho,(-)-Epicatequina,baixa x alta,4.2151175785321016e-06,True,True
+Ca,2018,vinho,(-)-Epicatequina,media x alta,6.79435263606365e-08,True,True
+Ca,2018,vinho,ABTS,controle x baixa,0.00012776471686448687,True,True
+Ca,2018,vinho,ABTS,controle x media,1.1465864057091935e-06,True,True
+Ca,2018,vinho,ABTS,controle x alta,4.228132199246559e-06,True,True
+Ca,2018,vinho,ABTS,baixa x media,0.0003504479636748936,True,True
+Ca,2018,vinho,ABTS,baixa x alta,0.005097748182953055,True,True
+Ca,2018,vinho,ABTS,media x alta,0.13900764898127016,False,True
+Ca,2018,vinho,Acidez titulável,controle x baixa,9.88606496247213e-05,True,True
+Ca,2018,vinho,Acidez titulável,controle x media,0.01063077637373,True,True
+Ca,2018,vinho,Acidez titulável,controle x alta,0.004156677037258749,True,True
+Ca,2018,vinho,Acidez titulável,baixa x media,0.008761421637345057,True,True
+Ca,2018,vinho,Acidez titulável,baixa x alta,0.023649215877138974,True,True
+Ca,2018,vinho,Acidez titulável,media x alta,0.8749795615908478,False,False
+Ca,2018,vinho,Acidez total,controle x baixa,4.60069275076691e-06,True,True
+Ca,2018,vinho,Acidez total,controle x media,5.204062397234921e-06,True,True
+Ca,2018,vinho,Acidez total,controle x alta,0.0003586115528481093,True,False
+Ca,2018,vinho,Acidez total,baixa x media,0.9963425352718174,False,False
+Ca,2018,vinho,Acidez total,baixa x alta,0.001582219399881346,True,True
+Ca,2018,vinho,Acidez total,media x alta,0.0020058294626867923,True,True
+Ca,2018,vinho,Acético,controle x baixa,2.369736316187865e-05,True,True
+Ca,2018,vinho,Acético,controle x media,5.5042660661808185e-05,True,True
+Ca,2018,vinho,Acético,controle x alta,0.00019529979851917734,True,True
+Ca,2018,vinho,Acético,baixa x media,0.6729513008411726,False,True
+Ca,2018,vinho,Acético,baixa x alta,0.10480179840500248,False,True
+Ca,2018,vinho,Acético,media x alta,0.4646103578281062,False,True
+Ca,2018,vinho,Cafeico,controle x baixa,0.0016384142938598023,True,True
+Ca,2018,vinho,Cafeico,controle x media,1.7200810098483288e-07,True,True
+Ca,2018,vinho,Cafeico,controle x alta,4.269748232754722e-08,True,True
+Ca,2018,vinho,Cafeico,baixa x media,2.4874972089916625e-06,True,True
+Ca,2018,vinho,Cafeico,baixa x alta,3.8190898776768734e-07,True,True
+Ca,2018,vinho,Cafeico,media x alta,0.018348607201364442,True,True
+Ca,2018,vinho,Campferol,controle x baixa,0.005233938391266957,True,True
+Ca,2018,vinho,Campferol,controle x media,0.005233938391267512,True,True
+Ca,2018,vinho,Campferol,controle x alta,3.674346382709359e-10,True,True
+Ca,2018,vinho,Campferol,baixa x media,4.602890948901539e-05,True,True
+Ca,2018,vinho,Campferol,baixa x alta,9.387989274856068e-10,True,True
+Ca,2018,vinho,Campferol,media x alta,1.5864598523762652e-10,True,True
+Ca,2018,vinho,Cítrico,controle x baixa,8.971900677945399e-08,True,True
+Ca,2018,vinho,Cítrico,controle x media,9.23262177821016e-09,True,True
+Ca,2018,vinho,Cítrico,controle x alta,6.432043231363593e-07,True,True
+Ca,2018,vinho,Cítrico,baixa x media,0.0003667116507022339,True,True
+Ca,2018,vinho,Cítrico,baixa x alta,0.005233938391266957,True,True
+Ca,2018,vinho,Cítrico,media x alta,8.61190195944328e-06,True,True
+Ca,2018,vinho,FC,controle x baixa,2.135956744808709e-08,True,True
+Ca,2018,vinho,FC,controle x media,3.265680137420901e-08,True,True
+Ca,2018,vinho,FC,controle x alta,4.738847314555983e-09,True,True
+Ca,2018,vinho,FC,baixa x media,0.542568505434424,False,True
+Ca,2018,vinho,FC,baixa x alta,0.0024641675172172306,True,True
+Ca,2018,vinho,FC,media x alta,0.0005602386359540024,True,True
+Ca,2018,vinho,FT,controle x baixa,3.669896586622201e-08,True,True
+Ca,2018,vinho,FT,controle x media,1.2386295322741603e-09,True,True
+Ca,2018,vinho,FT,controle x alta,1.5217493931629633e-10,True,True
+Ca,2018,vinho,FT,baixa x media,4.97743681893148e-06,True,True
+Ca,2018,vinho,FT,baixa x alta,3.833143957798768e-08,True,True
+Ca,2018,vinho,FT,media x alta,1.48702673845591e-05,True,True
+Ca,2018,vinho,Ferúlico,controle x baixa,0.14418379820766192,False,True
+Ca,2018,vinho,Ferúlico,controle x media,0.14418379820766192,False,True
+Ca,2018,vinho,Ferúlico,controle x alta,7.434530768790637e-11,True,True
+Ca,2018,vinho,Ferúlico,baixa x media,1.0,False,False
+Ca,2018,vinho,Ferúlico,baixa x alta,5.2011728257639334e-11,True,True
+Ca,2018,vinho,Ferúlico,media x alta,5.2011728257639334e-11,True,True
+Ca,2018,vinho,Gálico,controle x baixa,1.0,False,False
+Ca,2018,vinho,Gálico,controle x media,2.1224064705949175e-05,True,True
+Ca,2018,vinho,Gálico,controle x alta,9.401612821591243e-11,True,True
+Ca,2018,vinho,Gálico,baixa x media,2.1224064705949175e-05,True,True
+Ca,2018,vinho,Gálico,baixa x alta,9.401612821591243e-11,True,True
+Ca,2018,vinho,Gálico,media x alta,6.019865717021844e-10,True,True
+Ca,2018,vinho,IE,controle x baixa,0.03466065162574228,True,True
+Ca,2018,vinho,IE,controle x media,0.03466065162574228,True,False
+Ca,2018,vinho,IE,controle x alta,1.0,False,False
+Ca,2018,vinho,IE,baixa x media,1.0,False,False
+Ca,2018,vinho,IE,baixa x alta,0.03466065162574228,True,True
+Ca,2018,vinho,IE,media x alta,0.03466065162574228,True,False
+Ca,2018,vinho,Lático,controle x baixa,0.00399081846232896,True,True
+Ca,2018,vinho,Lático,controle x media,0.022255576859678716,True,True
+Ca,2018,vinho,Lático,controle x alta,0.022255576859678716,True,True
+Ca,2018,vinho,Lático,baixa x media,0.5677679099960813,False,False
+Ca,2018,vinho,Lático,baixa x alta,0.5677679099960813,False,False
+Ca,2018,vinho,Lático,media x alta,1.0,False,False
+Ca,2018,vinho,Miricetina,controle x baixa,0.975506257704465,False,False
+Ca,2018,vinho,Miricetina,controle x media,0.975506257704465,False,False
+Ca,2018,vinho,Miricetina,controle x alta,0.00025061515869850837,True,True
+Ca,2018,vinho,Miricetina,baixa x media,0.8452010638132512,False,False
+Ca,2018,vinho,Miricetina,baixa x alta,0.0003667116507022339,True,True
+Ca,2018,vinho,Miricetina,media x alta,0.00017388397146922419,True,True
+Ca,2018,vinho,Málico,controle x baixa,7.55696303311737e-08,True,True
+Ca,2018,vinho,Málico,controle x media,1.1859379301926154e-06,True,True
+Ca,2018,vinho,Málico,controle x alta,5.546152826330086e-06,True,True
+Ca,2018,vinho,Málico,baixa x media,0.0007073646660784583,True,True
+Ca,2018,vinho,Málico,baixa x alta,5.5357746712059175e-05,True,True
+Ca,2018,vinho,Málico,media x alta,0.07940270532871807,False,True
+Ca,2018,vinho,Protocateico,controle x baixa,0.00014201529275825742,True,False
+Ca,2018,vinho,Protocateico,controle x media,1.0733169904630913e-05,True,True
+Ca,2018,vinho,Protocateico,controle x alta,5.494434660580083e-07,True,True
+Ca,2018,vinho,Protocateico,baixa x media,0.033006856158034226,True,True
+Ca,2018,vinho,Protocateico,baixa x alta,7.941268937439183e-05,True,True
+Ca,2018,vinho,Protocateico,media x alta,0.0022792983886728013,True,True
+Ca,2018,vinho,Quercetina,controle x baixa,0.017096899788141662,True,True
+Ca,2018,vinho,Quercetina,controle x media,0.7961029307805625,False,True
+Ca,2018,vinho,Quercetina,controle x alta,0.9252929150917882,False,True
+Ca,2018,vinho,Quercetina,baixa x media,0.005233938391266957,True,True
+Ca,2018,vinho,Quercetina,baixa x alta,0.03962985902765814,True,True
+Ca,2018,vinho,Quercetina,media x alta,0.46423151491156966,False,True
+Ca,2018,vinho,SO2 total,controle x baixa,0.00010716711837810422,True,True
+Ca,2018,vinho,SO2 total,controle x media,7.993237115533347e-07,True,True
+Ca,2018,vinho,SO2 total,controle x alta,0.0041645278099877725,True,True
+Ca,2018,vinho,SO2 total,baixa x media,0.000211701190132918,True,True
+Ca,2018,vinho,SO2 total,baixa x alta,0.026975136321694126,True,True
+Ca,2018,vinho,SO2 total,media x alta,1.3102056404035167e-05,True,True
+Ca,2018,vinho,Siríngico,controle x baixa,5.786669921015175e-09,True,True
+Ca,2018,vinho,Siríngico,controle x media,1.7001889895951194e-09,True,True
+Ca,2018,vinho,Siríngico,controle x alta,4.243329021491604e-10,True,True
+Ca,2018,vinho,Siríngico,baixa x media,0.003649830958036726,True,True
+Ca,2018,vinho,Siríngico,baixa x alta,9.299398185946828e-06,True,True
+Ca,2018,vinho,Siríngico,media x alta,0.0005518650814416715,True,True
+Ca,2018,vinho,Succínico,controle x baixa,1.145685631809279e-06,True,True
+Ca,2018,vinho,Succínico,controle x media,2.297852333965622e-07,True,True
+Ca,2018,vinho,Succínico,controle x alta,6.041800590939062e-07,True,True
+Ca,2018,vinho,Succínico,baixa x media,0.02721133741155768,True,True
+Ca,2018,vinho,Succínico,baixa x alta,0.5521340946427219,False,False
+Ca,2018,vinho,Succínico,media x alta,0.18340383167249363,False,True
+Ca,2018,vinho,Tartárico,controle x baixa,0.9843460338329367,False,False
+Ca,2018,vinho,Tartárico,controle x media,0.00037329406397601517,True,True
+Ca,2018,vinho,Tartárico,controle x alta,0.00019627404964883688,True,True
+Ca,2018,vinho,Tartárico,baixa x media,0.0005238570586804103,True,True
+Ca,2018,vinho,Tartárico,baixa x alta,0.0002691696794583365,True,True
+Ca,2018,vinho,Tartárico,media x alta,0.8950182871571691,False,True
+Ca,2018,vinho,Teor alcoólico,controle x baixa,2.7455790863051277e-08,True,True
+Ca,2018,vinho,Teor alcoólico,controle x media,3.100739688344234e-07,True,True
+Ca,2018,vinho,Teor alcoólico,controle x alta,2.7455790863051277e-08,True,True
+Ca,2018,vinho,Teor alcoólico,baixa x media,3.4508806923128077e-10,True,True
+Ca,2018,vinho,Teor alcoólico,baixa x alta,1.1108192143893802e-10,True,True
+Ca,2018,vinho,Teor alcoólico,media x alta,0.0006341584995566141,True,True
+Ca,2018,vinho,Tirosol,controle x baixa,3.3180899816631637e-07,True,True
+Ca,2018,vinho,Tirosol,controle x media,4.5502660916962867e-07,True,True
+Ca,2018,vinho,Tirosol,controle x alta,4.325408574645806e-07,True,True
+Ca,2018,vinho,Tirosol,baixa x media,0.8788940653617641,False,True
+Ca,2018,vinho,Tirosol,baixa x alta,0.9221234532897055,False,True
+Ca,2018,vinho,Tirosol,media x alta,0.999382769119391,False,True
+Ca,2018,vinho,Vanílico,controle x baixa,2.191567856080212e-07,True,True
+Ca,2018,vinho,Vanílico,controle x media,1.306724542349258e-06,True,True
+Ca,2018,vinho,Vanílico,controle x alta,6.863393020584141e-08,True,True
+Ca,2018,vinho,Vanílico,baixa x media,0.016106763310252292,True,True
+Ca,2018,vinho,Vanílico,baixa x alta,0.05532516730351689,False,True
+Ca,2018,vinho,Vanílico,media x alta,0.00044148146178657477,True,True
+Ca,2018,vinho,o-D,controle x baixa,0.0004975515791857399,True,True
+Ca,2018,vinho,o-D,controle x media,9.125776861307333e-05,True,True
+Ca,2018,vinho,o-D,controle x alta,1.0702307589371962e-05,True,True
+Ca,2018,vinho,o-D,baixa x media,0.30248319116479216,False,True
+Ca,2018,vinho,o-D,baixa x alta,0.005431037418123563,True,True
+Ca,2018,vinho,o-D,media x alta,0.06885574761132995,False,True
+Ca,2018,vinho,trans-caftárico,controle x baixa,5.855611551197626e-10,True,True
+Ca,2018,vinho,trans-caftárico,controle x media,6.173028754830057e-11,True,True
+Ca,2018,vinho,trans-caftárico,controle x alta,1.0647704939970026e-11,True,True
+Ca,2018,vinho,trans-caftárico,baixa x media,3.940843550043205e-06,True,True
+Ca,2018,vinho,trans-caftárico,baixa x alta,1.7757851300537197e-08,True,True
+Ca,2018,vinho,trans-caftárico,media x alta,4.096209706316856e-06,True,True
+Ca,2018,vinho,trans-resveratrol,controle x baixa,3.833489081728203e-12,True,True
+Ca,2018,vinho,trans-resveratrol,controle x media,1.932076720834175e-11,True,True
+Ca,2018,vinho,trans-resveratrol,controle x alta,9.513501098012966e-13,True,True
+Ca,2018,vinho,trans-resveratrol,baixa x media,2.12766907303763e-06,True,True
+Ca,2018,vinho,trans-resveratrol,baixa x alta,2.12766907303763e-06,True,True
+Ca,2018,vinho,trans-resveratrol,media x alta,9.23262177821016e-09,True,True
+Si,2017,mosto,(+)-Catequina,controle x baixa,4.096047901303024e-06,True,True
+Si,2017,mosto,(+)-Catequina,controle x media,7.315706873622929e-08,True,True
+Si,2017,mosto,(+)-Catequina,controle x alta,3.253897355481872e-05,True,True
+Si,2017,mosto,(+)-Catequina,baixa x media,7.767681274195581e-05,True,True
+Si,2017,mosto,(+)-Catequina,baixa x alta,0.04795854825272294,True,False
+Si,2017,mosto,(+)-Catequina,media x alta,8.044506706328391e-06,True,True
+Si,2017,mosto,(-)-Epicatequina,controle x baixa,2.4460951064675385e-06,True,True
+Si,2017,mosto,(-)-Epicatequina,controle x media,4.335479086847727e-09,True,True
+Si,2017,mosto,(-)-Epicatequina,controle x alta,1.3461037801310027e-05,True,True
+Si,2017,mosto,(-)-Epicatequina,baixa x media,4.6025298594543074e-07,True,True
+Si,2017,mosto,(-)-Epicatequina,baixa x alta,0.0780561593748802,False,True
+Si,2017,mosto,(-)-Epicatequina,media x alta,1.4259186575937832e-07,True,True
+Si,2017,mosto,ABTS,controle x baixa,3.9391548800615794e-07,True,True
+Si,2017,mosto,ABTS,controle x media,1.1228862284440311e-10,True,True
+Si,2017,mosto,ABTS,controle x alta,3.206380938536313e-09,True,True
+Si,2017,mosto,ABTS,baixa x media,3.773725998357236e-09,True,True
+Si,2017,mosto,ABTS,baixa x alta,1.5391521598351332e-06,True,True
+Si,2017,mosto,ABTS,media x alta,5.302675440965743e-07,True,True
+Si,2017,mosto,Acidez total,controle x baixa,0.0012018887344100726,True,True
+Si,2017,mosto,Acidez total,controle x media,2.7447718313755587e-06,True,True
+Si,2017,mosto,Acidez total,controle x alta,4.560539140296971e-05,True,True
+Si,2017,mosto,Acidez total,baixa x media,0.00019345708184825838,True,True
+Si,2017,mosto,Acidez total,baixa x alta,1.109649044317429e-06,True,True
+Si,2017,mosto,Acidez total,media x alta,4.547104737184782e-08,True,True
+Si,2017,mosto,FC,controle x baixa,0.0006620082160200269,True,True
+Si,2017,mosto,FC,controle x media,1.3019773665301493e-05,True,True
+Si,2017,mosto,FC,controle x alta,0.0007482426615489368,True,True
+Si,2017,mosto,FC,baixa x media,0.005552080024200379,True,True
+Si,2017,mosto,FC,baixa x alta,0.9993257641028591,False,False
+Si,2017,mosto,FC,media x alta,0.004789197874298434,True,True
+Si,2017,mosto,FT,controle x baixa,0.0030463876443175275,True,True
+Si,2017,mosto,FT,controle x media,9.751625008602716e-07,True,True
+Si,2017,mosto,FT,controle x alta,0.03648257244620412,True,True
+Si,2017,mosto,FT,baixa x media,1.052617331076533e-07,True,True
+Si,2017,mosto,FT,baixa x alta,0.2920224553080455,False,True
+Si,2017,mosto,FT,media x alta,2.1883187029114737e-07,True,True
+Si,2017,mosto,IE,controle x baixa,6.876637574926292e-07,True,True
+Si,2017,mosto,IE,controle x media,1.1019863729311297e-06,True,True
+Si,2017,mosto,IE,controle x alta,1.8171678598521979e-06,True,True
+Si,2017,mosto,IE,baixa x media,3.685161620303745e-09,True,True
+Si,2017,mosto,IE,baixa x alta,4.705335787669185e-09,True,True
+Si,2017,mosto,IE,media x alta,0.7538411328708683,False,False
+Si,2017,mosto,Málico,controle x baixa,0.012350104599686329,True,True
+Si,2017,mosto,Málico,controle x media,2.1024208988196236e-06,True,True
+Si,2017,mosto,Málico,controle x alta,5.603393628828002e-05,True,True
+Si,2017,mosto,Málico,baixa x media,2.7614234309081276e-05,True,True
+Si,2017,mosto,Málico,baixa x alta,0.003168032809160559,True,True
+Si,2017,mosto,Málico,media x alta,0.0037247982625244758,True,True
+Si,2017,mosto,SST,controle x baixa,2.12766907303763e-06,True,True
+Si,2017,mosto,SST,controle x media,3.908450718626e-08,True,True
+Si,2017,mosto,SST,controle x alta,2.12766907303763e-06,True,True
+Si,2017,mosto,SST,baixa x media,4.602890948901539e-05,True,True
+Si,2017,mosto,SST,baixa x alta,1.0,False,False
+Si,2017,mosto,SST,media x alta,4.602890948901539e-05,True,True
+Si,2017,mosto,Succínico,controle x baixa,1.214514950831358e-07,True,True
+Si,2017,mosto,Succínico,controle x media,2.0881846385378822e-07,True,True
+Si,2017,mosto,Succínico,controle x alta,1.3706527837165083e-06,True,True
+Si,2017,mosto,Succínico,baixa x media,0.5252406977699975,False,True
+Si,2017,mosto,Succínico,baixa x alta,0.0021333199055444396,True,True
+Si,2017,mosto,Succínico,media x alta,0.012068538632903025,True,True
+Si,2017,mosto,Tartárico,controle x baixa,0.2982572866046036,False,True
+Si,2017,mosto,Tartárico,controle x media,0.03240559080722205,True,True
+Si,2017,mosto,Tartárico,controle x alta,0.2023709722167808,False,True
+Si,2017,mosto,Tartárico,baixa x media,0.4261346516600554,False,True
+Si,2017,mosto,Tartárico,baixa x alta,0.9902069967056705,False,True
+Si,2017,mosto,Tartárico,media x alta,0.5816257296846497,False,True
+Si,2017,mosto,o-D,controle x baixa,0.005565871265170053,True,True
+Si,2017,mosto,o-D,controle x media,6.965008211290424e-07,True,True
+Si,2017,mosto,o-D,controle x alta,0.005565871265170053,True,True
+Si,2017,mosto,o-D,baixa x media,9.307467059516128e-06,True,True
+Si,2017,mosto,o-D,baixa x alta,4.964158928522089e-05,True,True
+Si,2017,mosto,o-D,media x alta,9.723325378185876e-08,True,True
+Si,2017,mosto,p-cumárico,controle x baixa,6.432043231363593e-07,True,True
+Si,2017,mosto,p-cumárico,controle x media,0.005233938391266957,True,True
+Si,2017,mosto,p-cumárico,controle x alta,0.0003667116507022339,True,True
+Si,2017,mosto,p-cumárico,baixa x media,8.61190195944328e-06,True,True
+Si,2017,mosto,p-cumárico,baixa x alta,4.602890948901539e-05,True,True
+Si,2017,mosto,p-cumárico,media x alta,0.1441837982076627,False,True
+Si,2017,mosto,trans-caftárico,controle x baixa,6.59472476627343e-14,True,True
+Si,2017,mosto,trans-caftárico,controle x media,2.120525977034049e-14,True,True
+Si,2017,mosto,trans-caftárico,controle x alta,2.4084734207008296e-11,True,True
+Si,2017,mosto,trans-caftárico,baixa x media,4.2028260982540644e-08,True,True
+Si,2017,mosto,trans-caftárico,baixa x alta,1.1950773703972573e-11,True,True
+Si,2017,mosto,trans-caftárico,media x alta,1.059929921609637e-12,True,True
+Si,2017,mosto,trans-resveratrol,controle x baixa,1.4066275211277457e-07,True,True
+Si,2017,mosto,trans-resveratrol,controle x media,8.971900677945399e-08,True,True
+Si,2017,mosto,trans-resveratrol,controle x alta,4.602890948901539e-05,True,True
+Si,2017,mosto,trans-resveratrol,baixa x media,0.6297635799576505,False,False
+Si,2017,mosto,trans-resveratrol,baixa x alta,1.911004971533181e-05,True,True
+Si,2017,mosto,trans-resveratrol,media x alta,8.61190195944328e-06,True,True
+Si,2017,vinhedo,cachos_por_planta,controle x baixa,0.015667707476603954,True,True
+Si,2017,vinhedo,cachos_por_planta,controle x media,0.9136321068443929,False,False
+Si,2017,vinhedo,cachos_por_planta,controle x alta,0.9713678699283713,False,False
+Si,2017,vinhedo,cachos_por_planta,baixa x media,0.03798286249108618,True,True
+Si,2017,vinhedo,cachos_por_planta,baixa x alta,0.028154339188415367,True,True
+Si,2017,vinhedo,cachos_por_planta,media x alta,0.9961608958601577,False,False
+Si,2017,vinhedo,firmeza_N,controle x baixa,0.23010168333159553,False,True
+Si,2017,vinhedo,firmeza_N,controle x media,0.8895952575997307,False,False
+Si,2017,vinhedo,firmeza_N,controle x alta,0.950287532155991,False,False
+Si,2017,vinhedo,firmeza_N,baixa x media,0.5365891842559294,False,True
+Si,2017,vinhedo,firmeza_N,baixa x alta,0.4402464175109053,False,True
+Si,2017,vinhedo,firmeza_N,media x alta,0.9975337171248723,False,False
+Si,2017,vinhedo,peso_cacho_g,controle x baixa,0.4933495340203927,False,False
+Si,2017,vinhedo,peso_cacho_g,controle x media,0.9246602823958321,False,False
+Si,2017,vinhedo,peso_cacho_g,controle x alta,0.978881274884143,False,False
+Si,2017,vinhedo,peso_cacho_g,baixa x media,0.8248533184340056,False,False
+Si,2017,vinhedo,peso_cacho_g,baixa x alta,0.7066878681159314,False,False
+Si,2017,vinhedo,peso_cacho_g,media x alta,0.9955479165582745,False,False
+Si,2017,vinhedo,producao_kg_planta,controle x baixa,0.011111633198892523,True,True
+Si,2017,vinhedo,producao_kg_planta,controle x media,0.5844934241141897,False,False
+Si,2017,vinhedo,producao_kg_planta,controle x alta,0.9582026591924679,False,False
+Si,2017,vinhedo,producao_kg_planta,baixa x media,0.06652384470002437,False,True
+Si,2017,vinhedo,producao_kg_planta,baixa x alta,0.021479531068269164,True,True
+Si,2017,vinhedo,producao_kg_planta,media x alta,0.8473637380318999,False,False
+Si,2017,vinhedo,produtividade_t_ha,controle x baixa,0.0065347122398233815,True,True
+Si,2017,vinhedo,produtividade_t_ha,controle x media,0.29005590178115237,False,True
+Si,2017,vinhedo,produtividade_t_ha,controle x alta,0.7731400466016822,False,False
+Si,2017,vinhedo,produtividade_t_ha,baixa x media,0.08901433090478639,False,True
+Si,2017,vinhedo,produtividade_t_ha,baixa x alta,0.023138444909670652,True,True
+Si,2017,vinhedo,produtividade_t_ha,media x alta,0.7731400466016822,False,False
+Si,2017,vinho,(+)-Catequina,controle x baixa,1.6534652920840998e-05,True,True
+Si,2017,vinho,(+)-Catequina,controle x media,0.019211341003252613,True,True
+Si,2017,vinho,(+)-Catequina,controle x alta,0.9566579093500884,False,False
+Si,2017,vinho,(+)-Catequina,baixa x media,0.00036870246612685786,True,True
+Si,2017,vinho,(+)-Catequina,baixa x alta,2.329098352049641e-05,True,True
+Si,2017,vinho,(+)-Catequina,media x alta,0.038258374714456256,True,True
+Si,2017,vinho,(-)-Epicatequina,controle x baixa,2.4523946133503394e-05,True,True
+Si,2017,vinho,(-)-Epicatequina,controle x media,8.288663444488975e-07,True,True
+Si,2017,vinho,(-)-Epicatequina,controle x alta,5.986241451427787e-05,True,True
+Si,2017,vinho,(-)-Epicatequina,baixa x media,0.0015625687068444583,True,True
+Si,2017,vinho,(-)-Epicatequina,baixa x alta,0.6396765502097495,False,True
+Si,2017,vinho,(-)-Epicatequina,media x alta,0.0004473677975030954,True,True
+Si,2017,vinho,ABTS,controle x baixa,3.87274851310071e-06,True,True
+Si,2017,vinho,ABTS,controle x media,2.0582703297300498e-06,True,True
+Si,2017,vinho,ABTS,controle x alta,5.465354918632315e-07,True,True
+Si,2017,vinho,ABTS,baixa x media,0.6644170231757573,False,False
+Si,2017,vinho,ABTS,baixa x alta,0.018772619386604794,True,False
+Si,2017,vinho,ABTS,media x alta,0.0949306309793998,False,False
+Si,2017,vinho,Acidez titulável,controle x baixa,0.005078572856002439,True,True
+Si,2017,vinho,Acidez titulável,controle x media,0.1347690096723806,False,True
+Si,2017,vinho,Acidez titulável,controle x alta,0.005078572856002439,True,True
+Si,2017,vinho,Acidez titulável,baixa x media,0.14908201516848496,False,False
+Si,2017,vinho,Acidez titulável,baixa x alta,1.0,False,False
+Si,2017,vinho,Acidez titulável,media x alta,0.14908201516848496,False,False
+Si,2017,vinho,Acidez total,controle x baixa,0.00042950971123278947,True,True
+Si,2017,vinho,Acidez total,controle x media,0.004350704084818524,True,False
+Si,2017,vinho,Acidez total,controle x alta,0.3722576737017401,False,True
+Si,2017,vinho,Acidez total,baixa x media,0.22161016929505517,False,True
+Si,2017,vinho,Acidez total,baixa x alta,0.002675939275252781,True,True
+Si,2017,vinho,Acidez total,media x alta,0.04202640125688273,True,True
+Si,2017,vinho,Acético,controle x baixa,1.0,False,False
+Si,2017,vinho,Acético,controle x media,0.14418379820766192,False,False
+Si,2017,vinho,Acético,controle x alta,1.0,False,False
+Si,2017,vinho,Acético,baixa x media,0.14418379820766192,False,False
+Si,2017,vinho,Acético,baixa x alta,1.0,False,False
+Si,2017,vinho,Acético,media x alta,0.14418379820766192,False,False
+Si,2017,vinho,Cafeico,controle x baixa,4.233007666609723e-08,True,True
+Si,2017,vinho,Cafeico,controle x media,2.8222924475240774e-07,True,True
+Si,2017,vinho,Cafeico,controle x alta,9.10661490660658e-09,True,True
+Si,2017,vinho,Cafeico,baixa x media,0.003649830958036615,True,True
+Si,2017,vinho,Cafeico,baixa x alta,0.003649830958036615,True,True
+Si,2017,vinho,Cafeico,media x alta,2.9709901877006395e-05,True,True
+Si,2017,vinho,FC,controle x baixa,2.6614266346314253e-12,True,True
+Si,2017,vinho,FC,controle x media,1.394329096626734e-12,True,True
+Si,2017,vinho,FC,controle x alta,1.9235724124655462e-12,True,True
+Si,2017,vinho,FC,baixa x media,0.0006069139610601626,True,True
+Si,2017,vinho,FC,baixa x alta,0.03703719901232316,True,True
+Si,2017,vinho,FC,media x alta,0.03703719901232316,True,True
+Si,2017,vinho,FT,controle x baixa,7.680479629623704e-06,True,True
+Si,2017,vinho,FT,controle x media,4.5739830284441396e-05,True,True
+Si,2017,vinho,FT,controle x alta,8.872676084514808e-06,True,True
+Si,2017,vinho,FT,baixa x media,0.11260511319636346,False,False
+Si,2017,vinho,FT,baixa x alta,0.9951520833391652,False,False
+Si,2017,vinho,FT,media x alta,0.15584859600365142,False,False
+Si,2017,vinho,Ferúlico,controle x baixa,1.0,False,False
+Si,2017,vinho,Ferúlico,controle x media,0.5252406977699995,False,False
+Si,2017,vinho,Ferúlico,controle x alta,1.0,False,False
+Si,2017,vinho,Ferúlico,baixa x media,0.5252406977699995,False,False
+Si,2017,vinho,Ferúlico,baixa x alta,1.0,False,False
+Si,2017,vinho,Ferúlico,media x alta,0.5252406977699995,False,False
+Si,2017,vinho,Gálico,controle x baixa,0.8549927218133547,False,False
+Si,2017,vinho,Gálico,controle x media,0.00030334383241392704,True,True
+Si,2017,vinho,Gálico,controle x alta,0.0905597847219266,False,True
+Si,2017,vinho,Gálico,baixa x media,0.00014873020867844922,True,True
+Si,2017,vinho,Gálico,baixa x alta,0.029667767060735817,True,True
+Si,2017,vinho,Gálico,media x alta,0.006154570726078168,True,True
+Si,2017,vinho,Lático,controle x baixa,4.563032796056632e-08,True,True
+Si,2017,vinho,Lático,controle x media,2.4839690637712408e-08,True,True
+Si,2017,vinho,Lático,controle x alta,1.6192814533688704e-08,True,True
+Si,2017,vinho,Lático,baixa x media,0.29196251430531583,False,True
+Si,2017,vinho,Lático,baixa x alta,0.0399278227554416,True,True
+Si,2017,vinho,Lático,media x alta,0.5108584246237252,False,True
+Si,2017,vinho,Málico,controle x baixa,1.7813907767005865e-05,True,True
+Si,2017,vinho,Málico,controle x media,9.60683831374709e-08,True,True
+Si,2017,vinho,Málico,controle x alta,6.610080515168093e-07,True,True
+Si,2017,vinho,Málico,baixa x media,2.3410454646710654e-05,True,True
+Si,2017,vinho,Málico,baixa x alta,0.0015189618735144128,True,True
+Si,2017,vinho,Málico,media x alta,0.006154570726078057,True,True
+Si,2017,vinho,Protocateico,controle x baixa,0.027211337411557346,True,True
+Si,2017,vinho,Protocateico,controle x media,0.18340383167249308,False,True
+Si,2017,vinho,Protocateico,controle x alta,0.051307382856512485,False,True
+Si,2017,vinho,Protocateico,baixa x media,0.5521340946427219,False,False
+Si,2017,vinho,Protocateico,baixa x alta,0.9667901135765851,False,False
+Si,2017,vinho,Protocateico,media x alta,0.8005437152503774,False,False
+Si,2017,vinho,Quercetina,controle x baixa,1.8171678598521979e-06,True,True
+Si,2017,vinho,Quercetina,controle x media,3.956536415306022e-05,True,True
+Si,2017,vinho,Quercetina,controle x alta,1.0056887314702223e-05,True,True
+Si,2017,vinho,Quercetina,baixa x media,0.004624511497037798,True,True
+Si,2017,vinho,Quercetina,baixa x alta,0.06651409052799351,False,True
+Si,2017,vinho,Quercetina,media x alta,0.2640523795006777,False,False
+Si,2017,vinho,SO2 total,controle x baixa,1.1292905410797971e-07,True,True
+Si,2017,vinho,SO2 total,controle x media,2.846967120939681e-07,True,True
+Si,2017,vinho,SO2 total,controle x alta,1.0753023015563912e-05,True,True
+Si,2017,vinho,SO2 total,baixa x media,0.15894422657954665,False,False
+Si,2017,vinho,SO2 total,baixa x alta,5.712057383622238e-05,True,True
+Si,2017,vinho,SO2 total,media x alta,0.00044955185643791307,True,True
+Si,2017,vinho,Siríngico,controle x baixa,3.674346382709359e-10,True,True
+Si,2017,vinho,Siríngico,controle x media,2.12766907303763e-06,True,True
+Si,2017,vinho,Siríngico,controle x alta,0.005233938391266957,True,True
+Si,2017,vinho,Siríngico,baixa x media,9.23262177821016e-09,True,True
+Si,2017,vinho,Siríngico,baixa x alta,9.387989274856068e-10,True,True
+Si,2017,vinho,Siríngico,media x alta,4.602890948901539e-05,True,True
+Si,2017,vinho,Succínico,controle x baixa,9.10661490660658e-09,True,True
+Si,2017,vinho,Succínico,controle x media,4.243329021491604e-10,True,True
+Si,2017,vinho,Succínico,controle x alta,1.7195334045538857e-10,True,True
+Si,2017,vinho,Succínico,baixa x media,3.349778629480049e-06,True,True
+Si,2017,vinho,Succínico,baixa x alta,2.8222924475240774e-07,True,True
+Si,2017,vinho,Succínico,media x alta,0.003649830958036726,True,True
+Si,2017,vinho,Tartárico,controle x baixa,2.12766907303763e-06,True,True
+Si,2017,vinho,Tartárico,controle x media,4.2644310305206545e-10,True,True
+Si,2017,vinho,Tartárico,controle x alta,3.908450718626e-08,True,True
+Si,2017,vinho,Tartárico,baixa x media,1.154269968495214e-08,True,True
+Si,2017,vinho,Tartárico,baixa x alta,4.602890948901539e-05,True,True
+Si,2017,vinho,Tartárico,media x alta,3.160157187043211e-07,True,True
+Si,2017,vinho,Teor alcoólico,controle x baixa,1.718225180413757e-05,True,True
+Si,2017,vinho,Teor alcoólico,controle x media,2.7743748498565424e-07,True,True
+Si,2017,vinho,Teor alcoólico,controle x alta,0.0001669382588865842,True,True
+Si,2017,vinho,Teor alcoólico,baixa x media,0.000217176708198763,True,True
+Si,2017,vinho,Teor alcoólico,baixa x alta,0.06958841193247156,False,True
+Si,2017,vinho,Teor alcoólico,media x alta,2.1036248521233425e-05,True,True
+Si,2017,vinho,Vanílico,controle x baixa,0.005888046797457802,True,True
+Si,2017,vinho,Vanílico,controle x media,0.9613356943334501,False,True
+Si,2017,vinho,Vanílico,controle x alta,0.00017364455850643612,True,True
+Si,2017,vinho,Vanílico,baixa x media,0.010857629541314195,True,True
+Si,2017,vinho,Vanílico,baixa x alta,0.0399278227554416,True,True
+Si,2017,vinho,Vanílico,media x alta,0.0002673628095268832,True,True
+Si,2017,vinho,o-D,controle x baixa,0.008699027831211237,True,True
+Si,2017,vinho,o-D,controle x media,0.0003199015696517815,True,True
+Si,2017,vinho,o-D,controle x alta,0.48172219663187554,False,True
+Si,2017,vinho,o-D,baixa x media,0.06669083334308257,False,True
+Si,2017,vinho,o-D,baixa x alta,0.06669083334308223,False,True
+Si,2017,vinho,o-D,media x alta,0.0014602953524703866,True,True
+Si,2017,vinho,trans-caftárico,controle x baixa,1.284831635528505e-07,True,True
+Si,2017,vinho,trans-caftárico,controle x media,0.00014776049811049408,True,True
+Si,2017,vinho,trans-caftárico,controle x alta,3.2334426106617187e-06,True,True
+Si,2017,vinho,trans-caftárico,baixa x media,6.4932699079811584e-06,True,True
+Si,2017,vinho,trans-caftárico,baixa x alta,0.0004474103035196908,True,True
+Si,2017,vinho,trans-caftárico,media x alta,0.0023610398778994846,True,True
+Si,2018,mosto,(+)-Catequina,controle x baixa,4.9436792632806537e-05,True,True
+Si,2018,mosto,(+)-Catequina,controle x media,0.017707976192751107,True,True
+Si,2018,mosto,(+)-Catequina,controle x alta,0.009638456850608046,True,True
+Si,2018,mosto,(+)-Catequina,baixa x media,0.0019209798223315255,True,True
+Si,2018,mosto,(+)-Catequina,baixa x alta,0.0032701576604940996,True,True
+Si,2018,mosto,(+)-Catequina,media x alta,0.9655368127467984,False,False
+Si,2018,mosto,(-)-Epicatequina,controle x baixa,0.013347533800370348,True,True
+Si,2018,mosto,(-)-Epicatequina,controle x media,6.988662229012732e-05,True,True
+Si,2018,mosto,(-)-Epicatequina,controle x alta,0.004136048084979249,True,True
+Si,2018,mosto,(-)-Epicatequina,baixa x media,0.004136048084979249,True,True
+Si,2018,mosto,(-)-Epicatequina,baixa x alta,0.7924319147875915,False,False
+Si,2018,mosto,(-)-Epicatequina,media x alta,0.013347533800370348,True,True
+Si,2018,mosto,ABTS,controle x baixa,3.0550841443321985e-05,True,True
+Si,2018,mosto,ABTS,controle x media,7.870042267166255e-05,True,True
+Si,2018,mosto,ABTS,controle x alta,0.009204071101826194,True,True
+Si,2018,mosto,ABTS,baixa x media,0.6188710233499795,False,False
+Si,2018,mosto,ABTS,baixa x alta,0.0016191912467654612,True,True
+Si,2018,mosto,ABTS,media x alta,0.007065616823556664,True,True
+Si,2018,mosto,Acidez total,controle x baixa,0.00019188848907791822,True,True
+Si,2018,mosto,Acidez total,controle x media,1.7172584961810955e-06,True,True
+Si,2018,mosto,Acidez total,controle x alta,0.005214412331476126,True,True
+Si,2018,mosto,Acidez total,baixa x media,0.000486096577053563,True,True
+Si,2018,mosto,Acidez total,baixa x alta,0.05372686918714964,False,True
+Si,2018,mosto,Acidez total,media x alta,3.394885069085696e-05,True,True
+Si,2018,mosto,Cafeico,controle x baixa,3.8056490181404e-09,True,True
+Si,2018,mosto,Cafeico,controle x media,2.4974894152762772e-08,True,True
+Si,2018,mosto,Cafeico,controle x alta,2.8799236440057996e-08,True,True
+Si,2018,mosto,Cafeico,baixa x media,0.0005434644940176536,True,True
+Si,2018,mosto,Cafeico,baixa x alta,0.00034704331906143526,True,True
+Si,2018,mosto,Cafeico,media x alta,0.9651223057116407,False,False
+Si,2018,mosto,Campferol,controle x baixa,0.295372897084888,False,False
+Si,2018,mosto,Campferol,controle x media,0.08008942554960552,False,True
+Si,2018,mosto,Campferol,controle x alta,0.5145153417815298,False,False
+Si,2018,mosto,Campferol,baixa x media,0.7768639239968449,False,True
+Si,2018,mosto,Campferol,baixa x alta,0.040834500472322066,True,True
+Si,2018,mosto,Campferol,media x alta,0.01115393983897639,True,True
+Si,2018,mosto,Cítrico,controle x baixa,1.0,False,False
+Si,2018,mosto,Cítrico,controle x media,0.00010435444733725152,True,True
+Si,2018,mosto,Cítrico,controle x alta,1.0,False,False
+Si,2018,mosto,Cítrico,baixa x media,0.00010435444733725152,True,True
+Si,2018,mosto,Cítrico,baixa x alta,1.0,False,False
+Si,2018,mosto,Cítrico,media x alta,0.00010435444733725152,True,True
+Si,2018,mosto,FC,controle x baixa,1.7438186633578212e-06,True,True
+Si,2018,mosto,FC,controle x media,1.628829842437174e-05,True,True
+Si,2018,mosto,FC,controle x alta,3.1641413446026334e-06,True,True
+Si,2018,mosto,FC,baixa x media,0.02120670202589381,True,True
+Si,2018,mosto,FC,baixa x alta,0.6880080559054498,False,False
+Si,2018,mosto,FC,media x alta,0.10152435250246727,False,True
+Si,2018,mosto,FT,controle x baixa,1.1900080865157037e-06,True,True
+Si,2018,mosto,FT,controle x media,0.00014167671057951914,True,True
+Si,2018,mosto,FT,controle x alta,0.6900253186723728,False,False
+Si,2018,mosto,FT,baixa x media,0.00033582100923401637,True,True
+Si,2018,mosto,FT,baixa x alta,2.0961061806268333e-06,True,True
+Si,2018,mosto,FT,media x alta,0.0003899806995589783,True,True
+Si,2018,mosto,Gálico,controle x baixa,8.61190195944328e-06,True,True
+Si,2018,mosto,Gálico,controle x media,0.14418379820766192,False,False
+Si,2018,mosto,Gálico,controle x alta,1.0,False,False
+Si,2018,mosto,Gálico,baixa x media,2.12766907303763e-06,True,True
+Si,2018,mosto,Gálico,baixa x alta,8.61190195944328e-06,True,True
+Si,2018,mosto,Gálico,media x alta,0.14418379820766192,False,False
+Si,2018,mosto,IE,controle x baixa,0.5252406977700141,False,False
+Si,2018,mosto,IE,controle x media,0.08475856616279831,False,True
+Si,2018,mosto,IE,controle x alta,1.0,False,False
+Si,2018,mosto,IE,baixa x media,0.01206853863290347,True,True
+Si,2018,mosto,IE,baixa x alta,0.5252406977700141,False,False
+Si,2018,mosto,IE,media x alta,0.08475856616279831,False,True
+Si,2018,mosto,Miricetina,controle x baixa,3.298505912852079e-11,True,True
+Si,2018,mosto,Miricetina,controle x media,4.963223165788122e-10,True,True
+Si,2018,mosto,Miricetina,controle x alta,2.749850347427696e-10,True,True
+Si,2018,mosto,Miricetina,baixa x media,6.432043231363593e-07,True,True
+Si,2018,mosto,Miricetina,baixa x alta,3.3054281297628663e-06,True,True
+Si,2018,mosto,Miricetina,media x alta,0.045722180899416376,True,True
+Si,2018,mosto,Málico,controle x baixa,2.9348767971448808e-08,True,True
+Si,2018,mosto,Málico,controle x media,4.850346790874482e-09,True,True
+Si,2018,mosto,Málico,controle x alta,9.675286383181714e-07,True,True
+Si,2018,mosto,Málico,baixa x media,0.0008719501389605755,True,True
+Si,2018,mosto,Málico,baixa x alta,7.74667647476246e-05,True,True
+Si,2018,mosto,Málico,media x alta,1.3361062045635919e-06,True,True
+Si,2018,mosto,Quercetina,controle x baixa,0.0005518650814416715,True,True
+Si,2018,mosto,Quercetina,controle x media,0.0009970213054955046,True,True
+Si,2018,mosto,Quercetina,controle x alta,0.0018698284274936139,True,True
+Si,2018,mosto,Quercetina,baixa x media,0.9361338845782652,False,False
+Si,2018,mosto,Quercetina,baixa x alta,0.6690052005976884,False,True
+Si,2018,mosto,Quercetina,media x alta,0.9361338845782662,False,True
+Si,2018,mosto,SST,controle x baixa,0.005233938391266957,True,True
+Si,2018,mosto,SST,controle x media,4.602890948901539e-05,True,True
+Si,2018,mosto,SST,controle x alta,6.432043231363593e-07,True,True
+Si,2018,mosto,SST,baixa x media,0.005233938391267179,True,True
+Si,2018,mosto,SST,baixa x alta,8.61190195944328e-06,True,True
+Si,2018,mosto,SST,media x alta,0.0003667116507022339,True,True
+Si,2018,mosto,Siríngico,controle x baixa,1.0,False,False
+Si,2018,mosto,Siríngico,controle x media,0.14418379820766192,False,False
+Si,2018,mosto,Siríngico,controle x alta,1.0,False,False
+Si,2018,mosto,Siríngico,baixa x media,0.14418379820766192,False,False
+Si,2018,mosto,Siríngico,baixa x alta,1.0,False,False
+Si,2018,mosto,Siríngico,media x alta,0.14418379820766192,False,False
+Si,2018,mosto,Succínico,controle x baixa,0.0014542923069842395,True,True
+Si,2018,mosto,Succínico,controle x media,0.0166535404501017,True,True
+Si,2018,mosto,Succínico,controle x alta,0.0166535404501017,True,True
+Si,2018,mosto,Succínico,baixa x media,0.2640523795006777,False,False
+Si,2018,mosto,Succínico,baixa x alta,0.2640523795006777,False,False
+Si,2018,mosto,Succínico,media x alta,1.0,False,False
+Si,2018,mosto,Tartárico,controle x baixa,7.590617800978805e-09,True,True
+Si,2018,mosto,Tartárico,controle x media,8.504053017333035e-10,True,True
+Si,2018,mosto,Tartárico,controle x alta,3.613012533598692e-08,True,True
+Si,2018,mosto,Tartárico,baixa x media,5.549637910817751e-05,True,True
+Si,2018,mosto,Tartárico,baixa x alta,0.002906165024463614,True,True
+Si,2018,mosto,Tartárico,media x alta,1.8725402058938911e-06,True,True
+Si,2018,mosto,o-D,controle x baixa,0.836921493846952,False,False
+Si,2018,mosto,o-D,controle x media,0.00020173202509976562,True,True
+Si,2018,mosto,o-D,controle x alta,8.558437404926345e-05,True,True
+Si,2018,mosto,o-D,baixa x media,0.00043841512426967544,True,True
+Si,2018,mosto,o-D,baixa x alta,0.0001729768415270616,True,True
+Si,2018,mosto,o-D,media x alta,0.7494001941154951,False,False
+Si,2018,mosto,pH,controle x baixa,0.01206853863290347,True,True
+Si,2018,mosto,pH,controle x media,0.00047932212526669016,True,True
+Si,2018,mosto,pH,controle x alta,0.5252406977700141,False,False
+Si,2018,mosto,pH,baixa x media,1.5704472310251738e-05,True,True
+Si,2018,mosto,pH,baixa x alta,0.08475856616279831,False,True
+Si,2018,mosto,pH,media x alta,0.00013183565349250692,True,True
+Si,2018,mosto,trans-caftárico,controle x baixa,4.603643133371804e-09,True,True
+Si,2018,mosto,trans-caftárico,controle x media,2.8755371417332753e-09,True,True
+Si,2018,mosto,trans-caftárico,controle x alta,1.3489803163402314e-08,True,True
+Si,2018,mosto,trans-caftárico,baixa x media,0.27855744510770364,False,True
+Si,2018,mosto,trans-caftárico,baixa x alta,0.015215975947345473,True,True
+Si,2018,mosto,trans-caftárico,media x alta,0.0014135624929447754,True,True
+Si,2018,mosto,trans-resveratrol,controle x baixa,3.674346382709359e-10,True,True
+Si,2018,mosto,trans-resveratrol,controle x media,2.6506241646018225e-11,True,True
+Si,2018,mosto,trans-resveratrol,controle x alta,1.0750611512122532e-10,True,True
+Si,2018,mosto,trans-resveratrol,baixa x media,6.432043231363593e-07,True,True
+Si,2018,mosto,trans-resveratrol,baixa x alta,0.0003667116507022339,True,True
+Si,2018,mosto,trans-resveratrol,media x alta,4.602890948901539e-05,True,True
+Si,2018,vinhedo,cachos_por_planta,controle x baixa,0.0573416492675094,False,True
+Si,2018,vinhedo,cachos_por_planta,controle x media,0.4424625835772892,False,False
+Si,2018,vinhedo,cachos_por_planta,controle x alta,1.6362825328020136e-07,True,True
+Si,2018,vinhedo,cachos_por_planta,baixa x media,0.4643552618282901,False,False
+Si,2018,vinhedo,cachos_por_planta,baixa x alta,5.949929425819178e-07,True,True
+Si,2018,vinhedo,cachos_por_planta,media x alta,3.069569017855045e-07,True,True
+Si,2018,vinhedo,peso_cacho_g,controle x baixa,0.09035502723843358,False,True
+Si,2018,vinhedo,peso_cacho_g,controle x media,0.47955035912764943,False,True
+Si,2018,vinhedo,peso_cacho_g,controle x alta,0.459172159892414,False,True
+Si,2018,vinhedo,peso_cacho_g,baixa x media,0.5976655260471814,False,False
+Si,2018,vinhedo,peso_cacho_g,baixa x alta,0.619993893137858,False,False
+Si,2018,vinhedo,peso_cacho_g,media x alta,0.999975019789239,False,False
+Si,2018,vinhedo,producao_kg_planta,controle x baixa,0.05196488908536334,False,True
+Si,2018,vinhedo,producao_kg_planta,controle x media,0.9891732487855988,False,False
+Si,2018,vinhedo,producao_kg_planta,controle x alta,0.0058166292453516455,True,True
+Si,2018,vinhedo,producao_kg_planta,baixa x media,0.08018405575595777,False,True
+Si,2018,vinhedo,producao_kg_planta,baixa x alta,0.41138525854893193,False,False
+Si,2018,vinhedo,producao_kg_planta,media x alta,0.008571529991600824,True,True
+Si,2018,vinhedo,produtividade_t_ha,controle x baixa,0.018440594555672374,True,True
+Si,2018,vinhedo,produtividade_t_ha,controle x media,0.9771937810735821,False,False
+Si,2018,vinhedo,produtividade_t_ha,controle x alta,0.006534619806895514,True,True
+Si,2018,vinhedo,produtividade_t_ha,baixa x media,0.03180029370369941,True,True
+Si,2018,vinhedo,produtividade_t_ha,baixa x alta,0.8543276699150936,False,False
+Si,2018,vinhedo,produtividade_t_ha,media x alta,0.010873729514986885,True,True
+Si,2018,vinho,(+)-Catequina,controle x baixa,0.0037599608244494043,True,True
+Si,2018,vinho,(+)-Catequina,controle x media,0.9242383635604151,False,True
+Si,2018,vinho,(+)-Catequina,controle x alta,0.00011775593392537864,True,True
+Si,2018,vinho,(+)-Catequina,baixa x media,0.008048561044262992,True,True
+Si,2018,vinho,(+)-Catequina,baixa x alta,0.03546955207886349,True,True
+Si,2018,vinho,(+)-Catequina,media x alta,0.00020063488138488683,True,True
+Si,2018,vinho,(-)-Epicatequina,controle x baixa,7.474798557893791e-12,True,True
+Si,2018,vinho,(-)-Epicatequina,controle x media,5.897558933221081e-05,True,True
+Si,2018,vinho,(-)-Epicatequina,controle x alta,2.9107949384155063e-10,True,True
+Si,2018,vinho,(-)-Epicatequina,baixa x media,2.2848167802180797e-11,True,True
+Si,2018,vinho,(-)-Epicatequina,baixa x alta,2.1301001962292787e-08,True,True
+Si,2018,vinho,(-)-Epicatequina,media x alta,1.8766765919053796e-09,True,True
+Si,2018,vinho,ABTS,controle x baixa,0.01134370222589065,True,True
+Si,2018,vinho,ABTS,controle x media,0.0007842708140740617,True,True
+Si,2018,vinho,ABTS,controle x alta,0.0016741137955694763,True,True
+Si,2018,vinho,ABTS,baixa x media,0.17927813092554357,False,True
+Si,2018,vinho,ABTS,baixa x alta,0.4384561815127763,False,True
+Si,2018,vinho,ABTS,media x alta,0.8910027171002702,False,False
+Si,2018,vinho,Acidez titulável,controle x baixa,0.003981294238281308,True,True
+Si,2018,vinho,Acidez titulável,controle x media,0.006426009340166239,True,True
+Si,2018,vinho,Acidez titulável,controle x alta,0.007935882924223758,True,True
+Si,2018,vinho,Acidez titulável,baixa x media,0.9785154986167458,False,False
+Si,2018,vinho,Acidez titulável,baixa x alta,0.9420352982121922,False,False
+Si,2018,vinho,Acidez titulável,media x alta,0.9981993600961893,False,False
+Si,2018,vinho,Acidez total,controle x baixa,6.011781694681417e-08,True,True
+Si,2018,vinho,Acidez total,controle x media,1.6369888373723995e-06,True,False
+Si,2018,vinho,Acidez total,controle x alta,0.00025046770304992805,True,True
+Si,2018,vinho,Acidez total,baixa x media,0.00020291077504885902,True,True
+Si,2018,vinho,Acidez total,baixa x alta,1.4549605710234559e-06,True,True
+Si,2018,vinho,Acidez total,media x alta,0.00033421631088870196,True,True
+Si,2018,vinho,Acético,controle x baixa,9.918332821712283e-11,True,True
+Si,2018,vinho,Acético,controle x media,9.918332821712283e-11,True,True
+Si,2018,vinho,Acético,controle x alta,4.243329021491604e-10,True,True
+Si,2018,vinho,Acético,baixa x media,1.0,False,False
+Si,2018,vinho,Acético,baixa x alta,0.00011373394484404109,True,True
+Si,2018,vinho,Acético,media x alta,0.00011373394484404109,True,True
+Si,2018,vinho,Cafeico,controle x baixa,6.795207063703401e-09,True,True
+Si,2018,vinho,Cafeico,controle x media,2.00210040979254e-06,True,True
+Si,2018,vinho,Cafeico,controle x alta,9.832833371858918e-06,True,True
+Si,2018,vinho,Cafeico,baixa x media,1.252066148760278e-06,True,True
+Si,2018,vinho,Cafeico,baixa x alta,3.52895883626303e-07,True,True
+Si,2018,vinho,Cafeico,media x alta,0.09107959956678602,False,True
+Si,2018,vinho,Campferol,controle x baixa,8.241286542087778e-10,True,True
+Si,2018,vinho,Campferol,controle x media,0.034660651625742056,True,True
+Si,2018,vinho,Campferol,controle x alta,9.10661490660658e-09,True,True
+Si,2018,vinho,Campferol,baixa x media,1.7001889895951194e-09,True,True
+Si,2018,vinho,Campferol,baixa x alta,2.9709901877006395e-05,True,True
+Si,2018,vinho,Campferol,media x alta,2.4538812204433214e-08,True,True
+Si,2018,vinho,FC,controle x baixa,1.4804508596810706e-07,True,True
+Si,2018,vinho,FC,controle x media,1.1373548757243057e-06,True,True
+Si,2018,vinho,FC,controle x alta,6.593139000310444e-07,True,True
+Si,2018,vinho,FC,baixa x media,0.0062926986743391256,True,True
+Si,2018,vinho,FC,baixa x alta,0.028968838393243712,True,True
+Si,2018,vinho,FC,media x alta,0.6676846969194836,False,True
+Si,2018,vinho,FT,controle x baixa,2.049471703458039e-13,True,True
+Si,2018,vinho,FT,controle x media,1.7085910464231802e-10,True,True
+Si,2018,vinho,FT,controle x alta,1.8028911696887917e-12,True,True
+Si,2018,vinho,FT,baixa x media,2.2759794049420634e-11,True,True
+Si,2018,vinho,FT,baixa x alta,3.677908033683508e-08,True,True
+Si,2018,vinho,FT,media x alta,1.2732304099927205e-09,True,True
+Si,2018,vinho,Ferúlico,controle x baixa,0.005233938391266957,True,True
+Si,2018,vinho,Ferúlico,controle x media,0.005233938391267179,True,True
+Si,2018,vinho,Ferúlico,controle x alta,4.602890948901539e-05,True,True
+Si,2018,vinho,Ferúlico,baixa x media,4.602890948901539e-05,True,True
+Si,2018,vinho,Ferúlico,baixa x alta,0.005233938391266957,True,True
+Si,2018,vinho,Ferúlico,media x alta,2.12766907303763e-06,True,True
+Si,2018,vinho,Gálico,controle x baixa,8.935110429320048e-10,True,True
+Si,2018,vinho,Gálico,controle x media,3.3745748750924065e-07,True,True
+Si,2018,vinho,Gálico,controle x alta,4.443981727053625e-08,True,True
+Si,2018,vinho,Gálico,baixa x media,1.410459524731067e-07,True,True
+Si,2018,vinho,Gálico,baixa x alta,1.5306769117762187e-06,True,True
+Si,2018,vinho,Gálico,media x alta,0.002621987876428533,True,True
+Si,2018,vinho,Lático,controle x baixa,0.003649830958036615,True,True
+Si,2018,vinho,Lático,controle x media,0.36875016797989923,False,False
+Si,2018,vinho,Lático,controle x alta,0.00011373394484404109,True,True
+Si,2018,vinho,Lático,baixa x media,0.0005518650814416715,True,True
+Si,2018,vinho,Lático,baixa x alta,0.0346606516257425,True,True
+Si,2018,vinho,Lático,media x alta,2.9709901877006395e-05,True,True
+Si,2018,vinho,Miricetina,controle x baixa,0.32405984786519093,False,True
+Si,2018,vinho,Miricetina,controle x media,0.3240598478651898,False,True
+Si,2018,vinho,Miricetina,controle x alta,0.8580309009543251,False,True
+Si,2018,vinho,Miricetina,baixa x media,0.025835911253207722,True,True
+Si,2018,vinho,Miricetina,baixa x alta,0.7266630128672937,False,False
+Si,2018,vinho,Miricetina,media x alta,0.11269347239983196,False,True
+Si,2018,vinho,Málico,controle x baixa,3.0103613257725925e-07,True,True
+Si,2018,vinho,Málico,controle x media,1.9443275678376892e-07,True,True
+Si,2018,vinho,Málico,controle x alta,4.143734025019441e-06,True,True
+Si,2018,vinho,Málico,baixa x media,0.7084703459234964,False,False
+Si,2018,vinho,Málico,baixa x alta,0.0028080115788200466,True,True
+Si,2018,vinho,Málico,media x alta,0.0008510733686255545,True,True
+Si,2018,vinho,Protocateico,controle x baixa,0.0002839262939466902,True,True
+Si,2018,vinho,Protocateico,controle x media,5.642086797763568e-11,True,True
+Si,2018,vinho,Protocateico,controle x alta,4.3770066182613476e-07,True,True
+Si,2018,vinho,Protocateico,baixa x media,1.8206824936584098e-10,True,True
+Si,2018,vinho,Protocateico,baixa x alta,2.9709901877006395e-05,True,True
+Si,2018,vinho,Protocateico,media x alta,1.2627788814612018e-09,True,True
+Si,2018,vinho,Quercetina,controle x baixa,0.14418379820766192,False,True
+Si,2018,vinho,Quercetina,controle x media,0.005233938391267512,True,True
+Si,2018,vinho,Quercetina,controle x alta,0.14418379820766192,False,True
+Si,2018,vinho,Quercetina,baixa x media,0.1441837982076729,False,False
+Si,2018,vinho,Quercetina,baixa x alta,1.0,False,False
+Si,2018,vinho,Quercetina,media x alta,0.1441837982076729,False,True
+Si,2018,vinho,SO2 total,controle x baixa,0.0292814221276142,True,True
+Si,2018,vinho,SO2 total,controle x media,3.735808372751226e-05,True,True
+Si,2018,vinho,SO2 total,controle x alta,0.0953209771755531,False,True
+Si,2018,vinho,SO2 total,baixa x media,0.0008600461828148775,True,True
+Si,2018,vinho,SO2 total,baixa x alta,0.8340903484160573,False,False
+Si,2018,vinho,SO2 total,media x alta,0.0003723690428673043,True,True
+Si,2018,vinho,Siríngico,controle x baixa,8.971900677945399e-08,True,True
+Si,2018,vinho,Siríngico,controle x media,0.14418379820766192,False,True
+Si,2018,vinho,Siríngico,controle x alta,3.688016558811569e-11,True,True
+Si,2018,vinho,Siríngico,baixa x media,3.908450718626e-08,True,True
+Si,2018,vinho,Siríngico,baixa x alta,3.0212499169124385e-12,True,True
+Si,2018,vinho,Siríngico,media x alta,5.2011728257639334e-11,True,True
+Si,2018,vinho,Succínico,controle x baixa,1.1492527499989968e-05,True,True
+Si,2018,vinho,Succínico,controle x media,2.639809405846627e-06,True,True
+Si,2018,vinho,Succínico,controle x alta,7.348371976245716e-06,True,True
+Si,2018,vinho,Succínico,baixa x media,0.1342175296189405,False,True
+Si,2018,vinho,Succínico,baixa x alta,0.8886001866385472,False,False
+Si,2018,vinho,Succínico,media x alta,0.3453374500180819,False,False
+Si,2018,vinho,Tartárico,controle x baixa,0.05448583760352843,False,True
+Si,2018,vinho,Tartárico,controle x media,0.0010717216023578002,True,True
+Si,2018,vinho,Tartárico,controle x alta,0.9843460338329367,False,False
+Si,2018,vinho,Tartárico,baixa x media,0.054485837603527876,False,True
+Si,2018,vinho,Tartárico,baixa x alta,0.08919233009462124,False,True
+Si,2018,vinho,Tartárico,media x alta,0.0015644286392065831,True,True
+Si,2018,vinho,Teor alcoólico,controle x baixa,1.408241889766515e-08,True,True
+Si,2018,vinho,Teor alcoólico,controle x media,2.9221769448639634e-10,True,True
+Si,2018,vinho,Teor alcoólico,controle x alta,0.007187198657747862,True,True
+Si,2018,vinho,Teor alcoólico,baixa x media,5.467336108289089e-07,True,True
+Si,2018,vinho,Teor alcoólico,baixa x alta,5.951200354736841e-08,True,True
+Si,2018,vinho,Teor alcoólico,media x alta,6.904894434001108e-10,True,True
+Si,2018,vinho,Tirosol,controle x baixa,0.08640567831740376,False,True
+Si,2018,vinho,Tirosol,controle x media,0.001564002503531392,True,True
+Si,2018,vinho,Tirosol,controle x alta,2.0017725204435344e-05,True,True
+Si,2018,vinho,Tirosol,baixa x media,0.05622153067190738,False,True
+Si,2018,vinho,Tirosol,baixa x alta,0.00017772817047323475,True,True
+Si,2018,vinho,Tirosol,media x alta,0.004507841370006149,True,True
+Si,2018,vinho,Vanílico,controle x baixa,1.658584380948014e-11,True,True
+Si,2018,vinho,Vanílico,controle x media,3.401390280544092e-12,True,True
+Si,2018,vinho,Vanílico,controle x alta,3.401390280544092e-12,True,True
+Si,2018,vinho,Vanílico,baixa x media,3.275157922644212e-14,True,True
+Si,2018,vinho,Vanílico,baixa x alta,3.275157922644212e-14,True,True
+Si,2018,vinho,Vanílico,media x alta,1.0,False,False
+Si,2018,vinho,o-D,controle x baixa,1.1482675033036571e-08,True,True
+Si,2018,vinho,o-D,controle x media,6.307081959366911e-06,True,True
+Si,2018,vinho,o-D,controle x alta,9.128333333663363e-08,True,True
+Si,2018,vinho,o-D,baixa x media,1.1926391664252023e-06,True,True
+Si,2018,vinho,o-D,baixa x alta,0.0007697184464454665,True,True
+Si,2018,vinho,o-D,media x alta,7.097207073847311e-05,True,True
+Si,2018,vinho,trans-caftárico,controle x baixa,9.051315252861514e-12,True,True
+Si,2018,vinho,trans-caftárico,controle x media,1.6743162412069523e-10,True,True
+Si,2018,vinho,trans-caftárico,controle x alta,7.963341097649845e-11,True,True
+Si,2018,vinho,trans-caftárico,baixa x media,1.1195605609248815e-07,True,True
+Si,2018,vinho,trans-caftárico,baixa x alta,7.964647971148153e-07,True,True
+Si,2018,vinho,trans-caftárico,media x alta,0.0062850544600761005,True,True
+Si,2018,vinho,trans-resveratrol,controle x baixa,3.808648840752937e-09,True,True
+Si,2018,vinho,trans-resveratrol,controle x media,2.935160114958535e-09,True,True
+Si,2018,vinho,trans-resveratrol,controle x alta,3.3745748750924065e-07,True,True
+Si,2018,vinho,trans-resveratrol,baixa x media,0.7019655604602553,False,False
+Si,2018,vinho,trans-resveratrol,baixa x alta,2.713557596623062e-06,True,True
+Si,2018,vinho,trans-resveratrol,media x alta,1.5306769117762187e-06,True,True

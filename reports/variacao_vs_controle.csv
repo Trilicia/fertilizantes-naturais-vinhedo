@@ -1,0 +1,763 @@
+sal,nivel,rotulo,dose_g_l,safra,etapa,codigo,nome,grupo,unidade,media,dp,n,letra_tukey,flag_qualidade,ctrl,letra_ctrl,var_pct,dif_abs,difere
+Si,baixa,Si 4 g/L,4.0,2017,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,19.9,0.1,3,b,,21.1,a,-5.687203791469208,-1.2000000000000028,True
+Si,media,Si 8 g/L,8.0,2017,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,19.1,0.1,3,c,,21.1,a,-9.47867298578199,-2.0,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,19.9,0.1,3,b,,21.1,a,-5.687203791469208,-1.2000000000000028,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,19.7,0.1,3,b,,21.1,a,-6.635071090047403,-1.4000000000000021,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,19.8,0.2,3,b,,21.1,a,-6.161137440758296,-1.3000000000000007,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,19.7,0.1,3,b,,21.1,a,-6.635071090047403,-1.4000000000000021,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),136.73,1.21,3,b,,131.31,c,4.127636889802747,5.4199999999999875,True
+Si,media,Si 8 g/L,8.0,2017,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),143.79,1.26,3,a,,131.31,c,9.504226639250621,12.47999999999999,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),122.7,1.1,3,d,,131.31,c,-6.557002513136852,-8.61,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),135.3,1.5,3,a,,131.3,b,3.046458492003046,4.0,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),131.3,0.6,3,b,,131.3,b,0.0,0.0,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),93.7,1.2,3,c,,131.3,b,-28.636709824828642,-37.60000000000001,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,pH,pH,Físico-químico,-,3.01,0.0,3,b,,3.0,c,0.3333333333333262,0.009999999999999787,True
+Si,media,Si 8 g/L,8.0,2017,mosto,pH,pH,Físico-químico,-,3.0,0.0,3,c,,3.0,c,0.0,0.0,False
+Si,alta,Si 12 g/L,12.0,2017,mosto,pH,pH,Físico-químico,-,3.03,0.0,3,a,,3.0,c,0.9999999999999934,0.029999999999999805,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,pH,pH,Físico-químico,-,3.01,0.0,3,b,,3.0,c,0.3333333333333262,0.009999999999999787,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,pH,pH,Físico-químico,-,2.98,0.02,3,c,,3.0,c,-0.6666666666666673,-0.020000000000000018,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,pH,pH,Físico-químico,-,3.11,0.01,3,a,,3.0,c,3.6666666666666625,0.10999999999999988,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.27,0.01,3,b,,2.5,a,30.8,0.77,True
+Si,media,Si 8 g/L,8.0,2017,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.92,0.02,3,d,,2.5,a,56.8,1.42,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.39,0.0,3,c,,2.5,a,35.60000000000001,0.8900000000000001,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.34,0.0,3,c,,2.5,a,33.599999999999994,0.8399999999999999,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.94,0.02,3,d,,2.5,a,57.6,1.44,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.06,0.05,3,b,,2.5,a,22.400000000000002,0.56,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,4.61,0.16,3,b,,4.3,a,7.209302325581407,0.3100000000000005,True
+Si,media,Si 8 g/L,8.0,2017,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,5.38,0.07,3,d,,4.3,a,25.116279069767444,1.08,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,5.0,0.03,3,c,,4.3,a,16.279069767441865,0.7000000000000002,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,5.15,0.12,3,c,,4.3,a,19.76744186046513,0.8500000000000005,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,5.25,0.01,3,d,,4.3,a,22.093023255813957,0.9500000000000002,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,4.71,0.01,3,b,,4.3,a,9.534883720930237,0.41000000000000014,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2017,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2017,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.18,0.01,3,a,,0.33,d,-45.45454545454546,-0.15000000000000002,True
+Si,media,Si 8 g/L,8.0,2017,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.19,0.01,3,c,,0.33,d,-42.42424242424243,-0.14,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.22,0.0,3,b,,0.33,d,-33.333333333333336,-0.11000000000000001,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.27,0.0,3,b,,0.33,d,-18.18181818181818,-0.06,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.3,0.01,3,c,,0.33,d,-9.090909090909099,-0.030000000000000027,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.23,0.01,3,a,,0.33,d,-30.3030303030303,-0.1,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2017,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,10.77,0.12,3,c,,11.9,a,-9.495798319327738,-1.1300000000000008,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,9.97,0.06,3,d,,11.9,a,-16.21848739495798,-1.9299999999999997,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,11.07,0.12,3,b,,11.9,a,-6.974789915966387,-0.8300000000000001,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,10.43,0.12,3,c,,11.9,a,-12.352941176470592,-1.4700000000000006,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,10.73,0.06,3,c,,11.9,a,-9.831932773109243,-1.17,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,11.07,0.12,3,b,,11.9,a,-6.974789915966387,-0.8300000000000001,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),129.3,1.2,3,a,,119.3,b,8.382229673093054,10.000000000000014,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),126.33,1.2,3,b,,119.3,b,5.89270746018441,7.030000000000001,False
+Si,alta,Si 12 g/L,12.0,2017,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),121.7,2.9,3,c,,119.3,b,2.011735121542335,2.4000000000000057,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),130.17,0.12,3,a,,119.31,b,9.102338446064861,10.859999999999985,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),130.32,0.23,3,a,,119.31,b,9.228061352778468,11.009999999999991,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),102.3,2.31,3,c,,119.31,b,-14.256977621322608,-17.010000000000005,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,7.3,0.4,3,b,,9.33,a,-21.757770632368707,-2.0300000000000002,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,8.3,0.6,3,b,,9.33,a,-11.039657020364409,-1.0299999999999994,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,7.3,0.5,3,b,,9.33,a,-21.757770632368707,-2.0300000000000002,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,6.67,0.61,3,b,,9.33,a,-28.510182207931404,-2.66,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,8.33,0.53,3,a,,9.33,a,-10.718113612004288,-1.0,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,8.67,0.52,3,a,,9.33,a,-7.073954983922831,-0.6600000000000001,False
+Si,baixa,Si 4 g/L,4.0,2017,vinho,SO2 total,SO2 total,Físico-químico,mg/L,74.67,1.22,3,a,,45.87,c,62.786134728580784,28.800000000000004,True
+Si,media,Si 8 g/L,8.0,2017,vinho,SO2 total,SO2 total,Físico-químico,mg/L,71.47,1.6,3,a,,45.87,c,55.809897536516246,25.6,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,SO2 total,SO2 total,Físico-químico,mg/L,61.87,1.84,3,b,,45.87,c,34.881185960322654,16.0,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,SO2 total,SO2 total,Físico-químico,mg/L,92.8,2.77,3,a,,45.87,c,102.31087856987138,46.93,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,SO2 total,SO2 total,Físico-químico,mg/L,74.67,1.85,3,b,,45.87,c,62.786134728580784,28.800000000000004,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,SO2 total,SO2 total,Físico-químico,mg/L,73.07,1.85,3,b,,45.87,c,59.2980161325485,27.199999999999996,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,2.71,0.01,3,b,,2.53,a,7.11462450592886,0.18000000000000016,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.06,0.0,3,d,,2.53,a,20.948616600790526,0.5300000000000002,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,2.83,0.02,3,c,,2.53,a,11.857707509881434,0.30000000000000027,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.18,0.02,3,c,,2.53,a,25.691699604743096,0.6500000000000004,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.25,0.02,3,d,,2.53,a,28.45849802371542,0.7200000000000002,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.06,0.02,3,b,,2.53,a,20.948616600790526,0.5300000000000002,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,3.7,0.0,3,b,,3.42,a,8.187134502923984,0.28000000000000025,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,3.97,0.03,3,d,,3.42,a,16.08187134502925,0.5500000000000003,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,3.85,0.05,3,c,,3.42,a,12.573099415204682,0.43000000000000016,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,3.94,0.03,3,c,,3.42,a,15.2046783625731,0.52,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,4.1,0.04,3,d,,3.42,a,19.883040935672508,0.6799999999999997,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,3.58,0.01,3,b,,3.42,a,4.678362573099419,0.16000000000000014,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2017,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2017,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.03,0.0,3,a,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.02,0.0,3,a,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,0.45,0.0,3,c,,0.95,d,-52.63157894736842,-0.49999999999999994,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,0.41,0.01,3,b,,0.95,d,-56.8421052631579,-0.54,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,0.38,0.0,3,a,,0.95,d,-59.99999999999999,-0.57,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,2.05,0.01,3,d,,0.95,a,115.78947368421052,1.0999999999999999,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,1.14,0.01,3,b,,0.95,a,19.999999999999993,0.18999999999999995,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,1.71,0.02,3,c,,0.95,a,80.0,0.76,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.34,0.0,3,c,,0.51,d,-33.333333333333336,-0.16999999999999998,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.26,0.01,3,b,,0.51,d,-49.01960784313725,-0.25,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.23,0.0,3,a,,0.51,d,-54.90196078431373,-0.28,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.45,0.03,3,c,,0.51,d,-11.76470588235294,-0.06,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.28,0.0,3,a,,0.51,d,-45.09803921568627,-0.22999999999999998,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.32,0.02,3,b,,0.51,d,-37.254901960784316,-0.19,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.23,0.0,3,a,,0.23,a,0.0,0.0,False
+Si,media,Si 8 g/L,8.0,2017,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.22,0.01,3,a,,0.23,a,-4.347826086956525,-0.010000000000000009,False
+Si,alta,Si 12 g/L,12.0,2017,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.23,0.0,3,a,,0.23,a,0.0,0.0,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.23,0.0,3,a,,0.23,a,0.0,0.0,False
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.23,0.0,3,a,,0.23,a,0.0,0.0,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.23,0.0,3,a,,0.23,a,0.0,0.0,False
+Si,baixa,Si 4 g/L,4.0,2018,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,19.9,0.1,3,b,,20.3,a,-1.970443349753705,-0.40000000000000213,True
+Si,media,Si 8 g/L,8.0,2018,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,19.5,0.1,3,c,,20.3,a,-3.9408866995073923,-0.8000000000000007,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,18.9,0.1,3,d,,20.3,a,-6.896551724137942,-1.4000000000000021,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,19.5,0.1,3,b,,20.3,a,-3.9408866995073923,-0.8000000000000007,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,18.8,0.2,3,c,,20.3,a,-7.389162561576354,-1.5,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,SST,Sólidos solúveis totais,Físico-químico,°Brix,19.7,0.1,3,b,,20.3,a,-2.955665024630549,-0.6000000000000014,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),134.37,0.85,3,b,,128.39,d,4.657683620219658,5.980000000000018,True
+Si,media,Si 8 g/L,8.0,2018,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),139.61,0.69,3,a,,128.39,d,8.738998364358617,11.220000000000027,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),132.03,1.36,3,c,,128.39,d,2.83511176882936,3.640000000000015,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),135.32,1.56,3,a,,128.33,c,5.446894724538284,6.989999999999981,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),131.37,0.61,3,b,,128.33,c,2.3688926985116434,3.039999999999992,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),123.69,0.94,3,d,,128.33,c,-3.615678329307266,-4.640000000000015,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,pH,pH,Físico-químico,-,2.86,0.01,3,a,,2.83,b,1.060070671378085,0.029999999999999805,True
+Si,media,Si 8 g/L,8.0,2018,mosto,pH,pH,Físico-químico,-,2.78,0.0,3,c,,2.83,b,-1.7667844522968292,-0.050000000000000266,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,pH,pH,Físico-químico,-,2.84,0.01,3,b,,2.83,b,0.3533568904593564,0.009999999999999787,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,pH,pH,Físico-químico,-,2.78,0.02,3,c,,2.83,b,-1.7667844522968292,-0.050000000000000266,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,pH,pH,Físico-químico,-,2.73,0.02,3,d,,2.83,b,-3.5335689045936425,-0.10000000000000009,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,pH,pH,Físico-químico,-,2.93,0.01,3,a,,2.83,b,3.5335689045936425,0.10000000000000009,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,4.0,0.03,3,c,,2.77,a,44.4043321299639,1.23,True
+Si,media,Si 8 g/L,8.0,2018,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,4.39,0.03,3,d,,2.77,a,58.48375451263537,1.6199999999999997,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.78,0.09,3,b,,2.77,a,36.46209386281588,1.0099999999999998,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.74,0.01,3,c,,2.77,a,35.01805054151625,0.9700000000000002,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,4.04,0.02,3,d,,2.77,a,45.848375451263536,1.27,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,3.53,0.01,3,b,,2.77,a,27.43682310469313,0.7599999999999998,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,7.54,0.05,3,c,,4.09,a,84.3520782396088,3.45,True
+Si,media,Si 8 g/L,8.0,2018,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,8.42,0.17,3,d,,4.09,a,105.8679706601467,4.33,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,6.3,0.03,3,b,,4.09,a,54.034229828850854,2.21,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,6.51,0.01,3,c,,4.09,a,59.16870415647922,2.42,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,6.79,0.13,3,d,,4.09,a,66.01466992665037,2.7,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Málico,Ácido málico,Ácidos orgânicos,g/L,5.51,0.01,3,b,,4.09,a,34.71882640586797,1.42,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.06,0.0,3,a,,0.06,a,0.0,0.0,False
+Si,media,Si 8 g/L,8.0,2018,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.14,0.01,3,b,,0.06,a,133.33333333333337,0.08000000000000002,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.06,0.0,3,a,,0.06,a,0.0,0.0,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.15,0.02,3,b,,0.06,a,150.0,0.09,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.17,0.0,3,c,,0.06,a,183.33333333333337,0.11000000000000001,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.06,0.01,3,a,,0.06,a,0.0,0.0,False
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2018,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2018,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Lático,Ácido lático,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.3,0.02,3,a,,0.36,b,-16.666666666666668,-0.06,True
+Si,media,Si 8 g/L,8.0,2018,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.32,0.01,3,a,,0.36,b,-11.111111111111107,-0.03999999999999998,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.32,0.0,3,a,,0.36,b,-11.111111111111107,-0.03999999999999998,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,,,3,,,0.36,b,,,False
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,,,3,,,0.36,b,,,False
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.34,0.01,3,a,,0.36,b,-5.555555555555546,-0.019999999999999962,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2018,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2018,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Acético,Ácido acético,Ácidos orgânicos,g/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,11.23,0.02,3,c,,12.01,a,-6.494587843463775,-0.7799999999999994,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,10.74,0.05,3,d,,12.01,a,-10.574521232306408,-1.2699999999999996,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,11.88,0.03,3,b,,12.01,a,-1.082431307243955,-0.129999999999999,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,11.18,0.05,3,d,,12.01,c,-6.910907577019151,-0.8300000000000001,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,12.62,0.05,3,b,,12.01,c,5.079100749375516,0.6099999999999994,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Teor alcoólico,Teor alcoólico,Físico-químico,% v/v,12.84,0.02,3,a,,12.01,c,6.910907577019151,0.8300000000000001,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),129.23,0.29,3,a,,114.31,b,13.052226401889586,14.919999999999987,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),124.09,0.87,3,b,,114.31,b,8.555681917592512,9.780000000000001,False
+Si,alta,Si 12 g/L,12.0,2018,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),119.3,1.11,3,c,,114.31,b,4.365322368996583,4.989999999999995,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),128.72,0.69,3,a,,114.31,b,12.606071209867899,14.409999999999997,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),128.49,0.11,3,a,,114.31,b,12.404863966407143,14.180000000000007,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Acidez total,Acidez total,Físico-químico,meq/L (provável; ver auditoria),122.3,2.48,3,b,,114.31,b,6.989764675006557,7.989999999999995,False
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,8.25,0.33,3,b,,10.09,a,-18.23587710604559,-1.8399999999999999,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,8.39,0.58,3,b,,10.09,a,-16.848364717542115,-1.6999999999999993,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,8.45,0.42,3,b,,10.09,a,-16.25371655104064,-1.6400000000000006,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,7.73,0.19,3,c,,10.09,a,-23.38949454905847,-2.3599999999999994,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,8.93,0.17,3,b,,10.09,a,-11.496531219028743,-1.1600000000000001,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Acidez titulável,Acidez titulável,Físico-químico,g/L ác. tartárico,8.73,0.46,3,b,,10.09,a,-13.478691774033692,-1.3599999999999994,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,SO2 total,SO2 total,Físico-químico,mg/L,63.03,0.5,3,b,,59.02,c,6.794307014571327,4.009999999999998,True
+Si,media,Si 8 g/L,8.0,2018,vinho,SO2 total,SO2 total,Físico-químico,mg/L,70.29,0.43,3,a,,59.02,c,19.095221958658083,11.270000000000003,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,SO2 total,SO2 total,Físico-químico,mg/L,62.09,2.63,3,b,,59.02,c,5.2016265672653335,3.0700000000000003,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,SO2 total,SO2 total,Físico-químico,mg/L,69.32,1.59,3,b,,59.02,d,17.451711284310388,10.29999999999999,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,SO2 total,SO2 total,Físico-químico,mg/L,78.69,0.49,3,a,,59.02,d,33.327685530328694,19.669999999999995,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,SO2 total,SO2 total,Físico-químico,mg/L,65.02,2.33,3,c,,59.02,d,10.166045408336146,5.999999999999993,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,2.51,0.0,3,b,,2.33,a,7.7253218884120045,0.17999999999999972,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,2.69,0.01,3,c,,2.33,a,15.450643776824029,0.3599999999999999,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,2.35,0.0,3,a,,2.33,a,0.858369098712447,0.020000000000000018,False
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,2.35,0.0,3,a,,2.33,a,0.858369098712447,0.020000000000000018,False
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,2.75,0.01,3,c,,2.33,a,18.02575107296137,0.41999999999999993,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Tartárico,Ácido tartárico,Ácidos orgânicos,g/L,2.79,0.0,3,d,,2.33,a,19.742489270386265,0.45999999999999996,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,5.69,0.05,3,c,,2.9,a,96.20689655172416,2.7900000000000005,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,5.85,0.35,3,c,,2.9,a,101.72413793103449,2.9499999999999997,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,4.89,0.07,3,b,,2.9,a,68.62068965517241,1.9899999999999998,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,5.8,0.25,3,d,,2.9,a,100.0,2.9,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,4.94,0.06,3,c,,2.9,a,70.34482758620692,2.0400000000000005,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Málico,Ácido málico,Ácidos orgânicos,g/L,4.57,0.18,3,b,,2.9,a,57.58620689655174,1.6700000000000004,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.05,0.0,3,b,,0.03,a,66.66666666666669,0.020000000000000004,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.03,0.0,3,a,,0.03,a,0.0,0.0,False
+Si,alta,Si 12 g/L,12.0,2018,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.09,0.0,3,c,,0.03,a,200.0,0.06,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.12,0.01,3,c,,0.03,a,300.0,0.09,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.15,0.0,3,d,,0.03,a,400.0,0.12,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Cítrico,Ácido cítrico,Ácidos orgânicos,g/L,0.1,0.0,3,b,,0.03,a,233.33333333333337,0.07,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,0.27,0.01,3,b,,0.24,a,12.500000000000012,0.030000000000000027,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,0.23,0.01,3,a,,0.24,a,-4.166666666666659,-0.009999999999999981,False
+Si,alta,Si 12 g/L,12.0,2018,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,0.29,0.0,3,c,,0.24,a,20.833333333333332,0.04999999999999999,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,0.47,0.02,3,b,,0.24,a,95.83333333333334,0.22999999999999998,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,0.41,0.09,3,b,,0.24,a,70.83333333333334,0.16999999999999998,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Lático,Ácido lático,Ácidos orgânicos,g/L,0.41,0.06,3,b,,0.24,a,70.83333333333334,0.16999999999999998,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.77,0.03,3,b,,1.1,c,-30.000000000000004,-0.33000000000000007,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.7,0.05,3,a,,1.1,c,-36.363636363636374,-0.40000000000000013,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.75,0.03,3,ab,,1.1,c,-31.818181818181824,-0.3500000000000001,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.75,0.0,3,b,,1.1,c,-31.818181818181824,-0.3500000000000001,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.67,0.0,3,a,,1.1,c,-39.09090909090909,-0.43000000000000005,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Succínico,Ácido succínico,Ácidos orgânicos,g/L,0.72,0.05,3,b,,1.1,c,-34.545454545454554,-0.3800000000000001,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.26,0.01,3,a,,0.56,c,-53.57142857142857,-0.30000000000000004,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.26,0.0,3,a,,0.56,c,-53.57142857142857,-0.30000000000000004,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.31,0.0,3,b,,0.56,c,-44.64285714285715,-0.25000000000000006,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.28,0.06,3,a,,0.56,d,-50.0,-0.28,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.31,0.02,3,b,,0.56,d,-44.64285714285715,-0.25000000000000006,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Acético,Ácido acético,Ácidos orgânicos,g/L,0.35,0.0,3,c,,0.56,d,-37.50000000000001,-0.21000000000000008,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,,,3,,,0.17,,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,,,3,,,0.17,,,,False
+Si,alta,Si 12 g/L,12.0,2017,mosto,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,,,3,,,0.17,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,,,3,,,0.17,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,,,3,,,0.17,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,,,3,,,0.17,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2017,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.13,0.0,3,b,,0.16,c,-18.75,-0.03,True
+Si,media,Si 8 g/L,8.0,2017,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.13,0.0,3,b,,0.16,c,-18.75,-0.03,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.12,0.0,3,a,,0.16,c,-25.000000000000004,-0.04000000000000001,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.17,0.01,3,b,,0.16,c,6.250000000000005,0.010000000000000009,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.17,0.01,3,b,,0.16,c,6.250000000000005,0.010000000000000009,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.14,0.01,3,a,,0.16,c,-12.499999999999995,-0.01999999999999999,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2017,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,18.57,0.01,3,c,,13.55,a,37.047970479704794,5.02,True
+Si,media,Si 8 g/L,8.0,2017,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,19.51,0.08,3,d,,13.55,a,43.98523985239853,5.960000000000001,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,15.95,0.04,3,b,,13.55,a,17.712177121771205,2.3999999999999986,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,14.52,0.0,3,b,,13.55,a,7.158671586715858,0.9699999999999989,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,14.52,0.05,3,b,,13.55,a,7.158671586715858,0.9699999999999989,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,15.55,0.0,3,c,,13.55,a,14.760147601476014,2.0,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.12,0.01,3,d,,0.05,a,139.99999999999997,0.06999999999999999,True
+Si,media,Si 8 g/L,8.0,2017,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.07,0.0,3,b,,0.05,a,40.00000000000001,0.020000000000000004,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.08,0.0,3,c,,0.05,a,60.0,0.03,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.05,0.0,3,b,,0.05,b,0.0,0.0,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.04,0.0,3,a,,0.05,b,-20.000000000000004,-0.010000000000000002,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.04,0.0,3,a,,0.05,b,-20.000000000000004,-0.010000000000000002,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,,,3,,,0.28,b,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.25,0.01,3,a,,0.28,b,-10.714285714285722,-0.030000000000000027,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.26,0.01,3,a,,0.28,b,-7.142857142857149,-0.020000000000000018,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.26,0.03,3,a,,0.28,ab,-7.142857142857149,-0.020000000000000018,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.28,0.0,3,ab,,0.28,ab,0.0,0.0,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.27,0.01,3,a,,0.28,ab,-3.5714285714285743,-0.010000000000000009,False
+Si,baixa,Si 4 g/L,4.0,2017,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,2.78,0.11,3,b,,2.07,a,34.29951690821256,0.71,True
+Si,media,Si 8 g/L,8.0,2017,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,3.26,0.03,3,c,,2.07,a,57.48792270531401,1.19,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,2.61,0.06,3,b,,2.07,a,26.086956521739133,0.54,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,2.6,0.29,3,c,,2.07,a,25.60386473429953,0.5300000000000002,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,2.41,0.09,3,b,,2.07,a,16.425120772946876,0.3400000000000003,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,3.07,0.0,3,d,,2.07,a,48.309178743961354,1.0,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,1.11,0.0,3,c,,0.86,a,29.069767441860478,0.2500000000000001,True
+Si,media,Si 8 g/L,8.0,2017,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,1.42,0.0,3,d,,0.86,a,65.11627906976743,0.5599999999999999,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,1.06,0.03,3,b,,0.86,a,23.25581395348838,0.20000000000000007,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,0.89,0.01,3,a,,0.86,a,3.488372093023259,0.030000000000000027,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,0.93,0.04,3,b,,0.86,a,8.139534883720938,0.07000000000000006,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,1.03,0.19,3,b,,0.86,a,19.76744186046512,0.17000000000000004,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Miricetina,Miricetina,Flavonóis,mg/L,,,3,,,0.36,c,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Miricetina,Miricetina,Flavonóis,mg/L,0.12,0.0,3,b,,0.36,c,-66.66666666666667,-0.24,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,Miricetina,Miricetina,Flavonóis,mg/L,0.07,0.0,3,a,,0.36,c,-80.55555555555554,-0.29,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Miricetina,Miricetina,Flavonóis,mg/L,0.25,0.0,3,b,,0.36,c,-30.55555555555555,-0.10999999999999999,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Miricetina,Miricetina,Flavonóis,mg/L,0.13,0.04,3,a,,0.36,c,-63.88888888888889,-0.22999999999999998,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Miricetina,Miricetina,Flavonóis,mg/L,,,3,,,0.36,c,,,False
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Quercetina,Quercetina,Flavonóis,mg/L,,,3,,,0.38,a,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Quercetina,Quercetina,Flavonóis,mg/L,,,3,,,0.38,a,,,False
+Si,alta,Si 12 g/L,12.0,2017,mosto,Quercetina,Quercetina,Flavonóis,mg/L,0.36,0.01,3,a,,0.38,a,-5.263157894736847,-0.020000000000000018,False
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Quercetina,Quercetina,Flavonóis,mg/L,0.4,0.01,3,a,,0.38,a,5.263157894736847,0.020000000000000018,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Quercetina,Quercetina,Flavonóis,mg/L,0.38,0.01,3,a,,0.38,a,0.0,0.0,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Quercetina,Quercetina,Flavonóis,mg/L,0.36,0.01,3,a,,0.38,a,-5.263157894736847,-0.020000000000000018,False
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Campferol,Campferol,Flavonóis,mg/L,,,3,,,2.16,,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Campferol,Campferol,Flavonóis,mg/L,,,3,,,2.16,,,,False
+Si,alta,Si 12 g/L,12.0,2017,mosto,Campferol,Campferol,Flavonóis,mg/L,,,3,,,2.16,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Campferol,Campferol,Flavonóis,mg/L,2.14,0.01,3,a,,2.16,a,-0.9259259259259267,-0.020000000000000018,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Campferol,Campferol,Flavonóis,mg/L,2.21,0.05,3,b,,2.16,a,2.3148148148148064,0.04999999999999982,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Campferol,Campferol,Flavonóis,mg/L,2.32,0.02,3,c,,2.16,a,7.407407407407393,0.1599999999999997,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2017,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2017,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.81,0.02,3,c,,0.64,a,26.562500000000004,0.17000000000000004,True
+Si,media,Si 8 g/L,8.0,2017,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.82,0.0,3,c,,0.64,a,28.12499999999999,0.17999999999999994,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.72,0.0,3,b,,0.64,a,12.499999999999995,0.07999999999999996,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.81,0.02,3,b,,0.64,a,26.562500000000004,0.17000000000000004,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.82,0.0,3,b,,0.64,a,28.12499999999999,0.17999999999999994,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.89,0.0,3,c,,0.64,a,39.0625,0.25,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,263.48,4.62,3,b,,238.21,a,10.608286805759628,25.27000000000001,True
+Si,media,Si 8 g/L,8.0,2017,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,281.65,3.86,3,c,,238.21,a,18.236010243062832,43.43999999999997,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,263.03,4.43,3,b,,238.21,a,10.419377859871526,24.819999999999965,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,235.99,0.44,3,a,,238.21,a,-0.9319507997145371,-2.219999999999999,False
+Ca,media,Ca 10 g/L,10.0,2017,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,239.1,8.86,3,a,,238.21,a,0.37361991520086746,0.8899999999999864,False
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,263.92,4.18,3,b,,238.21,a,10.792997775072418,25.710000000000008,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,8.7,0.02,3,a,,9.73,c,-10.585817060637217,-1.0300000000000011,True
+Si,media,Si 8 g/L,8.0,2017,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,12.86,0.36,3,d,,9.73,c,32.16855087358683,3.129999999999999,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,9.07,0.14,3,b,,9.73,c,-6.783144912641316,-0.6600000000000001,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,9.25,0.11,3,a,,9.73,b,-4.933196300102779,-0.4800000000000004,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,11.05,0.14,3,c,,9.73,b,13.566289825282633,1.3200000000000003,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,11.07,0.02,3,c,,9.73,b,13.771839671120246,1.3399999999999999,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,42.93,0.41,3,c,,38.85,b,10.501930501930497,4.079999999999998,True
+Si,media,Si 8 g/L,8.0,2017,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,53.13,1.63,3,d,,38.85,b,36.75675675675676,14.280000000000001,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,34.77,1.12,3,a,,38.85,b,-10.501930501930497,-4.079999999999998,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,44.97,0.82,3,b,,38.85,a,15.752895752895746,6.119999999999997,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,51.5,3.26,3,c,,38.85,a,32.56113256113255,12.649999999999999,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,50.28,0.41,3,c,,38.85,a,29.420849420849418,11.43,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.23,0.0,3,a,,0.4,b,-42.5,-0.17,True
+Si,media,Si 8 g/L,8.0,2017,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.56,0.02,3,c,,0.4,b,40.00000000000001,0.16000000000000003,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.55,0.01,3,c,,0.4,b,37.5,0.15000000000000002,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.32,0.0,3,a,,0.4,b,-20.000000000000004,-0.08000000000000002,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.47,0.06,3,c,,0.4,b,17.499999999999986,0.06999999999999995,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.45,0.0,3,c,,0.4,b,12.499999999999996,0.04999999999999999,True
+Si,baixa,Si 4 g/L,4.0,2017,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,543.52,4.9,3,b,,458.35,a,18.581869750190894,85.16999999999996,True
+Si,media,Si 8 g/L,8.0,2017,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,697.0,4.41,3,d,,458.35,a,52.067197556452484,238.64999999999998,True
+Si,alta,Si 12 g/L,12.0,2017,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,615.01,2.68,3,c,,458.35,a,34.17912075924511,156.65999999999997,True
+Ca,baixa,Ca 5 g/L,5.0,2017,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,555.21,5.46,3,c,,458.35,a,21.132322461001422,96.86000000000001,True
+Ca,media,Ca 10 g/L,10.0,2017,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,498.76,9.81,3,b,,458.35,a,8.816406676120861,40.40999999999997,True
+Ca,alta,Ca 15 g/L,15.0,2017,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,571.26,10.1,3,d,,458.35,a,24.63401330860695,112.90999999999997,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.15,0.0,3,a,,3.17,a,-0.6309148264984233,-0.020000000000000018,False
+Si,media,Si 8 g/L,8.0,2017,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.36,0.05,3,c,,3.17,a,5.993690851735014,0.18999999999999995,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.24,0.03,3,b,,3.17,a,2.2082018927444884,0.07000000000000028,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.25,0.0,3,b,,3.17,a,2.5236593059936934,0.08000000000000007,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.29,0.01,3,c,,3.17,a,3.78548895899054,0.1200000000000001,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.32,0.02,3,d,,3.17,a,4.731861198738168,0.1499999999999999,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,0.39,0.0,3,b,,0.31,a,25.80645161290323,0.08000000000000002,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,0.36,0.02,3,b,,0.31,a,16.129032258064512,0.04999999999999999,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,0.38,0.05,3,b,,0.31,a,22.580645161290324,0.07,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,0.35,0.0,3,b,,0.31,a,12.903225806451607,0.03999999999999998,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,0.25,0.01,3,b,,0.31,a,-19.35483870967742,-0.06,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,0.28,0.02,3,c,,0.31,a,-9.677419354838701,-0.02999999999999997,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,0.11,0.01,3,c,,0.01,a,1000.0,0.1,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,0.02,0.0,3,b,,0.01,a,100.0,0.01,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,0.18,0.05,3,d,,0.01,a,1700.0,0.16999999999999998,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,0.01,a,,,False
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,0.05,0.01,3,b,,0.01,a,400.0,0.04,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,0.18,0.02,3,c,,0.01,a,1700.0,0.16999999999999998,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.28,0.0,3,d,,0.1,a,180.00000000000003,0.18000000000000002,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.16,0.0,3,c,,0.1,a,60.0,0.06,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.12,0.0,3,b,,0.1,a,19.99999999999999,0.01999999999999999,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.1,0.01,3,a,,0.1,a,0.0,0.0,False
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.12,0.0,3,b,,0.1,a,19.99999999999999,0.01999999999999999,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.1,0.0,3,a,,0.1,a,0.0,0.0,False
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2017,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2017,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,6.12,0.03,3,d,,2.64,a,131.8181818181818,3.48,True
+Si,media,Si 8 g/L,8.0,2017,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,4.02,0.32,3,b,,2.64,a,52.27272727272725,1.3799999999999994,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,4.94,0.22,3,c,,2.64,a,87.12121212121212,2.3000000000000003,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,2.64,0.11,3,b,,2.33,a,13.304721030042922,0.31000000000000005,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,3.63,0.01,3,c,,2.33,a,55.793991416309,1.2999999999999998,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,5.55,0.58,3,d,,2.33,a,138.19742489270385,3.2199999999999998,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,1.19,0.0,3,c,,1.05,a,13.333333333333323,0.1399999999999999,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,1.16,0.01,3,b,,1.05,a,10.476190476190464,0.10999999999999988,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,1.22,0.0,3,d,,1.05,a,16.190476190476183,0.16999999999999993,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,,,3,,,1.05,a,,,False
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,1.11,0.01,3,b,,1.05,a,5.714285714285719,0.06000000000000005,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,1.25,0.02,3,c,,1.05,a,19.047619047619044,0.19999999999999996,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.04,0.0,3,a,,0.04,a,0.0,0.0,False
+Si,media,Si 8 g/L,8.0,2017,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.04,0.0,3,a,,0.04,a,0.0,0.0,False
+Si,alta,Si 12 g/L,12.0,2017,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.04,0.0,3,a,,0.04,a,0.0,0.0,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.04,0.0,3,a,,0.04,a,0.0,0.0,False
+Ca,media,Ca 10 g/L,10.0,2017,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.05,0.01,3,ab,,0.04,a,25.000000000000004,0.010000000000000002,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.05,0.0,3,b,,0.04,a,25.000000000000004,0.010000000000000002,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.23,0.01,3,a,,0.23,a,0.0,0.0,False
+Si,media,Si 8 g/L,8.0,2017,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.24,0.0,3,a,,0.23,a,4.3478260869565135,0.009999999999999981,False
+Si,alta,Si 12 g/L,12.0,2017,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.23,0.01,3,a,,0.23,a,0.0,0.0,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.24,0.0,3,a,,0.23,a,4.3478260869565135,0.009999999999999981,False
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.24,0.0,3,a,,0.23,a,4.3478260869565135,0.009999999999999981,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.24,0.0,3,a,,0.23,a,4.3478260869565135,0.009999999999999981,False
+Si,baixa,Si 4 g/L,4.0,2017,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,4.15,0.01,3,c,,2.13,a,94.83568075117374,2.0200000000000005,True
+Si,media,Si 8 g/L,8.0,2017,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,2.83,0.41,3,b,,2.13,a,32.86384976525822,0.7000000000000002,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,2.22,0.16,3,a,,2.13,a,4.225352112676071,0.0900000000000003,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,2.65,0.32,3,bc,,2.13,a,24.413145539906104,0.52,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,2.42,0.1,3,b,,2.13,a,13.615023474178406,0.29000000000000004,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,2.87,0.06,3,c,,2.13,a,34.7417840375587,0.7400000000000002,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,3.81,0.0,3,c,,2.75,a,38.54545454545455,1.06,True
+Si,media,Si 8 g/L,8.0,2017,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,4.4,0.0,3,d,,2.75,a,60.00000000000001,1.6500000000000004,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,3.69,0.08,3,b,,2.75,a,34.18181818181818,0.94,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,2.3,0.04,3,a,,2.75,c,-16.36363636363637,-0.4500000000000002,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,2.41,0.02,3,b,,2.75,c,-12.363636363636358,-0.33999999999999986,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,3.97,0.11,3,d,,2.75,c,44.36363636363637,1.2200000000000002,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Miricetina,Miricetina,Flavonóis,mg/L,0.04,0.0,3,b,,,,,,False
+Si,media,Si 8 g/L,8.0,2017,vinho,Miricetina,Miricetina,Flavonóis,mg/L,0.04,0.01,3,b,,,,,,False
+Si,alta,Si 12 g/L,12.0,2017,vinho,Miricetina,Miricetina,Flavonóis,mg/L,0.01,0.0,3,a,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Miricetina,Miricetina,Flavonóis,mg/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Miricetina,Miricetina,Flavonóis,mg/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Miricetina,Miricetina,Flavonóis,mg/L,0.03,0.0,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Quercetina,Quercetina,Flavonóis,mg/L,0.79,0.0,3,a,,0.94,c,-15.95744680851063,-0.1499999999999999,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Quercetina,Quercetina,Flavonóis,mg/L,0.84,0.01,3,b,,0.94,c,-10.638297872340424,-0.09999999999999998,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,Quercetina,Quercetina,Flavonóis,mg/L,0.82,0.02,3,b,,0.94,c,-12.765957446808512,-0.12,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Quercetina,Quercetina,Flavonóis,mg/L,0.74,0.0,3,a,,0.94,c,-21.276595744680847,-0.19999999999999996,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Quercetina,Quercetina,Flavonóis,mg/L,0.76,0.0,3,b,,0.94,c,-19.14893617021276,-0.17999999999999994,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Quercetina,Quercetina,Flavonóis,mg/L,0.76,0.01,3,b,,0.94,c,-19.14893617021276,-0.17999999999999994,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Campferol,Campferol,Flavonóis,mg/L,2.09,0.0,3,a,,2.17,b,-3.6866359447004644,-0.08000000000000007,True
+Si,media,Si 8 g/L,8.0,2017,vinho,Campferol,Campferol,Flavonóis,mg/L,,,3,,,2.17,b,,,False
+Si,alta,Si 12 g/L,12.0,2017,vinho,Campferol,Campferol,Flavonóis,mg/L,2.09,0.02,3,a,,2.17,b,-3.6866359447004644,-0.08000000000000007,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Campferol,Campferol,Flavonóis,mg/L,2.09,0.0,3,a,,2.17,b,-3.6866359447004644,-0.08000000000000007,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Campferol,Campferol,Flavonóis,mg/L,2.11,0.02,3,a,,2.17,b,-2.7649769585253483,-0.06000000000000005,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Campferol,Campferol,Flavonóis,mg/L,2.09,0.02,3,a,,2.17,b,-3.6866359447004644,-0.08000000000000007,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2017,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2017,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2017,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2017,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.91,0.0,3,c,,1.65,a,15.757575757575758,0.26,True
+Si,media,Si 8 g/L,8.0,2017,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.95,0.0,3,d,,1.65,a,18.181818181818183,0.30000000000000004,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.81,0.0,3,b,,1.65,a,9.696969696969706,0.16000000000000014,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.81,0.0,3,b,,1.65,a,9.696969696969706,0.16000000000000014,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.81,0.03,3,b,,1.65,a,9.696969696969706,0.16000000000000014,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.84,0.0,3,b,,1.65,a,11.515151515151526,0.19000000000000017,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,585.81,5.98,3,b,,372.52,a,57.2559862557715,213.28999999999996,True
+Si,media,Si 8 g/L,8.0,2017,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,603.55,0.87,3,d,,372.52,a,62.018146676688495,231.02999999999997,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,594.68,0.89,3,c,,372.52,a,59.637066466229996,222.15999999999997,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,553.01,12.28,3,a,,372.52,b,48.45108987436917,180.49,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,573.4,4.43,3,b,,372.52,b,53.92462149683239,200.88,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,599.11,14.18,3,c,,372.52,b,60.82626436164502,226.59000000000003,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,5.45,0.09,3,b,,3.32,a,64.15662650602411,2.1300000000000003,True
+Si,media,Si 8 g/L,8.0,2017,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,5.0,0.08,3,b,,3.32,a,50.60240963855423,1.6800000000000002,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,5.41,0.4,3,b,,3.32,a,62.951807228915676,2.0900000000000003,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,4.27,0.63,3,c,,3.32,b,28.614457831325293,0.9499999999999997,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,2.59,0.23,3,a,,3.32,b,-21.987951807228917,-0.73,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,4.63,0.18,3,c,,3.32,b,39.45783132530121,1.31,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,39.34,1.63,3,c,,29.55,a,33.13028764805415,9.790000000000003,True
+Si,media,Si 8 g/L,8.0,2017,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,45.87,0.82,3,d,,29.55,a,55.228426395939074,16.319999999999997,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,32.81,1.06,3,b,,29.55,a,11.03214890016921,3.2600000000000016,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,36.08,3.26,3,c,,29.55,a,22.09813874788493,6.529999999999998,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,31.18,3.26,3,b,,29.55,a,5.516074450084599,1.629999999999999,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,47.5,3.26,3,d,,29.55,a,60.74450084602369,17.95,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.14,0.0,3,b,,0.13,c,7.692307692307699,0.010000000000000009,True
+Si,media,Si 8 g/L,8.0,2017,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.11,0.0,3,a,,0.13,c,-15.384615384615387,-0.020000000000000004,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.14,0.0,3,b,,0.13,c,7.692307692307699,0.010000000000000009,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.18,0.0,3,d,,0.13,b,38.46153846153845,0.04999999999999999,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.1,0.0,3,b,,0.13,b,-23.076923076923077,-0.03,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.09,0.0,3,a,,0.13,b,-30.769230769230774,-0.04000000000000001,True
+Si,baixa,Si 4 g/L,4.0,2017,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1304.63,17.91,3,b,,1117.55,a,16.740190595499097,187.08000000000015,True
+Si,media,Si 8 g/L,8.0,2017,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1320.63,15.19,3,b,,1117.55,a,18.17189387499442,203.08000000000015,True
+Si,alta,Si 12 g/L,12.0,2017,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1358.44,21.68,3,b,,1117.55,a,21.555187687351808,240.8900000000001,True
+Ca,baixa,Ca 5 g/L,5.0,2017,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1353.52,12.96,3,b,,1117.55,a,21.114938928906987,235.97000000000003,True
+Ca,media,Ca 10 g/L,10.0,2017,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1300.53,14.67,3,b,,1117.55,a,16.373316630128407,182.98000000000002,True
+Ca,alta,Ca 15 g/L,15.0,2017,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1332.27,24.43,3,b,,1117.55,a,19.21345801082726,214.72000000000003,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,1.14,0.0,3,b,,1.09,a,4.5871559633027355,0.04999999999999982,True
+Si,media,Si 8 g/L,8.0,2018,mosto,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,1.08,0.0,3,a,,1.09,a,-0.9174311926605512,-0.010000000000000009,False
+Si,alta,Si 12 g/L,12.0,2018,mosto,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,1.09,0.0,3,a,,1.09,a,0.0,0.0,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,1.16,0.02,3,b,,1.09,a,6.422018348623838,0.06999999999999984,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,1.14,0.0,3,b,,1.09,a,4.5871559633027355,0.04999999999999982,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,1.11,0.04,3,ab,,1.09,a,1.8348623853211024,0.020000000000000018,False
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2018,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2018,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.15,0.0,3,a,,0.15,a,0.0,0.0,False
+Si,media,Si 8 g/L,8.0,2018,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.16,0.01,3,a,,0.15,a,6.666666666666673,0.010000000000000009,False
+Si,alta,Si 12 g/L,12.0,2018,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.15,0.0,3,a,,0.15,a,0.0,0.0,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.15,0.0,3,b,,0.15,b,0.0,0.0,False
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.13,0.0,3,a,,0.15,b,-13.333333333333329,-0.01999999999999999,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.2,0.01,3,c,,0.15,b,33.33333333333335,0.05000000000000002,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2018,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2018,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2018,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,44.31,0.18,3,d,,35.79,a,23.80553227158425,8.520000000000003,True
+Si,media,Si 8 g/L,8.0,2018,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,44.83,0.27,3,c,,35.79,a,25.258452081587034,9.04,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,43.23,0.51,3,b,,35.79,a,20.78792958927074,7.439999999999998,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,41.58,0.09,3,c,,35.79,a,16.17770326906957,5.789999999999999,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,36.97,0.02,3,b,,35.79,a,3.297010338083263,1.1799999999999997,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,52.43,0.23,3,d,,35.79,a,46.49343392008941,16.64,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,1.86,0.01,3,c,,1.15,a,61.73913043478262,0.7100000000000002,True
+Si,media,Si 8 g/L,8.0,2018,mosto,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,1.71,0.05,3,b,,1.15,a,48.695652173913054,0.56,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,1.7,0.01,3,b,,1.15,a,47.82608695652175,0.55,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,1.72,0.01,3,c,,1.15,a,49.56521739130436,0.5700000000000001,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,1.51,0.03,3,b,,1.15,a,31.304347826086964,0.3600000000000001,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,2.63,0.02,3,d,,1.15,a,128.69565217391306,1.48,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.14,0.0,3,b,,0.04,a,250.0,0.1,True
+Si,media,Si 8 g/L,8.0,2018,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.04,0.0,3,a,,0.04,a,0.0,0.0,False
+Si,alta,Si 12 g/L,12.0,2018,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.04,0.0,3,a,,0.04,a,0.0,0.0,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.07,0.02,3,b,,0.04,a,75.00000000000001,0.030000000000000006,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.05,0.0,3,b,,0.04,a,25.000000000000004,0.010000000000000002,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.05,0.01,3,ab,,0.04,a,25.000000000000004,0.010000000000000002,False
+Si,baixa,Si 4 g/L,4.0,2018,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,8.69,0.99,3,c,,4.69,a,85.2878464818763,3.999999999999999,True
+Si,media,Si 8 g/L,8.0,2018,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,6.32,0.12,3,b,,4.69,a,34.7547974413646,1.63,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,6.51,0.13,3,b,,4.69,a,38.80597014925372,1.8199999999999994,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,6.36,0.66,3,c,,4.69,a,35.60767590618337,1.67,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,5.63,0.09,3,b,,4.69,a,20.042643923240924,0.9399999999999995,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,10.58,0.0,3,d,,4.69,a,125.58635394456289,5.89,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,1.62,0.04,3,b,,1.53,a,5.8823529411764754,0.09000000000000008,True
+Si,media,Si 8 g/L,8.0,2018,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,1.73,0.02,3,c,,1.53,a,13.0718954248366,0.19999999999999996,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,1.64,0.02,3,b,,1.53,a,7.189542483660122,0.10999999999999988,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,1.87,0.0,3,c,,1.53,a,22.222222222222225,0.3400000000000001,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,1.74,0.01,3,b,,1.53,a,13.725490196078429,0.20999999999999996,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,2.31,0.23,3,d,,1.53,a,50.98039215686274,0.78,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Miricetina,Miricetina,Flavonóis,mg/L,0.88,0.01,3,d,,0.15,a,486.6666666666667,0.73,True
+Si,media,Si 8 g/L,8.0,2018,mosto,Miricetina,Miricetina,Flavonóis,mg/L,0.67,0.02,3,b,,0.15,a,346.6666666666667,0.52,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,Miricetina,Miricetina,Flavonóis,mg/L,0.71,0.0,3,c,,0.15,a,373.3333333333333,0.5599999999999999,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Miricetina,Miricetina,Flavonóis,mg/L,0.03,0.0,3,a,,0.15,a,-80.0,-0.12,False
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Miricetina,Miricetina,Flavonóis,mg/L,0.79,0.01,3,c,,0.15,a,426.6666666666667,0.64,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Miricetina,Miricetina,Flavonóis,mg/L,0.83,0.18,3,c,,0.15,a,453.33333333333337,0.6799999999999999,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Quercetina,Quercetina,Flavonóis,mg/L,0.39,0.01,3,a,,0.51,c,-23.52941176470588,-0.12,True
+Si,media,Si 8 g/L,8.0,2018,mosto,Quercetina,Quercetina,Flavonóis,mg/L,0.4,0.0,3,a,,0.51,c,-21.568627450980387,-0.10999999999999999,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,Quercetina,Quercetina,Flavonóis,mg/L,0.41,0.01,3,b,,0.51,c,-19.607843137254907,-0.10000000000000003,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Quercetina,Quercetina,Flavonóis,mg/L,0.38,0.0,3,a,,0.51,c,-25.49019607843137,-0.13,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Quercetina,Quercetina,Flavonóis,mg/L,0.44,0.0,3,b,,0.51,c,-13.725490196078432,-0.07,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Quercetina,Quercetina,Flavonóis,mg/L,0.51,0.05,3,c,,0.51,c,0.0,0.0,False
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Campferol,Campferol,Flavonóis,mg/L,2.32,0.01,3,b,,2.24,ab,3.5714285714285543,0.07999999999999963,False
+Si,media,Si 8 g/L,8.0,2018,mosto,Campferol,Campferol,Flavonóis,mg/L,2.36,0.02,3,c,,2.24,ab,5.357142857142842,0.11999999999999966,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,Campferol,Campferol,Flavonóis,mg/L,2.18,0.06,3,a,,2.24,ab,-2.6785714285714306,-0.06000000000000005,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Campferol,Campferol,Flavonóis,mg/L,2.48,0.01,3,c,,2.24,b,10.714285714285703,0.23999999999999977,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Campferol,Campferol,Flavonóis,mg/L,2.12,0.0,3,a,,2.24,b,-5.357142857142861,-0.1200000000000001,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Campferol,Campferol,Flavonóis,mg/L,2.21,0.01,3,b,,2.24,b,-1.3392857142857253,-0.03000000000000025,False
+Si,baixa,Si 4 g/L,4.0,2018,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2018,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2018,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2018,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,Tirosol,Tirosol,Outros fenólicos,mg/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2018,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.72,0.0,3,b,,0.54,a,33.33333333333332,0.17999999999999994,True
+Si,media,Si 8 g/L,8.0,2018,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.79,0.0,3,d,,0.54,a,46.29629629629629,0.25,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.75,0.01,3,c,,0.54,a,38.88888888888888,0.20999999999999996,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.71,0.0,3,b,,0.54,a,31.481481481481467,0.16999999999999993,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.71,0.0,3,b,,0.54,a,31.481481481481467,0.16999999999999993,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,0.78,0.0,3,c,,0.54,a,44.44444444444444,0.24,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,567.55,26.79,3,c,,305.14,a,85.99659172838696,262.40999999999997,True
+Si,media,Si 8 g/L,8.0,2018,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,501.06,22.36,3,b,,305.14,a,64.20659369469752,195.92000000000002,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,548.05,18.17,3,c,,305.14,a,79.60608245395555,242.90999999999997,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,347.7,19.95,3,b,,305.14,a,13.947696139476962,42.56,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,552.93,3.55,3,c,,305.14,a,81.20534836468505,247.78999999999996,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,604.79,20.98,3,d,,305.14,a,98.2008258504293,299.65,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,58.93,0.75,3,c,,48.86,a,20.609905853458862,10.07,True
+Si,media,Si 8 g/L,8.0,2018,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,54.2,0.11,3,b,,48.86,a,10.92918542775277,5.340000000000003,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,49.57,1.2,3,a,,48.86,a,1.4531313958248073,0.7100000000000009,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,50.86,0.64,3,b,,48.86,a,4.093327875562832,2.0,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,55.95,0.45,3,c,,48.86,a,14.51084731887025,7.090000000000003,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,64.36,0.09,3,d,,48.86,a,31.723291035611954,15.5,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,3.89,0.25,3,b,,4.13,b,-5.81113801452784,-0.23999999999999977,False
+Si,media,Si 8 g/L,8.0,2018,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,1.83,0.33,3,a,,4.13,b,-55.69007263922518,-2.3,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,1.54,0.0,3,a,,4.13,b,-62.71186440677966,-2.59,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,3.95,0.29,3,b,,4.13,b,-4.358353510895877,-0.17999999999999972,False
+Ca,media,Ca 10 g/L,10.0,2018,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,3.97,0.05,3,b,,4.13,b,-3.874092009685223,-0.1599999999999997,False
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,2.81,0.33,3,a,,4.13,b,-31.96125907990314,-1.3199999999999998,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,2.2,0.0,3,a,,2.21,a,-0.4524886877827958,-0.009999999999999787,False
+Si,media,Si 8 g/L,8.0,2018,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,2.23,0.01,3,b,,2.21,a,0.9049773755656116,0.020000000000000018,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,2.21,0.01,3,a,,2.21,a,0.0,0.0,False
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,2.23,0.01,3,a,,2.21,a,0.9049773755656116,0.020000000000000018,False
+Ca,media,Ca 10 g/L,10.0,2018,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,2.23,0.02,3,a,,2.21,a,0.9049773755656116,0.020000000000000018,False
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,IE,Índice de escurecimento,Espectrofotometria,absorbância,2.28,0.02,3,b,,2.21,a,3.1674208144796308,0.06999999999999984,True
+Si,baixa,Si 4 g/L,4.0,2018,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,859.04,29.58,3,c,,634.36,a,35.41837442461693,224.67999999999995,True
+Si,media,Si 8 g/L,8.0,2018,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,832.04,31.52,3,c,,634.36,a,31.16211614855917,197.67999999999995,True
+Si,alta,Si 12 g/L,12.0,2018,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,730.95,25.88,3,b,,634.36,a,15.226369884608115,96.59000000000003,True
+Ca,baixa,Ca 5 g/L,5.0,2018,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,780.14,13.68,3,c,,634.36,a,22.9806419068037,145.77999999999997,True
+Ca,media,Ca 10 g/L,10.0,2018,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,744.41,25.18,3,b,,634.36,a,17.3481934548206,110.04999999999995,True
+Ca,alta,Ca 15 g/L,15.0,2018,mosto,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,884.97,8.29,3,d,,634.36,a,39.50595876158648,250.61,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.57,0.0,3,d,,3.21,a,11.214953271028033,0.3599999999999999,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.38,0.01,3,b,,3.21,a,5.295950155763237,0.16999999999999993,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.43,0.0,3,c,,3.21,a,6.853582554517141,0.2200000000000002,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.21,0.03,3,a,,3.21,a,0.0,0.0,False
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.37,0.0,3,b,,3.21,a,4.984423676012465,0.16000000000000014,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Gálico,Ácido gálico,Ácidos hidroxibenzoicos,mg/L,3.98,0.0,3,c,,3.21,a,23.98753894080997,0.77,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,1.71,0.01,3,c,,1.93,d,-11.398963730569946,-0.21999999999999997,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,0.32,0.0,3,a,,1.93,d,-83.41968911917098,-1.6099999999999999,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,1.41,0.0,3,b,,1.93,d,-26.94300518134715,-0.52,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,1.69,0.0,3,c,,1.93,c,-12.435233160621761,-0.24,False
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,1.59,0.0,3,b,,1.93,c,-17.61658031088082,-0.33999999999999986,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Protocateico,Ácido protocateico,Ácidos hidroxibenzoicos,mg/L,1.43,0.0,3,a,,1.93,c,-25.906735751295336,-0.5,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,1.22,0.0,3,c,,0.69,b,76.81159420289856,0.53,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,0.04,0.0,3,a,,0.69,b,-94.20289855072463,-0.6499999999999999,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,0.04,0.0,3,a,,0.69,b,-94.20289855072463,-0.6499999999999999,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,1.13,0.05,3,c,,0.69,a,63.76811594202898,0.43999999999999995,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,1.04,0.0,3,b,,0.69,a,50.724637681159436,0.3500000000000001,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Vanílico,Ácido vanílico,Ácidos hidroxibenzoicos,mg/L,1.2,0.01,3,d,,0.69,a,73.91304347826087,0.51,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.29,0.0,3,a,,0.38,c,-23.684210526315795,-0.09000000000000002,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.39,0.0,3,b,,0.38,c,2.6315789473684235,0.010000000000000009,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.62,0.0,3,d,,0.38,c,63.1578947368421,0.24,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.2,0.01,3,c,,0.38,d,-47.368421052631575,-0.18,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.17,0.0,3,b,,0.38,d,-55.26315789473684,-0.21,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Siríngico,Ácido siríngico,Ácidos hidroxibenzoicos,mg/L,0.13,0.0,3,a,,0.38,d,-65.78947368421052,-0.25,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,media,Si 8 g/L,8.0,2018,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,alta,Si 12 g/L,12.0,2018,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Elágico,Ácido elágico,Ácidos hidroxibenzoicos,mg/L,,,3,,,,,,,False
+Si,baixa,Si 4 g/L,4.0,2018,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,37.7,0.63,3,d,,17.49,a,115.55174385363068,20.210000000000004,True
+Si,media,Si 8 g/L,8.0,2018,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,31.52,0.21,3,b,,17.49,a,80.21726700971985,14.030000000000001,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,32.89,0.23,3,c,,17.49,a,88.05031446540883,15.400000000000002,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,23.59,0.29,3,b,,17.49,a,34.87707261292168,6.100000000000001,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,25.58,0.2,3,c,,17.49,a,46.25500285877645,8.09,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,trans-caftárico,Ácido trans-caftárico,Ácidos hidroxicinâmicos,mg/L,27.56,0.01,3,d,,17.49,a,57.57575757575758,10.07,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,2.28,0.01,3,d,,1.95,a,16.923076923076916,0.32999999999999985,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,2.11,0.01,3,c,,1.95,a,8.2051282051282,0.15999999999999992,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,2.08,0.01,3,b,,1.95,a,6.666666666666672,0.13000000000000012,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,2.04,0.01,3,b,,1.95,a,4.615384615384619,0.09000000000000008,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,2.26,0.0,3,c,,1.95,a,15.897435897435889,0.30999999999999983,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Cafeico,Ácido cafeico,Ácidos hidroxicinâmicos,mg/L,2.32,0.03,3,d,,1.95,a,18.974358974358967,0.3699999999999999,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.05,0.0,3,b,,0.06,b,-16.66666666666666,-0.009999999999999995,False
+Si,media,Si 8 g/L,8.0,2018,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.04,0.0,3,a,,0.06,b,-33.33333333333333,-0.019999999999999997,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.05,0.0,3,b,,0.06,b,-16.66666666666666,-0.009999999999999995,False
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.05,0.0,3,a,,0.06,c,-16.66666666666666,-0.009999999999999995,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.05,0.0,3,a,,0.06,c,-16.66666666666666,-0.009999999999999995,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,p-cumárico,Ácido p-cumárico,Ácidos hidroxicinâmicos,mg/L,0.05,0.0,3,a,,0.06,c,-16.66666666666666,-0.009999999999999995,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.38,0.0,3,c,,0.36,b,5.555555555555561,0.020000000000000018,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.34,0.01,3,a,,0.36,b,-5.555555555555546,-0.019999999999999962,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.4,0.0,3,d,,0.36,b,11.111111111111121,0.040000000000000036,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.35,0.0,3,a,,0.36,b,-2.7777777777777803,-0.010000000000000009,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.35,0.0,3,a,,0.36,b,-2.7777777777777803,-0.010000000000000009,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Ferúlico,Ácido ferúlico,Ácidos hidroxicinâmicos,mg/L,0.58,0.01,3,c,,0.36,b,61.1111111111111,0.21999999999999997,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,4.64,0.06,3,c,,3.38,a,37.27810650887573,1.2599999999999998,True
+Si,media,Si 8 g/L,8.0,2018,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,3.53,0.15,3,b,,3.38,a,4.4378698224852045,0.1499999999999999,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,5.48,0.3,3,d,,3.38,a,62.13017751479292,2.1000000000000005,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,3.78,0.17,3,a,,3.38,a,11.834319526627217,0.3999999999999999,False
+Ca,media,Ca 10 g/L,10.0,2018,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,4.08,0.19,3,b,,3.38,a,20.71005917159764,0.7000000000000002,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,(+)-Catequina,(+)-Catequina,Flavanóis,mg/L,7.21,0.22,3,c,,3.38,a,113.31360946745562,3.83,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,6.49,0.08,3,d,,2.85,a,127.71929824561403,3.64,True
+Si,media,Si 8 g/L,8.0,2018,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,3.33,0.05,3,b,,2.85,a,16.842105263157894,0.48,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,5.15,0.08,3,c,,2.85,a,80.70175438596492,2.3000000000000003,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,5.14,0.02,3,c,,2.85,a,80.35087719298244,2.2899999999999996,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,3.22,0.02,3,b,,2.85,a,12.982456140350882,0.3700000000000001,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,(-)-Epicatequina,(-)-Epicatequina,Flavanóis,mg/L,7.89,0.5,3,d,,2.85,a,176.84210526315786,5.039999999999999,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Miricetina,Miricetina,Flavonóis,mg/L,0.85,0.07,3,c,,0.78,b,8.974358974358967,0.06999999999999995,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Miricetina,Miricetina,Flavonóis,mg/L,0.71,0.05,3,a,,0.78,b,-8.974358974358982,-0.07000000000000006,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Miricetina,Miricetina,Flavonóis,mg/L,0.81,0.03,3,c,,0.78,b,3.8461538461538494,0.030000000000000027,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Miricetina,Miricetina,Flavonóis,mg/L,0.77,0.04,3,b,,0.78,b,-1.282051282051283,-0.010000000000000009,False
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Miricetina,Miricetina,Flavonóis,mg/L,0.79,0.04,3,b,,0.78,b,1.282051282051283,0.010000000000000009,False
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Miricetina,Miricetina,Flavonóis,mg/L,0.59,0.0,3,a,,0.78,b,-24.35897435897437,-0.19000000000000006,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Quercetina,Quercetina,Flavonóis,mg/L,1.38,0.01,3,ab,,1.39,c,-0.7194244604316553,-0.010000000000000009,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Quercetina,Quercetina,Flavonóis,mg/L,1.37,0.0,3,a,,1.39,c,-1.4388489208632949,-0.019999999999999796,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Quercetina,Quercetina,Flavonóis,mg/L,1.38,0.0,3,b,,1.39,c,-0.7194244604316553,-0.010000000000000009,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Quercetina,Quercetina,Flavonóis,mg/L,1.52,0.08,3,d,,1.39,b,9.352517985611518,0.13000000000000012,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Quercetina,Quercetina,Flavonóis,mg/L,1.36,0.0,3,a,,1.39,b,-2.15827338129495,-0.029999999999999805,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Quercetina,Quercetina,Flavonóis,mg/L,1.41,0.0,3,c,,1.39,b,1.4388489208633106,0.020000000000000018,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Campferol,Campferol,Flavonóis,mg/L,2.49,0.01,3,c,,2.26,a,10.176991150442499,0.23000000000000043,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Campferol,Campferol,Flavonóis,mg/L,2.28,0.01,3,b,,2.26,a,0.8849557522123902,0.020000000000000018,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Campferol,Campferol,Flavonóis,mg/L,2.43,0.0,3,d,,2.26,a,7.522123893805326,0.17000000000000037,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Campferol,Campferol,Flavonóis,mg/L,2.3,0.02,3,c,,2.26,b,1.7699115044247804,0.040000000000000036,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Campferol,Campferol,Flavonóis,mg/L,2.22,0.0,3,a,,2.26,b,-1.7699115044247609,-0.03999999999999959,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Campferol,Campferol,Flavonóis,mg/L,2.62,0.0,3,d,,2.26,b,15.929203539823023,0.3600000000000003,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,9.81,0.13,3,c,,11.66,d,-15.866209262435675,-1.8499999999999996,True
+Si,media,Si 8 g/L,8.0,2018,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,7.76,0.48,3,b,,11.66,d,-33.44768439108062,-3.9000000000000004,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,4.46,0.87,3,a,,11.66,d,-61.74957118353345,-7.2,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,2.06,0.0,3,a,,11.66,d,-82.3327615780446,-9.6,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,2.44,0.0,3,c,,11.66,d,-79.07375643224701,-9.22,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,Tirosol,Tirosol,Outros fenólicos,mg/L,2.38,0.0,3,b,,11.66,d,-79.58833619210978,-9.280000000000001,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.31,0.0,3,c,,1.01,a,29.702970297029704,0.30000000000000004,True
+Si,media,Si 8 g/L,8.0,2018,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.32,0.02,3,c,,1.01,a,30.6930693069307,0.31000000000000005,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.18,0.0,3,b,,1.01,a,16.831683168316825,0.16999999999999993,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.33,0.0,3,c,,1.01,a,31.68316831683169,0.32000000000000006,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.27,0.0,3,b,,1.01,a,25.742574257425744,0.26,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,trans-resveratrol,trans-Resveratrol,Outros fenólicos,mg/L,1.39,0.0,3,d,,1.01,a,37.62376237623761,0.3799999999999999,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,612.5,10.64,3,d,,461.97,a,32.58436695023485,150.52999999999997,True
+Si,media,Si 8 g/L,8.0,2018,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,577.93,1.77,3,b,,461.97,a,25.101197047427306,115.95999999999992,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,586.35,13.74,3,c,,461.97,a,26.923826222481978,124.38,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,572.16,2.22,3,c,,461.97,a,23.852198194687954,110.18999999999994,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,566.4,0.0,3,b,,461.97,a,22.605363984674316,104.42999999999995,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,FC,Polifenóis totais (Folin-Ciocalteu),Espectrofotometria,mg/L ác. gálico,595.21,9.31,3,d,,461.97,a,28.84169967746823,133.24,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,6.82,0.05,3,d,,2.82,a,141.84397163120568,4.0,True
+Si,media,Si 8 g/L,8.0,2018,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,4.57,0.02,3,b,,2.82,a,62.0567375886525,1.7500000000000004,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,5.93,0.07,3,c,,2.82,a,110.28368794326242,3.11,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,4.64,0.09,3,b,,2.82,a,64.53900709219857,1.8199999999999998,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,5.61,0.07,3,c,,2.82,a,98.93617021276599,2.7900000000000005,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,FT,Flavanóis totais,Espectrofotometria,mg/L catequina,6.45,0.14,3,d,,2.82,a,128.72340425531917,3.6300000000000003,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,1.34,0.03,3,d,,0.69,a,94.20289855072467,0.6500000000000001,True
+Si,media,Si 8 g/L,8.0,2018,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,0.98,0.03,3,b,,0.69,a,42.02898550724638,0.29000000000000004,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,1.19,0.02,3,c,,0.69,a,72.46376811594203,0.5,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,0.95,0.03,3,b,,0.69,a,37.68115942028986,0.26,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,1.02,0.0,3,c,,0.69,a,47.826086956521756,0.33000000000000007,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,o-D,o-Difenóis,Espectrofotometria,mg/L catequina,1.13,0.08,3,d,,0.69,a,63.76811594202898,0.43999999999999995,True
+Si,baixa,Si 4 g/L,4.0,2018,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.04,0.0,3,c,,0.06,d,-33.33333333333333,-0.019999999999999997,True
+Si,media,Si 8 g/L,8.0,2018,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.01,0.0,3,a,,0.06,d,-83.33333333333334,-0.049999999999999996,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.03,0.0,3,b,,0.06,d,-50.0,-0.03,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.04,0.0,3,a,,0.06,b,-33.33333333333333,-0.019999999999999997,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.04,0.01,3,ab,,0.06,b,-33.33333333333333,-0.019999999999999997,False
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,IE,Índice de escurecimento,Espectrofotometria,absorbância,0.06,0.01,3,b,,0.06,b,0.0,0.0,False
+Si,baixa,Si 4 g/L,4.0,2018,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1136.76,4.65,3,c,,1061.13,a,7.127307681433932,75.62999999999988,True
+Si,media,Si 8 g/L,8.0,2018,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1177.15,28.93,3,b,,1061.13,a,10.93362735951297,116.01999999999998,True
+Si,alta,Si 12 g/L,12.0,2018,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1164.66,31.12,3,b,,1061.13,a,9.756580249356814,103.52999999999997,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1129.25,9.75,3,c,,1061.13,a,6.41957158877799,68.11999999999989,True
+Ca,media,Ca 10 g/L,10.0,2018,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1188.37,5.39,3,b,,1061.13,a,11.990990736290536,127.23999999999978,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinho,ABTS,Capacidade antioxidante (ABTS),Espectrofotometria,µmol TEAC/L,1168.58,14.88,3,d,,1061.13,a,10.125997757107971,107.44999999999982,True
+Si,baixa,Si 4 g/L,4.0,2017,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,2.65,0.66,3,b,,1.43,a,85.31468531468532,1.22,True
+Si,media,Si 8 g/L,8.0,2017,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,1.8,0.11,3,a,,1.43,a,25.874125874125884,0.3700000000000001,False
+Si,alta,Si 12 g/L,12.0,2017,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,1.57,0.18,3,a,,1.43,a,9.790209790209799,0.14000000000000012,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,3.32,0.0,3,b,,2.43,a,36.625514403292165,0.8899999999999997,True
+Ca,media,Ca 10 g/L,10.0,2017,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,2.79,0.48,3,a,,2.43,a,14.814814814814808,0.3599999999999999,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,3.76,0.31,3,c,,2.43,a,54.732510288065825,1.3299999999999996,True
+Si,baixa,Si 4 g/L,4.0,2017,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,5.44,1.09,3,c,,2.99,a,81.93979933110369,2.45,True
+Si,media,Si 8 g/L,8.0,2017,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,3.99,0.24,3,b,,2.99,a,33.4448160535117,1.0,True
+Si,alta,Si 12 g/L,12.0,2017,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,3.49,0.41,3,ab,,2.99,a,16.72240802675585,0.5,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,7.37,0.11,3,b,,5.28,a,39.58333333333333,2.09,True
+Ca,media,Ca 10 g/L,10.0,2017,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,5.81,1.16,3,a,,5.28,a,10.037878787878775,0.5299999999999994,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,8.23,0.65,3,c,,5.28,a,55.87121212121212,2.95,True
+Si,baixa,Si 4 g/L,4.0,2017,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,34.05,5.98,3,b,,21.86,a,55.76395242451966,12.189999999999998,True
+Si,media,Si 8 g/L,8.0,2017,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,23.81,2.77,3,a,,21.86,a,8.920402561756632,1.9499999999999993,False
+Si,alta,Si 12 g/L,12.0,2017,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,23.16,1.47,3,a,,21.86,a,5.946935041171091,1.3000000000000007,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,35.8,0.67,3,a,,31.66,a,13.076437144662025,4.139999999999997,False
+Ca,media,Ca 10 g/L,10.0,2017,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,38.38,5.99,3,a,,31.66,a,21.225521162349974,6.720000000000002,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,44.53,6.81,3,ab,,31.66,a,40.650663297536326,12.870000000000001,False
+Si,baixa,Si 4 g/L,4.0,2017,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,85.3,10.49,3,a,,69.7,a,22.381635581061687,15.599999999999994,False
+Si,media,Si 8 g/L,8.0,2017,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,76.2,5.88,3,a,,69.7,a,9.32568149210904,6.5,False
+Si,alta,Si 12 g/L,12.0,2017,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,73.8,15.43,3,a,,69.7,a,5.882352941176462,4.099999999999994,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,91.6,3.76,3,a,,78.0,a,17.43589743589743,13.599999999999994,False
+Ca,media,Ca 10 g/L,10.0,2017,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,91.4,23.75,3,a,,78.0,a,17.179487179487186,13.400000000000006,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,93.7,15.33,3,a,,78.0,a,20.12820512820513,15.700000000000003,False
+Si,baixa,Si 4 g/L,4.0,2017,vinhedo,firmeza_N,Força máxima de compressão,Produtividade,N,4.49,0.4,3,b,,3.81,a,17.847769028871394,0.6800000000000002,True
+Si,media,Si 8 g/L,8.0,2017,vinhedo,firmeza_N,Força máxima de compressão,Produtividade,N,4.04,0.42,3,a,,3.81,a,6.036745406824147,0.22999999999999998,False
+Si,alta,Si 12 g/L,12.0,2017,vinhedo,firmeza_N,Força máxima de compressão,Produtividade,N,3.98,0.4,3,a,,3.81,a,4.461942257217846,0.16999999999999993,False
+Ca,baixa,Ca 5 g/L,5.0,2017,vinhedo,firmeza_N,Força máxima de compressão,Produtividade,N,3.99,0.46,3,ab,,3.81,ab,4.724409448818902,0.18000000000000016,False
+Ca,media,Ca 10 g/L,10.0,2017,vinhedo,firmeza_N,Força máxima de compressão,Produtividade,N,3.71,0.36,3,a,,3.81,ab,-2.624671916010501,-0.10000000000000009,False
+Ca,alta,Ca 15 g/L,15.0,2017,vinhedo,firmeza_N,Força máxima de compressão,Produtividade,N,4.06,0.46,3,b,,3.81,ab,6.561679790026235,0.24999999999999956,False
+Si,baixa,Si 4 g/L,4.0,2018,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,0.55,0.06,3,b,,0.24,a,129.1666666666667,0.31000000000000005,True
+Si,media,Si 8 g/L,8.0,2018,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,0.27,0.06,3,a,,0.24,a,12.500000000000012,0.030000000000000027,False
+Si,alta,Si 12 g/L,12.0,2018,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,0.71,0.2,3,b,,0.24,a,195.83333333333334,0.47,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,0.29,0.01,3,c,,0.12,a,141.66666666666669,0.16999999999999998,True
+Ca,media,Ca 10 g/L,10.0,2018,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,0.33,0.01,3,d,,0.12,a,175.00000000000003,0.21000000000000002,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinhedo,producao_kg_planta,Produção por planta,Produtividade,kg/planta,0.17,0.01,3,b,,0.12,a,41.666666666666686,0.05000000000000002,True
+Si,baixa,Si 4 g/L,4.0,2018,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,1.22,0.13,3,b,,0.53,a,130.18867924528303,0.69,True
+Si,media,Si 8 g/L,8.0,2018,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,0.6,0.13,3,a,,0.53,a,13.20754716981131,0.06999999999999995,False
+Si,alta,Si 12 g/L,12.0,2018,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,1.36,0.29,3,b,,0.53,a,156.60377358490564,0.8300000000000001,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,0.64,0.02,3,c,,0.28,a,128.57142857142856,0.36,True
+Ca,media,Ca 10 g/L,10.0,2018,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,0.73,0.03,3,d,,0.28,a,160.71428571428567,0.44999999999999996,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinhedo,produtividade_t_ha,Produtividade estimada,Produtividade,t/ha,0.38,0.02,3,b,,0.28,a,35.7142857142857,0.09999999999999998,True
+Si,baixa,Si 4 g/L,4.0,2018,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,6.14,0.96,3,b,,4.01,a,53.11720698254364,2.13,True
+Si,media,Si 8 g/L,8.0,2018,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,5.09,0.88,3,ab,,4.01,a,26.93266832917706,1.08,False
+Si,alta,Si 12 g/L,12.0,2018,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,18.02,0.53,3,c,,4.01,a,349.3765586034913,14.01,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,4.01,0.33,3,b,,1.03,a,289.3203883495145,2.9799999999999995,True
+Ca,media,Ca 10 g/L,10.0,2018,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,6.0,3.15,3,c,,1.03,a,482.5242718446602,4.97,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinhedo,cachos_por_planta,Cachos por planta,Produtividade,cachos/planta,12.11,3.36,3,d,,1.03,a,1075.7281553398059,11.08,True
+Si,baixa,Si 4 g/L,4.0,2018,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,116.29,28.03,3,b,,73.81,a,57.553177076276924,42.480000000000004,True
+Si,media,Si 8 g/L,8.0,2018,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,96.72,21.93,3,b,,73.81,a,31.03915458609944,22.909999999999997,True
+Si,alta,Si 12 g/L,12.0,2018,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,97.33,9.69,3,b,,73.81,a,31.865600867091175,23.519999999999996,True
+Ca,baixa,Ca 5 g/L,5.0,2018,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,74.66,14.23,3,a,,69.82,a,6.932111142938991,4.840000000000003,False
+Ca,media,Ca 10 g/L,10.0,2018,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,82.94,13.06,3,b,,69.82,a,18.791177313090813,13.120000000000005,True
+Ca,alta,Ca 15 g/L,15.0,2018,vinhedo,peso_cacho_g,Peso do cacho,Produtividade,g,76.39,4.51,3,a,,69.82,a,9.409911200229171,6.570000000000007,False

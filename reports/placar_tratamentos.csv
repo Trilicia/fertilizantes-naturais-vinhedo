@@ -1,0 +1,13 @@
+rotulo,safra,produtividade_pct,produtividade_dif_t_ha,ganho_significativo,sst_mosto_pct,alcool_vinho_pct,polifenois_vinho_pct,antioxidante_vinho_pct,resveratrol_vinho_pct
+Si 4 g/L,2017,81.9,2.4,True,-5.7,-9.5,57.3,16.7,15.8
+Si 8 g/L,2017,33.4,1.0,True,-9.5,-16.2,62.0,18.2,18.2
+Si 12 g/L,2017,16.7,0.5,False,-5.7,-7.0,59.6,21.6,9.7
+Ca 5 g/L,2017,39.6,2.1,True,-6.6,-12.4,48.5,21.1,9.7
+Ca 10 g/L,2017,10.0,0.5,False,-6.2,-9.8,53.9,16.4,9.7
+Ca 15 g/L,2017,55.9,3.0,True,-6.6,-7.0,60.8,19.2,11.5
+Si 4 g/L,2018,130.2,0.7,True,-2.0,-6.5,32.6,7.1,29.7
+Si 8 g/L,2018,13.2,0.1,False,-3.9,-10.6,25.1,10.9,30.7
+Si 12 g/L,2018,156.6,0.8,True,-6.9,-1.1,26.9,9.8,16.8
+Ca 5 g/L,2018,128.6,0.4,True,-3.9,-6.9,23.9,6.4,31.7
+Ca 10 g/L,2018,160.7,0.4,True,-7.4,5.1,22.6,12.0,25.7
+Ca 15 g/L,2018,35.7,0.1,True,-3.0,6.9,28.8,10.1,37.6

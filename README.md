@@ -4,6 +4,8 @@ Análise de dados de um experimento de campo com uvas Sauvignon Blanc, construí
 
 **Pergunta de negócio:** aplicar silício ou cálcio no cacho da uva aumenta a produtividade do vinhedo? E, se aumenta, qual é o custo para a qualidade do vinho?
 
+**📊 [Abrir o dashboard interativo](https://trilicia.github.io/fertilizantes-naturais-vinhedo/)**
+
 O desenho é o de um **teste A/B com várias doses**: cada fertilizante tem um grupo controle e três doses, em 3 blocos de 10 plantas, repetidos em duas safras.
 
 ---
@@ -40,7 +42,7 @@ A decisão final depende de dados que o experimento não tem: **preço da uva po
 | **Modelagem** | Banco SQLite em modelo estrela: tratamentos, variáveis, safras, etapas e uma tabela de fatos (`scripts/schema.sql`) |
 | **SQL** | View de comparação com o controle e 6 perguntas de negócio (`sql/consultas.sql`) |
 | **Estatística** | ANOVA de um fator e Tukey HSD **reconstruídos a partir de média, desvio padrão e n**, sem os dados brutos; PCA do perfil fenólico |
-| **Comunicação** | Gráficos e um placar de tratamentos para apoiar a decisão |
+| **Comunicação** | Gráficos, placar de tratamentos e um [dashboard interativo](https://trilicia.github.io/fertilizantes-naturais-vinhedo/) com filtros de safra e fertilizante (`scripts/04_build_dashboard.py`) |
 
 ### Reprodução da estatística original
 
@@ -92,7 +94,10 @@ Encontrei e documentei inconsistências na fonte. Todas estão registradas na ta
 │   ├── 01_extract_tables.py     # PDF (texto) -> CSV
 │   ├── schema.sql               # modelo do banco
 │   ├── 02_build_database.py     # CSV -> SQLite + auditoria
-│   └── 03_analysis.py           # ANOVA/Tukey, placar, PCA e gráficos
+│   ├── 03_analysis.py           # ANOVA/Tukey, placar, PCA e gráficos
+│   ├── 04_build_dashboard.py    # gera o dashboard a partir do banco
+│   └── dashboard_template.html  # layout do dashboard
+├── docs/index.html              # dashboard (GitHub Pages)
 ├── sql/consultas.sql            # perguntas de negócio em SQL
 └── reports/
     ├── placar_tratamentos.csv
@@ -114,6 +119,7 @@ python scripts/01_extract_tables.py data/raw/tese_texto_layout.txt data/processe
 # 2. banco de dados e análises
 python scripts/02_build_database.py data/processed/medicoes_cap4.csv data/processed/vinhedo.db
 python scripts/03_analysis.py data/processed/vinhedo.db reports
+python scripts/04_build_dashboard.py data/processed/vinhedo.db reports docs/index.html
 
 # 3. consultas SQL
 sqlite3 data/processed/vinhedo.db < sql/consultas.sql

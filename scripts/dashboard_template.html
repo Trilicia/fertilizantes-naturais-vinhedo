@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fertilizantes naturais no vinhedo | Dashboard</title>
+<meta name="description" content="Silício e cálcio aumentam a produtividade do vinhedo, mas a que custo para a qualidade do vinho? Reanálise de dados da tese de doutorado de Trilícia Gomes (UFSC).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light;
+  --page:#f6f5f1; --surface:#ffffff; --ink:#1d2b30; --ink2:#5b6669; --muted:#7d878a; --line:#e6e3dc; --grid:#eeece6;
+  --petrol:#0f3a3f; --cream:#f4efe6; --gold:#e8b25c;
+  --si:#046b96; --ca:#b7752b; --ctrl:#c9c5bc;
+  --neg:#a8462f; --mid:#f2f0eb;
+  --radius:14px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;font-weight:600;letter-spacing:-.01em;margin:0}
+a{color:var(--si)} a:hover{color:var(--petrol)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+/* cabeçalho */
+header{background:var(--petrol);color:var(--cream);padding:44px 0 56px}
+.eyebrow{display:flex;align-items:center;gap:10px;color:var(--gold);font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--gold)}
+header h1{font-size:clamp(28px,4vw,42px);line-height:1.12;margin:16px 0 12px;max-width:860px}
+header p.lead{font-size:17px;color:rgba(244,239,230,.82);max-width:760px;margin:0 0 24px}
+.meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.chip{border:1px solid rgba(244,239,230,.32);border-radius:999px;padding:6px 14px;font-size:13px;color:var(--cream)}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:40px;border-radius:999px;padding:8px 18px;font-size:14px;font-weight:600;text-decoration:none}
+.btn.primary{background:var(--gold);color:var(--petrol)} .btn.primary:hover{background:#f0c27a;color:var(--petrol)}
+.btn.ghost{border:1px solid rgba(244,239,230,.45);color:var(--cream)} .btn.ghost:hover{background:rgba(244,239,230,.1);color:var(--cream)}
+
+/* KPIs */
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:-32px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 20px 18px}
+.kpi .v{white-space:nowrap;font-family:"Space Grotesk",Inter,sans-serif;font-size:clamp(24px,2.6vw,32px);font-weight:600;line-height:1.1;color:var(--ink)}
+.kpi .v small{font-size:18px;color:var(--ink2);font-weight:500}
+.kpi .l{color:var(--ink2);font-size:14px;margin-top:6px}
+
+/* filtros */
+.filters{display:flex;flex-wrap:wrap;gap:20px;align-items:center;margin:36px 0 16px}
+.filters .lab{font-size:13px;font-weight:600;color:var(--ink2);margin-right:8px}
+.seg{display:inline-flex;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:3px}
+.seg button{border:0;background:transparent;font:inherit;font-size:14px;color:var(--ink2);padding:7px 16px;border-radius:999px;cursor:pointer;min-height:36px}
+.seg button[aria-pressed="true"]{background:var(--petrol);color:var(--cream)}
+.seg button:focus-visible{outline:2px solid var(--si);outline-offset:2px}
+
+/* cartões */
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px 22px 18px;min-width:0}
+.span-7{grid-column:span 7}.span-5{grid-column:span 5}.span-12{grid-column:span 12}.span-6{grid-column:span 6}.span-4{grid-column:span 4}
+.card h2{font-size:19px}
+.card .sub{color:var(--ink2);font-size:14px;margin:4px 0 14px}
+.legend{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;color:var(--ink2);margin-bottom:6px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.sw.dot{border-radius:50%}
+svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:Inter,sans-serif}
+.note{font-size:12.5px;color:var(--muted);margin-top:8px}
+details{margin-top:10px;font-size:13px;color:var(--ink2)}
+summary{cursor:pointer;font-weight:600;color:var(--si)}
+table{border-collapse:collapse;width:100%;margin-top:8px;font-size:13px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--grid)} th{color:var(--ink2);font-weight:600}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{overflow-x:auto}
+
+/* recomendação e textos */
+.reco{background:var(--petrol);color:var(--cream);border:0}
+.reco .tag{display:inline-block;background:var(--gold);color:var(--petrol);font-size:12px;font-weight:600;border-radius:999px;padding:3px 12px;letter-spacing:.04em}
+.reco h2{font-size:26px;margin:12px 0 8px;color:#fff}
+.reco p{color:rgba(244,239,230,.86);margin:0 0 14px}
+.reco ul{margin:0;padding-left:18px;color:rgba(244,239,230,.92)} .reco li{margin:6px 0}
+.reco .warn{margin-top:14px;padding-top:12px;border-top:1px solid rgba(244,239,230,.2);font-size:14px;color:rgba(244,239,230,.8)}
+.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:6px}
+.step{border:1px solid var(--line);border-radius:12px;padding:14px}
+.step b{display:block;font-family:"Space Grotesk",Inter,sans-serif;font-size:15px;margin-bottom:4px}
+.step .k{font-size:12px;font-weight:600;color:var(--ca);letter-spacing:.08em}
+.step p{margin:0;font-size:13.5px;color:var(--ink2)}
+.list{margin:0;padding-left:18px;color:var(--ink2);font-size:14.5px} .list li{margin:7px 0} .list b{color:var(--ink)}
+section{margin-top:16px}
+h2.section{font-size:22px;margin:44px 0 14px}
+footer{margin-top:48px;padding:28px 0 40px;border-top:1px solid var(--line);color:var(--ink2);font-size:13.5px}
+footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
+
+/* tooltip */
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:#fff;font-size:13px;line-height:1.45;border-radius:10px;padding:10px 12px;max-width:260px;box-shadow:0 8px 24px rgba(15,58,63,.18);opacity:0;transition:opacity .12s;z-index:10}
+#tip b{font-weight:600} #tip .t{color:rgba(255,255,255,.7)}
+
+@media (max-width:900px){
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .span-7,.span-5,.span-6,.span-4{grid-column:span 12}
+  .steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:520px){
+  .wrap{padding:0 16px} .kpis{grid-template-columns:1fr} .kpi .v{font-size:28px;white-space:normal} .steps{grid-template-columns:1fr}
+  .card{padding:18px 14px 14px}
+  .filters{gap:12px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Análise de dados · Viticultura</div>
+    <h1>Fertilizantes naturais no vinhedo: vale a pena produzir mais?</h1>
+    <p class="lead">Silício e cálcio aplicados no cacho da uva Sauvignon Blanc aumentam a produtividade. Este painel mostra quanto, com que consistência entre safras e qual é o custo para a qualidade do vinho.</p>
+    <div class="meta">
+      <span class="chip">Tese de doutorado · UFSC, 2020</span>
+      <span class="chip">Artigo · J. Sci. Food Agric. · 26 citações</span>
+      <span class="chip">São Joaquim (SC) · 2 safras</span>
+    </div>
+    <div class="meta" style="margin-top:18px">
+      <a class="btn primary" href="https://github.com/Trilicia/fertilizantes-naturais-vinhedo">Ver o código no GitHub</a>
+      <a class="btn ghost" href="https://doi.org/10.1002/jsfa.10163">Ler o artigo</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="kpis" id="kpis"></div>
+
+  <div class="filters" role="group" aria-label="Filtros">
+    <div><span class="lab" id="lab-safra">Safra</span>
+      <div class="seg" id="f-safra" aria-labelledby="lab-safra">
+        <button type="button" data-v="2017" aria-pressed="true">2016/2017</button>
+        <button type="button" data-v="2018" aria-pressed="false">2017/2018</button>
+      </div></div>
+    <div><span class="lab" id="lab-sal">Fertilizante</span>
+      <div class="seg" id="f-sal" aria-labelledby="lab-sal">
+        <button type="button" data-v="Ambos" aria-pressed="true">Ambos</button>
+        <button type="button" data-v="Si" aria-pressed="false">Silício</button>
+        <button type="button" data-v="Ca" aria-pressed="false">Cálcio</button>
+      </div></div>
+  </div>
+
+  <div class="grid">
+    <div class="card span-7">
+      <h2>Produtividade por tratamento</h2>
+      <p class="sub" id="bars-sub"></p>
+      <div class="legend"><span><i class="sw" style="background:var(--ctrl)"></i>Controle</span><span><i class="sw" style="background:var(--si)"></i>Silício (metassilicato de sódio)</span><span><i class="sw" style="background:var(--ca)"></i>Cálcio (cloreto de cálcio)</span></div>
+      <svg id="bars" role="img" aria-label="Gráfico de barras da produtividade estimada por tratamento"></svg>
+      <p class="note">Média ± desvio padrão (n = 3 blocos). Letras diferentes indicam diferença pelo teste de Tukey (p ≤ 0,05), comparando apenas doses do mesmo fertilizante.</p>
+      <details><summary>Ver dados em tabela</summary><div class="tablewrap" id="bars-table"></div></details>
+    </div>
+    <div class="card span-5">
+      <h2>O trade-off: volume × álcool</h2>
+      <p class="sub">Cada ponto é um tratamento comparado ao seu controle. Quase todos produzem mais e geram vinho com menos álcool.</p>
+      <div class="legend"><span><i class="sw dot" style="background:var(--si)"></i>Silício</span><span><i class="sw dot" style="background:var(--ca)"></i>Cálcio</span><span>● 2016/2017</span><span>■ 2017/2018</span></div>
+      <svg id="scatter" role="img" aria-label="Dispersão entre variação da produtividade e variação do teor alcoólico"></svg>
+      <p class="note">A safra selecionada aparece em destaque; a outra fica esmaecida.</p>
+    </div>
+
+    <div class="card span-12">
+      <h2>Efeito de cada tratamento em relação ao controle</h2>
+      <p class="sub" id="heat-sub"></p>
+      <div class="legend"><span><i class="sw" style="background:var(--si)"></i>Acima do controle</span><span><i class="sw" style="background:var(--neg)"></i>Abaixo do controle</span><span>* sem diferença estatística (Tukey, p ≤ 0,05)</span></div>
+      <svg id="heat" role="img" aria-label="Mapa de calor da variação percentual em relação ao controle"></svg>
+      <details><summary>Ver dados em tabela</summary><div class="tablewrap" id="heat-table"></div></details>
+    </div>
+  </div>
+
+  <h2 class="section">Recomendação</h2>
+  <div class="grid">
+    <div class="card reco span-7">
+      <span class="tag">TRATAMENTO MAIS CONSISTENTE</span>
+      <h2>Silício a 4 g/L</h2>
+      <p>Para quem quer aumentar o volume com o menor risco, é a opção mais defensável.</p>
+      <ul>
+        <li>Única dose de silício com ganho de produtividade significativo nas duas safras (<b id="r-si4"></b>).</li>
+        <li>É a menor dose testada, ou seja, o menor gasto com insumo.</li>
+        <li>Aumentou polifenóis totais e resveratrol do vinho nas duas safras.</li>
+      </ul>
+      <div class="warn">Ponto de atenção: o teor alcoólico do vinho caiu de 6% a 10%. A decisão final depende do estilo de vinho e de dados de custo e preço, que o experimento não tem.</div>
+    </div>
+    <div class="card span-5">
+      <h2>Validação com o artigo publicado</h2>
+      <p class="sub">Gomes et al. (2020), Journal of the Science of Food and Agriculture</p>
+      <ul class="list">
+        <li><b>Concorda</b> com Si 4 g/L e Ca 15 g/L: ganho significativo nas duas safras.</li>
+        <li><b>Diverge</b> em Si 8 g/L: maior alta de polifenóis em 2016/2017, mas sem diferença de produtividade em 2017/2018.</li>
+        <li><b>Acrescenta</b> Ca 5 g/L, também consistente nas duas safras.</li>
+        <li>O artigo pondera produtividade e qualidade juntas; esta análise prioriza a <b>consistência entre safras</b>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 class="section">Como o projeto foi construído</h2>
+  <div class="card">
+    <div class="steps">
+      <div class="step"><span class="k">01</span><b>Extração</b><p>Tabelas do PDF da tese convertidas em 1.048 medições com Python.</p></div>
+      <div class="step"><span class="k">02</span><b>Qualidade</b><p>Auditoria da fonte: doses inconsistentes, linhas duplicadas e unidade suspeita.</p></div>
+      <div class="step"><span class="k">03</span><b>Modelagem</b><p>Banco SQLite em modelo estrela, com tabela de auditoria.</p></div>
+      <div class="step"><span class="k">04</span><b>SQL e estatística</b><p>Perguntas de negócio em SQL; ANOVA, Tukey e PCA em Python.</p></div>
+      <div class="step"><span class="k">05</span><b>Comunicação</b><p>Gráficos, recomendação e este painel.</p></div>
+    </div>
+  </div>
+
+  <div class="grid" style="margin-top:16px">
+    <div class="card span-6">
+      <h2>Auditoria de qualidade dos dados</h2>
+      <ul class="list">
+        <li><b>Doses:</b> descritas de formas diferentes no texto; padronizadas como Si 4/8/12 g/L e Ca 5/10/15 g/L, confirmadas pela autora e pelo artigo.</li>
+        <li><b>Linhas duplicadas:</b> dois pares de compostos com valores idênticos, marcados e excluídos da análise.</li>
+        <li><b>Unidade:</b> acidez total informada em g/L, mas compatível com meq/L.</li>
+        <li><b>Reprodutibilidade:</b> <span id="r-concord"></span>% das comparações de Tukey refeitas a partir de média e desvio chegaram à mesma conclusão da tese.</li>
+      </ul>
+    </div>
+    <div class="card span-6">
+      <h2>Limitações</h2>
+      <ul class="list">
+        <li>Os dados são médias de 3 repetições publicadas, não as medições individuais.</li>
+        <li>Duas safras em um único vinhedo, sendo uma afetada por geada tardia.</li>
+        <li>Sem dados de custo e preço: a recomendação é técnica, não financeira.</li>
+        <li>Os percentuais de 2017/2018 partem de uma base muito baixa e devem ser lidos junto com os valores absolutos.</li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap row">
+    <div><b style="color:var(--ink)">Trilícia Gomes</b> · Análise de Dados e Operações · PhD em Ciência dos Alimentos</div>
+    <div><a href="https://www.linkedin.com/in/triliciagomes/">LinkedIn</a> · <a href="https://github.com/Trilicia">GitHub</a> · <a href="https://trilicia.github.io/Portfolio/">Portfólio</a></div>
+  </div>
+  <div class="wrap" style="margin-top:10px">Fonte: GOMES, T. M. Tese de doutorado, Programa de Pós-Graduação em Ciência dos Alimentos, UFSC, 2020; GOMES, T. M. et al. J. Sci. Food Agric., 100(4), 1547–1557, 2020.</div>
+</footer>
+
+<div id="tip" role="tooltip"></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const S = { safra: 2017, sal: "Ambos" };
+const C = { si:"#046b96", ca:"#b7752b", ctrl:"#c9c5bc", ink:"#1d2b30", ink2:"#5b6669", muted:"#7d878a", grid:"#eeece6", axis:"#cfcac0", surf:"#ffffff" };
+const salCor = s => s === "Si" ? C.si : C.ca;
+const salNome = s => s === "Si" ? "Silício" : "Cálcio";
+const safraNome = s => s === 2017 ? "2016/2017" : "2017/2018";
+const nf = (v, d=1) => v.toLocaleString("pt-BR", {minimumFractionDigits:d, maximumFractionDigits:d});
+const pct = v => (v > 0 ? "+" : v < 0 ? "−" : "") + nf(Math.abs(v), 0) + "%";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const salOk = s => S.sal === "Ambos" || S.sal === s;
+
+/* tooltip */
+const tip = document.getElementById("tip");
+function showTip(e, html){ tip.innerHTML = html; tip.style.opacity = 1; moveTip(e); }
+function moveTip(e){ const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = e.clientX + pad, y = e.clientY + pad;
+  if (x + w > innerWidth - 8) x = e.clientX - w - pad; if (y + h > innerHeight - 8) y = e.clientY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px"; }
+function hideTip(){ tip.style.opacity = 0; }
+function bindTips(svg){
+  svg.querySelectorAll("[data-tip]").forEach(el => {
+    el.addEventListener("mouseenter", e => showTip(e, el.dataset.tip));
+    el.addEventListener("mousemove", moveTip);
+    el.addEventListener("mouseleave", hideTip);
+    el.addEventListener("focus", () => { const r = el.getBoundingClientRect(); showTip({clientX:r.left + r.width/2, clientY:r.top}, el.dataset.tip); });
+    el.addEventListener("blur", hideTip);
+  });
+}
+function niceStep(max, n=5){ const raw = max / n, p = Math.pow(10, Math.floor(Math.log10(raw))), f = raw / p;
+  return (f < 1.5 ? 1 : f < 3 ? 2 : f < 7 ? 5 : 10) * p; }
+
+/* KPIs */
+function kpis(){
+  const k = DATA.kpi;
+  document.getElementById("kpis").innerHTML = [
+    [`${k.ambas} <small>de ${k.total}</small>`, "tratamentos com ganho de produtividade significativo nas duas safras"],
+    [`+${k.si4[0]}%<small> e </small>+${k.si4[1]}%`, "produtividade com silício a 4 g/L, em cada safra, vs. controle"],
+    [`+${k.polif[0]}% <small>a</small> +${k.polif[1]}%`, "polifenóis totais do vinho em relação ao controle"],
+    [`${k.concord}%`, "das conclusões estatísticas da tese reproduzidas a partir dos dados publicados"]
+  ].map(([v,l]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+  document.getElementById("r-si4").textContent = `+${k.si4[0]}% e +${k.si4[1]}%`;
+  document.getElementById("r-concord").textContent = k.concord;
+}
+
+/* barras de produtividade */
+function bars(){
+  const svg = document.getElementById("bars");
+  const rows = DATA.prod.filter(r => r.safra === S.safra && salOk(r.sal));
+  const sais = ["Si","Ca"].filter(salOk);
+  const narrow = svg.clientWidth < 520;
+  const W = narrow ? (S.sal === "Ambos" ? 460 : 360) : 680, H = narrow ? 300 : 330, m = {t:30, r:8, b:62, l:40}, iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const top = Math.max(...rows.map(r => r.media + r.dp)) * 1.18, step = niceStep(top), yMax = Math.ceil(top / step) * step;
+  const y = v => m.t + ih - v / yMax * ih;
+  const gap = sais.length > 1 ? 0.9 : 0, slots = rows.length + gap, slotW = iw / slots, bw = Math.min(52, slotW * 0.56);
+  let g = "";
+  for (let v = 0; v <= yMax + 1e-9; v += step){
+    g += `<line x1="${m.l}" x2="${W-m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${v===0?C.axis:C.grid}" stroke-width="1"/>`;
+    g += `<text x="${m.l-8}" y="${y(v)+4}" text-anchor="end" font-size="12" fill="${C.muted}">${nf(v, step < 1 ? 1 : 0)}</text>`;
+  }
+  g += `<text x="${m.l-34}" y="${m.t-14}" font-size="12" fill="${C.muted}">t/ha</text>`;
+  const ctrl = {}; rows.filter(r => r.nivel === "controle").forEach(r => ctrl[r.sal] = r.media);
+  let i = 0;
+  sais.forEach((sal, si) => {
+    const grp = rows.filter(r => r.sal === sal), x0 = m.l + (i + si * gap) * slotW;
+    grp.forEach((r, j) => {
+      const cx = m.l + (i + si * gap + 0.5) * slotW, x = cx - bw/2, yt = y(r.media), y0 = y(0), rad = 4;
+      const cor = r.nivel === "controle" ? C.ctrl : salCor(sal);
+      const lab = r.nivel === "controle" ? "Controle" : `${nf(r.dose,0)} g/L`;
+      const varc = r.nivel === "controle" ? "" : `<br><span class="t">vs. controle:</span> ${pct((r.media/ctrl[sal]-1)*100)}`;
+      const t = `<b>${salNome(sal)} · ${lab}</b><br>${nf(r.media,2)} ± ${nf(r.dp,2)} t/ha${varc}<br><span class="t">Tukey:</span> ${esc(r.letra)} · safra ${safraNome(r.safra)}`;
+      g += `<path d="M${x},${y0} V${yt+rad} Q${x},${yt} ${x+rad},${yt} H${x+bw-rad} Q${x+bw},${yt} ${x+bw},${yt+rad} V${y0} Z" fill="${cor}"/>`;
+      g += `<line x1="${cx}" x2="${cx}" y1="${y(r.media+r.dp)}" y2="${y(Math.max(0,r.media-r.dp))}" stroke="${C.ink2}" stroke-width="1.2"/>`;
+      g += `<line x1="${cx-4}" x2="${cx+4}" y1="${y(r.media+r.dp)}" y2="${y(r.media+r.dp)}" stroke="${C.ink2}" stroke-width="1.2"/>`;
+      g += `<text x="${cx}" y="${y(r.media+r.dp)-8}" text-anchor="middle" font-size="12.5" fill="${C.ink}" font-weight="600">${nf(r.media,2)} <tspan fill="${C.ink2}" font-weight="400">${esc(r.letra)}</tspan></text>`;
+      g += `<text x="${cx}" y="${H-m.b+20}" text-anchor="middle" font-size="12.5" fill="${C.ink2}">${lab}</text>`;
+      g += `<rect x="${cx-slotW/2}" y="${m.t}" width="${slotW}" height="${ih}" fill="transparent" tabindex="0" data-tip='${t}' aria-label="${salNome(sal)} ${lab}: ${nf(r.media,2)} t/ha"/>`;
+      i++;
+    });
+    const x1 = m.l + (i - grp.length + si * gap) * slotW + 6, x2 = m.l + (i + si * gap) * slotW - 6;
+    g += `<line x1="${x1}" x2="${x2}" y1="${H-m.b+34}" y2="${H-m.b+34}" stroke="${salCor(sal)}" stroke-width="2"/>`;
+    g += `<text x="${(x1+x2)/2}" y="${H-m.b+52}" text-anchor="middle" font-size="13" font-weight="600" fill="${C.ink}">${salNome(sal)}</text>`;
+  });
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = g; bindTips(svg);
+  document.getElementById("bars-sub").textContent = `Produtividade estimada (t/ha) na safra ${safraNome(S.safra)}.` + (S.safra === 2018 ? " Uma geada tardia reduziu o rendimento de todo o vinhedo nesta safra." : "");
+  document.getElementById("bars-table").innerHTML = `<table><thead><tr><th>Fertilizante</th><th>Dose</th><th class="n">Média (t/ha)</th><th class="n">Desvio</th><th>Tukey</th></tr></thead><tbody>${
+    rows.map(r => `<tr><td>${salNome(r.sal)}</td><td>${r.nivel==="controle"?"Controle":nf(r.dose,0)+" g/L"}</td><td class="n">${nf(r.media,2)}</td><td class="n">${nf(r.dp,2)}</td><td>${esc(r.letra)}</td></tr>`).join("")}</tbody></table>`;
+}
+
+/* dispersão: produtividade × álcool */
+function scatter(){
+  const svg = document.getElementById("scatter");
+  const pts = DATA.pts.filter(p => salOk(p.sal));
+  const W = svg.clientWidth < 420 ? 380 : 440, H = 340, m = {t:16, r:14, b:46, l:48}, iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const xMax = Math.ceil(Math.max(...DATA.pts.map(p => p.prod)) / 20) * 20 + 10, xMin = -10;
+  const yMin = Math.floor(Math.min(...DATA.pts.map(p => p.alcool)) / 5) * 5 - 1, yMax = Math.ceil(Math.max(...DATA.pts.map(p => p.alcool)) / 5) * 5 + 1;
+  const x = v => m.l + (v - xMin) / (xMax - xMin) * iw, y = v => m.t + ih - (v - yMin) / (yMax - yMin) * ih;
+  let g = "";
+  for (let v = 0; v <= xMax; v += 40){ g += `<line x1="${x(v)}" x2="${x(v)}" y1="${m.t}" y2="${m.t+ih}" stroke="${C.grid}"/><text x="${x(v)}" y="${H-m.b+18}" text-anchor="middle" font-size="12" fill="${C.muted}">${v>0?"+":""}${v}%</text>`; }
+  for (let v = Math.ceil(yMin/5)*5; v <= yMax; v += 5){ g += `<line x1="${m.l}" x2="${W-m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${v===0?C.axis:C.grid}" stroke-width="${v===0?1.4:1}"/><text x="${m.l-8}" y="${y(v)+4}" text-anchor="end" font-size="12" fill="${C.muted}">${v>0?"+":""}${v}%</text>`; }
+  g += `<line x1="${x(0)}" x2="${x(0)}" y1="${m.t}" y2="${m.t+ih}" stroke="${C.axis}" stroke-width="1.4"/>`;
+  g += `<text x="${m.l+iw/2}" y="${H-6}" text-anchor="middle" font-size="12.5" fill="${C.ink2}">Produtividade vs. controle</text>`;
+  g += `<text transform="translate(12 ${m.t+ih/2}) rotate(-90)" text-anchor="middle" font-size="12.5" fill="${C.ink2}">Teor alcoólico do vinho vs. controle</text>`;
+  g += `<text x="${W-m.r-4}" y="${y(yMin)-8}" text-anchor="end" font-size="11.5" fill="${C.muted}">mais volume, menos álcool</text>`;
+  const ordered = [...pts].sort((a,b) => (a.safra === S.safra) - (b.safra === S.safra));
+  ordered.forEach(p => {
+    const on = p.safra === S.safra, cx = x(p.prod), cy = y(p.alcool), cor = salCor(p.sal), op = on ? 1 : .2;
+    const t = `<b>${salNome(p.sal)} ${nf(p.dose,0)} g/L · ${safraNome(p.safra)}</b><br><span class="t">Produtividade:</span> ${pct(p.prod)}${p.sig?"":" (sem diferença)"}<br><span class="t">Álcool do vinho:</span> ${pct(p.alcool)}<br><span class="t">Açúcar no mosto:</span> ${pct(p.sst)}<br><span class="t">Polifenóis do vinho:</span> ${pct(p.polif)}`;
+    const shape = p.safra === 2017 ? `<circle cx="${cx}" cy="${cy}" r="6.5" fill="${cor}" stroke="${C.surf}" stroke-width="2" opacity="${op}"/>`
+                                    : `<rect x="${cx-6}" y="${cy-6}" width="12" height="12" rx="2" fill="${cor}" stroke="${C.surf}" stroke-width="2" opacity="${op}"/>`;
+    g += shape;
+    if (on){ const below = p.sal === "Ca" && p.dose === 5 && p.safra === 2018;
+      g += `<text x="${cx+9}" y="${below ? cy+18 : cy-9}" font-size="12.5" fill="${C.ink2}">${p.sal} ${nf(p.dose,0)}</text>`; }
+    if (on) g += `<circle cx="${cx}" cy="${cy}" r="14" fill="transparent" tabindex="0" data-tip='${t}' aria-label="${salNome(p.sal)} ${nf(p.dose,0)} g/L: produtividade ${pct(p.prod)}, álcool ${pct(p.alcool)}"/>`;
+  });
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = g; bindTips(svg);
+}
+
+/* mapa de calor */
+const RAMP = [[-60,"#a8462f"],[-25,"#d9967f"],[0,"#f2f0eb"],[25,"#7fb0cb"],[60,"#046b96"]];
+function hex2rgb(h){ return [1,3,5].map(i => parseInt(h.slice(i,i+2),16)); }
+function heatColor(v){ v = Math.max(-60, Math.min(60, v));
+  for (let i = 0; i < RAMP.length-1; i++){ const [a,ca] = RAMP[i], [b,cb] = RAMP[i+1];
+    if (v >= a && v <= b){ const t = (v-a)/(b-a), A = hex2rgb(ca), B = hex2rgb(cb);
+      return `rgb(${A.map((x,k) => Math.round(x + (B[k]-x)*t)).join(",")})`; } } return RAMP[2][1]; }
+function heat(){
+  const svg = document.getElementById("heat");
+  const items = [...new Set(DATA.heat.map(h => h.item))];
+  const cols = [];
+  ["Si","Ca"].filter(salOk).forEach(s => [...new Set(DATA.heat.filter(h => h.sal === s).map(h => h.dose))].sort((a,b)=>a-b).forEach(d => cols.push([s,d])));
+  const narrow = window.innerWidth < 640;
+  const labW = narrow ? 150 : 250, cw = narrow ? 64 : Math.min(130, (1100 - labW) / cols.length), ch = 40, top = 34;
+  const W = labW + cols.length * cw, H = top + items.length * ch + 4;
+  let g = "";
+  cols.forEach(([s,d], j) => {
+    const cx = labW + j*cw + cw/2;
+    g += `<text x="${cx}" y="16" text-anchor="middle" font-size="12.5" font-weight="600" fill="${salCor(s)}">${s} ${nf(d,0)} g/L</text>`;
+  });
+  items.forEach((it, i) => {
+    const yy = top + i*ch;
+    g += `<text x="${labW-14}" y="${yy+ch/2+4}" text-anchor="end" font-size="13" fill="${C.ink}">${esc(narrow ? it.replace(" do vinho","").replace(" no mosto","") : it)}</text>`;
+    cols.forEach(([s,d], j) => {
+      const h = DATA.heat.find(r => r.item === it && r.sal === s && r.dose === d && r.safra === S.safra);
+      if (!h) return;
+      const x = labW + j*cw, fill = heatColor(h.pct), txt = Math.abs(h.pct) > 40 ? "#ffffff" : C.ink;
+      const t = `<b>${esc(it)}</b><br>${salNome(s)} ${nf(d,0)} g/L · ${safraNome(S.safra)}<br><span class="t">Tratamento:</span> ${nf(h.media,2)} ${esc(h.unidade)}<br><span class="t">Controle:</span> ${nf(h.ctrl,2)} ${esc(h.unidade)}<br><span class="t">Variação:</span> ${pct(h.pct)}${h.difere?"":" · sem diferença estatística"}`;
+      g += `<rect x="${x+2}" y="${yy+2}" width="${cw-4}" height="${ch-4}" rx="6" fill="${fill}" tabindex="0" data-tip='${t}' aria-label="${esc(it)}, ${s} ${nf(d,0)} g/L: ${pct(h.pct)}"/>`;
+      g += `<text x="${x+cw/2}" y="${yy+ch/2+4.5}" text-anchor="middle" font-size="13" font-weight="500" fill="${txt}" pointer-events="none">${pct(h.pct)}${h.difere?"":"*"}</text>`;
+    });
+  });
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.style.maxWidth = W + "px"; svg.innerHTML = g; bindTips(svg);
+  document.getElementById("heat-sub").textContent = `Variação percentual em relação ao controle do mesmo fertilizante, safra ${safraNome(S.safra)}.`;
+  document.getElementById("heat-table").innerHTML = `<table><thead><tr><th>Indicador</th>${cols.map(([s,d]) => `<th class="n">${s} ${nf(d,0)} g/L</th>`).join("")}</tr></thead><tbody>${
+    items.map(it => `<tr><td>${esc(it)}</td>${cols.map(([s,d]) => { const h = DATA.heat.find(r => r.item===it && r.sal===s && r.dose===d && r.safra===S.safra); return `<td class="n">${h ? pct(h.pct) + (h.difere ? "" : "*") : "–"}</td>`; }).join("")}</tr>`).join("")}</tbody></table>`;
+}
+
+function render(){ bars(); scatter(); heat(); }
+function seg(id, key, cast){
+  document.querySelectorAll(`#${id} button`).forEach(b => b.addEventListener("click", () => {
+    S[key] = cast(b.dataset.v);
+    document.querySelectorAll(`#${id} button`).forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+    render();
+  }));
+}
+seg("f-safra", "safra", Number); seg("f-sal", "sal", String);
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(render, 150); });
+kpis(); render();
+</script>
+</body>
+</html>
